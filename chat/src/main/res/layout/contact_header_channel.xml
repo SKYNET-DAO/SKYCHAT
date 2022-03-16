@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llGroup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp60"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/selector_common_item"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/item_margin_left_and_right"
+        android:paddingRight="@dimen/item_margin_left_and_right">
+
+        <RelativeLayout
+            android:layout_width="@dimen/dp46"
+            android:layout_height="match_parent">
+
+            <com.itheima.roundedimageview.RoundedImageView
+                android:id="@+id/portraitImageView"
+                android:layout_width="@dimen/dp40"
+                android:layout_height="@dimen/dp40"
+                android:layout_centerVertical="true"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_channel"
+                app:riv_corner_radius="@dimen/dp5"
+                app:riv_border_width="@dimen/dp0"
+                app:riv_border_color="#333333"
+                app:riv_oval="false"
+                android:layout_marginLeft="@dimen/dp1"
+                />
+
+            <TextView
+                android:id="@+id/unreadFriendRequestCountTextView"
+                android:layout_width="@dimen/dp12"
+                android:layout_height="@dimen/dp12"
+                android:layout_alignTop="@id/portraitImageView"
+                android:layout_alignRight="@id/portraitImageView"
+                android:layout_marginTop="-6dp"
+                android:layout_marginRight="-6dp"
+                android:background="@mipmap/bg_unread"
+                android:gravity="center"
+                android:text="10"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp6"
+            android:text="@string/str_channel"
+            android:textColor="@color/black0"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <View
+        style="@style/Line"
+        android:layout_marginLeft="@dimen/item_margin_left_and_right"
+        android:layout_marginRight="@dimen/item_margin_left_and_right" />
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<resources>
+
+    <string name="str_asyn">Sync </string>
+        <string name="str_copy_address">address has been copied </string>
+        <string name="str_receiver_fail_coin">Receive failed</string>
+
+        <string name="str_sent_fail_coin">Send failed </string>
+
+        <string name="symbol_to">→</string>
+        <string name="symbol_from">←</string>
+        <string name="symbol_internal">⇄</string>
+        <string name="str_coinbase"> mining income </string>
+        <string name="wallet_transactions_fragment_internal">internal </string>
+        <string name="str_wait_broadcast">waiting for broadcast</string>
+        <string name="str_wait_confirm">waiting for confirmation</string>
+        <string name="str_already_sent">sent </string>
+        <string name="str_already_receriver">has received </string>
+        <string name="str_unknow">unknown</string>
+        <string name="str_revert">Undo </string>
+
+        <string name="str_send_coin">send </string>
+        <string name="str_receiver_coin">receive </string>
+        <string name="str_copy_address_coin">copy success </string>
+        <string name="str_copy">copy </string>
+        <string name="button_dismiss">ignore </string>
+        <string name="send_coins_fragment_button_send">payment </string>
+        <string name="button_cancel">Cancel </string>
+        <string name="send_coins_fragment_significant_fee_title">Significant network fee</string>
+        <string name="send_coins_fragment_significant_fee_message">The network fee for this payment (%1$s) is high in relation to the amount (%2$s). Do you want to send anyway?</string>
+        <string name="error_io">I/O error: %s</string>
+        <string name="error_http">HTTP error %1$s:\n%2$s</string>
+        <string name="button_retry">try again</string>
+        <string name="send_coins_fragment_direct_payment_failed_title">Direct payment failed</string>
+        <string name="send_coins_fragment_direct_payment_failed_msg">Your payment will continue to be broadcast over the P2P network. </string>
+        <string name="send_coins_fragment_insufficient_money_title">Insufficient currency balance </string>
+        <string name="send_coins_fragment_insufficient_money_msg1">You still lack %s.</string>
+        <string name="send_coins_fragment_pending"> (%s is waiting for confirmation) </string>
+        <string name="send_coins_fragment_insufficient_money_msg2">Do you want to pay with all the coins you have? </string>
+        <string name="send_coins_options_empty"> empty the wallet </string>
+
+        <string name="send_coins_fragment_empty_wallet_failed_title">Failed to empty the wallet</string>
+        <string name="send_coins_fragment_hint_empty_wallet_failed">The small payment amount in your wallet cannot reach the amount that can be paid. </string>
+        <string name="send_coins_error_msg">A problem occurred while paying the coin! </string>
+        <string name="send_coins_fragment_hint_dusty_send">The amount is too small to be paid. </string>
+        <string name="send_coins_fragment_hint_insufficient_money">The balance of the communication currency is insufficient. You are still missing %s.</string>
+        <string name="str_sender">sender </string>
+        <string name="str_exchange_id">transaction ID</string>
+        <string name="str_fee">network fee</string>
+        <string name="str_confirm_number">confirmation number </string>
+        <string name="str_exchange_time">transaction time </string>
+        <string name="str_nonce">Nonce</string>
+
+       <string name="str_share">share</string>
+        <string name="str_asyning1">Syncing...</string>
+        <string name="str_isShowAgain"> whether to access again </string>
+
+
+    <string name="help_safety">
+        <![CDATA[
+        <p>
+        Backup wallet restores your account and assets.
+        <b>If you unfortunately lose your phone and don’t have a backup wallet, your contacts and assets will be lost.</b>
+        </p>
+        <p>
+        Do not take screenshots or back up to the cloud disk <b>Be sure to copy it manually</b>.
+        Manage it properly and keep in mind the backup mnemonics.
+        </p>
+        <p>
+        <b>Before you uninstall the client</b> (or clear the application data, or restore the factory settings), <b>reconfirm if your mnemonic is backed up</b>.
+        If not, your assets and contacts will be lost.
+        </p>
+        <p>
+        <b>The transaction itself is irreversible. </b>.
+        If you send a coin to an unknown address, there is no way to take them back.
+        </p>
+        <p>
+        <b>Please keep your Android device safe! </b>
+        Do not root your device;
+        Install only programs that you fully understand and trust.
+        </p>
+        <p>
+        One of the risk reduction strategies:
+        <b>Keep a small amount of communication currency for daily use in your mobile wallet</b>.
+        </p>
+     ]]>
+    </string>
+
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_progress_toolbar"
+        />
+    <include layout="@layout/toolbar"
+        android:visibility="gone"
+        />
+
+    <RelativeLayout
+        android:id="@+id/assets"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbarroot"
+
+        >
+
+        <ImageView
+            android:id="@+id/cmcicon"
+            android:layout_width="@dimen/dp60"
+            android:layout_height="@dimen/dp60"
+            android:src="@drawable/ic_cmc"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/dp50"
+
+            />
+
+        <TextView
+            android:id="@+id/cmc_count_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_account_all"
+            android:textColor="@color/color_666666"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_below="@+id/cmcicon"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            />
+
+
+        <TextView
+            android:id="@+id/cmc_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00"
+            android:textColor="@color/color_222222"
+            android:textStyle="bold"
+            android:textSize="@dimen/dp30"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/cmc_count_tip"
+            />
+
+
+        <TextView
+            android:id="@+id/cmc_count_rmb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="≈0.0000¥"
+            android:textColor="@color/color_F4D298"
+            android:textStyle="bold"
+            android:textSize="@dimen/dp14"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/cmc_count"
+            android:visibility="gone"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/cmc_count_rmb"
+            android:padding="@dimen/dp2"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dp80"
+
+            >
+
+            <Button
+                android:id="@+id/transform_out"
+                android:layout_width="@dimen/dp150"
+                android:layout_height="@dimen/dp45"
+                android:text="@string/str_transform_coin"
+                android:textSize="@dimen/dp16"
+                android:textColor="@color/color_ffffff"
+                android:background="@drawable/shap_round_solid_textview2"
+
+                />
+
+            <Button
+                android:id="@+id/receiver_in"
+                android:layout_width="@dimen/dp150"
+                android:layout_height="@dimen/dp45"
+                android:layout_weight="1"
+                android:text="@string/str_receiver_coin"
+                android:textSize="@dimen/dp16"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="@dimen/dp15"
+                android:background="@drawable/shap_round_solid_textview1_wx"
+
+                />
+
+            <Button
+                android:id="@+id/importwallet"
+                android:layout_width="@dimen/dp150"
+                android:layout_height="@dimen/dp45"
+                android:text="@string/str_reset_wallet"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="@dimen/dp15"
+                android:textSize="@dimen/dp16"
+                android:layout_toLeftOf="@+id/backUptwallet"
+                android:background="@drawable/shap_round_solid_textview1_wx"
+                />
+
+
+
+            <Button
+                android:id="@+id/backUptwallet"
+                android:layout_width="@dimen/dp150"
+                android:layout_height="@dimen/dp45"
+                android:textSize="@dimen/dp16"
+                android:text="@string/str_backup_words"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="@dimen/dp15"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/shap_round_solid_textview1_wx"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

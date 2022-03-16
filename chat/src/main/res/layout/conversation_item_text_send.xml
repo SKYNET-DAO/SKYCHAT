@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wildfire.imshat.kit.widget.AutoLinkTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contentTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone|email|map|web"
+    android:background="@drawable/img_bubble_send2"
+    android:gravity="left|center_vertical"
+    android:linksClickable="true"
+    android:maxWidth="@dimen/dp239"
+    android:minHeight="@dimen/dp40"
+    android:paddingLeft="@dimen/dp16"
+    android:paddingTop="@dimen/dp12"
+    android:paddingRight="@dimen/dp16"
+    android:paddingBottom="@dimen/dp12"
+    android:text="Got it"
+    android:textColorLink="#3655bf"
+    android:textSize="16sp" />

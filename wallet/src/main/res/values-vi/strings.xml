@@ -1,0 +1,89 @@
+<resources>
+
+    <string name = "str_asyn"> Đồng bộ hóa </string>
+        <string name = "str_copy_address"> đã được sao chép </string>
+        <string name = "str_receiver_fail_coin"> Nhận thất bại </string>
+
+        <string name = "str_sent_fail_coin"> Gửi thất bại </string>
+
+        <string name = "symbol_to"> → </string>
+        <string name = "symbol_from"> ← </string>
+        <string name = "symbol_internal">⇄</string>
+        <string name = "str_coinbase"> thu nhập khai thác </string>
+        <string name = "wallet_transactions_fragment_internal"> nội bộ </string>
+        <string name = "str_wait_broadcast"> đang chờ phát sóng </string>
+        <string name = "str_wait_confirm"> đang chờ xác nhận </string>
+        <string name = "str_already_sent"> đã gửi </string>
+        <string name = "str_already_receriver"> đã nhận được </string>
+        <string name = "str_unknow"> không xác định </string>
+        <string name = "str_revert"> Hoàn tác </string>
+
+        <string name = "str_send_coin"> gửi </string>
+        <string name = "str_receiver_coin"> nhận </string>
+        <string name = "str_copy_address_coin"> sao chép thành công </string>
+        <string name = "str_copy"> sao chép </string>
+        <string name = "button_dismiss"> bỏ qua </string>
+        <string name = "send_coins_fragment_button_send"> thanh toán </string>
+        <string name = "button_cancel"> Hủy </string>
+        <string name = "send_coins_fragment_significant_fee_title"> Phí mạng đáng kể </string>
+        <string name = "send_coins_fragment_significant_fee_message"> Phí mạng cho khoản thanh toán này (% 1 $ s) cao so với số tiền (% 2 $ s). Bạn có muốn gửi không? </string>
+        <string name = "error_io"> Lỗi I/O:%s </string>
+        <string name = "error_http"> Lỗi HTTP 1$s:\n%2$s </string>
+        <string name = "button_retry"> thử lại </string>
+        <string name = "send_coins_fragment_direct_payment_failed_title"> Thanh toán trực tiếp không thành công </string>
+        <string name = "send_coins_fragment_direct_payment_failed_msg"> Thanh toán của bạn sẽ tiếp tục được phát trên mạng P2P. </string>
+        <string name = "send_coins_fragment_insufficient_money_title"> Số dư tiền tệ không đủ </string>
+        <string name = "send_coins_fragment_insufficient_money_msg1"> Bạn vẫn thiếu% s. </string>
+        <string name = "send_coins_fragment_pending"> (%s đang chờ xác nhận) </string>
+        <string name = "send_coins_fragment_insufficient_money_msg2"> Bạn có muốn thanh toán bằng tất cả số tiền bạn có không? </string>
+        <string name = "send_coins_options_empty"> làm trống ví </string>
+
+        <string name = "send_coins_fragment_empty_wallet_failed_title"> Không thể làm trống ví </string>
+        <string name = "send_coins_fragment_hint_empty_wallet_failed"> Số tiền thanh toán nhỏ trong ví của bạn không thể đạt được số tiền có thể được thanh toán. </string>
+        <string name = "send_coins_error_msg"> Đã xảy ra sự cố khi thanh toán tiền! </string>
+        <string name = "send_coins_fragment_hint_dusty_send"> Số tiền quá nhỏ để thanh toán. </string>
+        <string name = "send_coins_fragment_hint_insufficient_money"> Số dư của tiền tệ truyền thông là không đủ. Bạn vẫn còn thiếu% s. </string>
+
+
+    <string name = "str_sender"> người gửi </string>
+        <string name = "str_exchange_id"> ID giao dịch </string>
+        <string name = "str_fee"> phí mạng </string>
+        <string name = "str_confirm_number"> số xác nhận </string>
+        <string name = "str_exchange_time"> thời gian giao dịch </string>
+        <string name = "str_nonce"> Nonce </string>
+
+
+
+        <string name = "str_share"> chia sẻ </string>
+        <string name = "str_asyning1"> Đồng bộ hóa ... </string>
+        <string name = "str_isShowAgain"> có truy cập lại không </string>
+
+
+    <string name = "help_safety">
+         <p>
+        Ví dự phòng khôi phục tài khoản và tài sản của bạn.
+        <b> Nếu bạn không may bị mất điện thoại và không có ví dự phòng, danh bạ và tài sản của bạn sẽ bị mất. </b>
+        </p>
+        <p>
+        Không chụp ảnh màn hình hoặc sao lưu vào đĩa đám mây <b> Đảm bảo sao chép thủ công </b>.
+        Quản lý nó đúng cách và ghi nhớ các mnemonics sao lưu.
+        </p>
+        <p>
+        <b> Trước khi bạn gỡ cài đặt ứng dụng khách </b> (hoặc xóa dữ liệu ứng dụng hoặc khôi phục cài đặt gốc), <b> xác nhận lại nếu bản ghi nhớ của bạn được sao lưu </b>.
+        Nếu không, tài sản và danh bạ của bạn sẽ bị mất.
+        </p>
+        <p>
+        <b> Bản thân giao dịch là không thể đảo ngược. </b>.
+        Nếu bạn gửi một đồng tiền đến một địa chỉ không xác định, không có cách nào để lấy lại chúng.
+        </p>
+        <p>
+        <b> Hãy giữ an toàn cho thiết bị Android của bạn! </b>
+        Không root thiết bị của bạn;
+        Chỉ cài đặt các chương trình mà bạn hoàn toàn hiểu và tin tưởng.
+        </p>
+        <p>
+        Một trong những chiến lược giảm thiểu rủi ro:
+        <b> Giữ một lượng nhỏ tiền tệ liên lạc để sử dụng hàng ngày trong ví di động của bạn </b>.
+        </p>
+   </string>
+</resources>

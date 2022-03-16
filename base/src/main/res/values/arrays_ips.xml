@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--plug ips-->
+    <string-array name="channel_main">
+        <item>43.249.31.49:8000</item>
+        <item>184.105.242.151:8000</item>
+        <item>43.249.31.62:8000</item>
+
+    </string-array>
+
+    <string-array name="channel_test">
+        <item>91.193.100.41:8000</item>
+
+    </string-array>
+
+
+
+    <!--node ips-->
+    <string-array name="test_ips">
+        <item>59.37.126.187</item>
+        <item>43.249.31.41</item>
+        <item>43.249.31.54</item>
+    </string-array>
+
+
+    <string-array name="main_ips">
+        <item>43.249.31.38</item>
+        <item>43.249.31.39</item>
+    </string-array>
+
+</resources>

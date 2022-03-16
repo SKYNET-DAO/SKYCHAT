@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <com.itheima.roundedimageview.RoundedImageView
+        android:id="@+id/portraitImageView"
+        android:layout_width="@dimen/dp80"
+        android:layout_height="@dimen/dp80"
+        android:layout_marginLeft="@dimen/dp5"
+        android:layout_marginTop="@dimen/dp50"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/icon_add_group"
+        app:riv_corner_radius="@dimen/dp14"
+        app:riv_border_width="0dip"
+        app:riv_border_color="#333333"
+        app:riv_oval="false"
+        />
+
+    <TextView
+        android:id="@+id/groupNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp10"
+        tools:text="@string/str_group_name" />
+
+    <Button
+        android:id="@+id/actionButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp45"
+        android:layout_marginLeft="@dimen/dp15"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp15"
+        android:layout_marginBottom="@dimen/dp20"
+        android:background="@drawable/shape_user_info_send_msg"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:text="@string/str_add_groupchat" />
+</LinearLayout>

@@ -1,0 +1,60 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders = [
+                APP_ID       : "cn.wildfirechat.imtrust",
+
+                MI_APP_ID    : "2882303761518036456",
+                MI_APP_KEY   : "5281803648456",
+
+                HMS_APP_ID   : "100853693",
+
+                MEIZU_APP_ID : "113616",
+                MEIZU_APP_KEY: "fcd886f51c144b45b87a67a28e2934d1",
+
+                OPPO_APP_ID : "30138874",
+                OPPO_APP_KEY: "80a78a659c564b3581d48cbab3959585",
+                OPPO_APP_SECRET:"063f9d23df234994ac7b22fa2a6c5ab7",
+
+
+                VIVO_APP_ID : "13562",
+                VIVO_APP_KEY: "c39e46f6-9d61-48db-af22-0ce05c372952"
+        ]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.huawei.android.hms:push:2.5.3.305'
+    implementation 'com.huawei.android.hms:base:2.5.3.305'
+    implementation 'androidx.appcompat:appcompat:1.0.0-beta01'
+    implementation project(':client')
+    implementation 'com.meizu.flyme.internet:push-internal:3.4.2@aar'
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation files('libs/vivo_pushsdk_v2.3.1.jar')
+    compile files('libs/mcssdk-1.0.1.jar')
+    api project(':base')
+}

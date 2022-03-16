@@ -1,0 +1,551 @@
+<resources>
+    <string name="app_name_skychat">Skychat</string>
+    <string name="app_name">Skychat</string>
+    <string name="complete">Hoàn thành</string>
+
+    <string name="draft">[dự thảo]</string>
+    <string name="video">Video</string>
+    <string name="set_conversation_to_top">Trò chuyện hàng đầu</string>
+
+    <string name="new_friend">Bạn mới</string>
+    <string name="group_cheat">Trò chuyện nhóm</string>
+
+    <string name="my_chat_account">Số tài khoản:% 1 $ s</string>
+    <string name="setting">Cài đặt</string>
+
+    <string name="add_friend">Thêm bạn bè</string>
+    <string name="str_add">Thêm</string>
+    <string name="no_recommend_friend">Chưa giới thiệu bạn bè</string>
+
+    <string name="user_no_found">Người dùng này không tồn tại</string>
+    <string name="search">Tìm kiếm</string>
+
+    <string name="nickname_colon">Biệt danh:% 1 $ s</string>
+    <string name="set_alias_and_tag">Thiết lập ghi chú và nhãn</string>
+    <string name="send_message">Gửi tin nhắn</string>
+    <string name="add_to_contact">Thêm vào danh bạ</string>
+    <string name="change_my_name_tip">Một cái tên hay có thể giúp bạn bè dễ nhớ đến bạn hơn.</string>
+
+    <string name="alias">Tên ghi chú</string>
+    <string name="alias_no_empty">Tên ghi nhớ không thể để trống</string>
+
+    <string name="postscript_tip">Bạn cần gửi yêu cầu xác minh và đợi bên kia thông qua</string>
+    <string name="send">Gửi</string>
+
+    <string name="please_to_talk">Giữ và nói chuyện</string>
+    <string name="shot">Bắn súng</string>
+    <string name="location">Địa điểm</string>
+    <string name="file">Tập tin</string>
+    <string name="file1">[tài liệu]</string>
+
+    <string name="voice_rec">Trượt trên ngón tay của bạn, hủy gửi</string>
+    <string name="voice_cancel">Thả ngón tay ra và hủy gửi</string>
+    <string name="voice_short">Thời gian ghi âm quá ngắn</string>
+
+    <string name="create_group_success">Nhóm được tạo thành công</string>
+    <string name="create_group_fail">Tạo nhóm thất bại</string>
+    <string name="no_group_now">Không trò chuyện nhóm</string>
+
+    <string name="group_name">Tên trò chuyện nhóm</string>
+    <string name="untitled">Chưa đặt tên</string>
+    <string name="group_announcement">Thông báo nhóm</string>
+    <string name="message_free">Tránh tin nhắn</string>
+    <string name="my_nickname_in_this_group">Biệt danh của tôi trong nhóm này</string>
+    <string name="show_group_member_name">Hiển thị tên thành viên nhóm</string>
+    <string name="clear_chat_log">Xóa lịch sử trò chuyện</string>
+    <string name="delete_and_exit">Xóa và thoát</string>
+    <string name="add_member_success">Thành viên nhóm đã thêm thành công</string>
+    <string name="add_member_fail">Thành viên nhóm thêm thất bại</string>
+    <string name="del_member_success">Xóa thành viên nhóm thành công</string>
+    <string name="del_member_fail">Xóa một thành viên nhóm không thành công</string>
+
+    <string name="new_message_remind">Nhắc nhở tin nhắn mới</string>
+    <string name="new_message">Tin nhắn mới</string>
+    <string name="new_notify_manager">Quản lý thông báo</string>
+    <string name="exit">Thoát</string>
+
+    <string name="app_name_in_about">Trò chuyện</string>
+    <string name="function_introduction">Giới thiệu chức năng</string>
+    <string name="complaint">Khiếu nại</string>
+    <string name="check_update">Kiểm tra cập nhật</string>
+    <string name="terms_of_use_and_privacy_policy">Điều khoản sử dụng và chính sách quyền riêng tư</string>
+
+    <string name="str_select_unvalid_address">Địa chỉ không hợp lệ</string>
+    <string name="str_input_cmc_count_proble">Số lượng lỗi đầu vào</string>
+    <string name="str_balance_not_enough">Số dư không đủ</string>
+    <string name="str_not_max">Số tiền nhập không chính xác và phải nhỏ hơn số dư</string>
+    <string name="str_send_success">Chuyển nhượng thành công</string>
+    <string name="str_wallet">Ví</string>
+    <string name="str_zd">Hóa đơn</string>
+    <string name="str_asyning">(đồng bộ hóa ...)</string>
+    <string name="str_account">Chi tiết thanh toán</string>
+    <string name="str_account_detail">Chi tiết thanh toán</string>
+    <string name="str_exchange_history">Biên bản giao dịch</string>
+    <string name="str_save_success">Đã lưu thành công</string>
+    <string name="str_save_not_support">Loại này không được hỗ trợ tại thời điểm này</string>
+    <string name="str_save">Lưu lại</string>
+    <string name="str_scan_qrcode_pay">Quét, chuyển tiền cho tôi</string>
+    <string name="str_scan_qrcode">Quét</string>
+    <string name="str_save_img">Lưu hình ảnh</string>
+    <string name="str_receiver_cmc">Biên lai</string>
+    <string name="str_out">Chuyển khoản</string>
+    <string name="str_comfirm">Xác định</string>
+    <string name="str_input_coincount">Số tiền</string>
+    <string name="str_input_cmc_address">Địa chỉ</string>
+    <string name="str_balance_wallet">Số dư ví</string>
+
+    <string name="str_address_empty">Địa chỉ không thể để trống</string>
+    <string name="str_send_fail">Chuyển không thành công</string>
+    <string name="str_coin_isempter">Số tiền chuyển không thể để trống</string>
+    <string name="str_send_comforim">Bạn có chắc chắn muốn chuyển tiền cho bên kia không?</string>
+    <string name="home_zxing_text">Quét mã QR</string>
+    <string name="str_scan_fail">Mã quét không thành công</string>
+    <string name="str_backup_words">Ví dự phòng</string>
+    <string name="str_import_words">Nhập khẩu ghi nhớ</string>
+    <string name="str_private">Chính sách bảo mật</string>
+    <string name="str_exchange_success">Chuyển nhượng thành công</string>
+    <string name="str_amount">Số tiền:</string>
+    <string name="str_gas">Phí xử lý:</string>
+    <string name="str_shou_address">Địa chỉ thu thập:</string>
+    <string name="str_more">Thêm</string>
+    <string name="str_exchange_number">Số giao dịch:</string>
+    <string name="str_pay_address">Địa chỉ thanh toán:</string>
+    <string name="str_detail_more">Thêm chi tiết</string>
+    <string name="str_mnemicon_tip">Sao chép và viết ví của bạn</string>
+    <string name="str_mnemicon_tip_safe">Bản ghi nhớ được sử dụng để khôi phục ví, sao chép nó vào giấy và lưu trữ ở nơi an toàn.</string>
+    <string name="str_mnemion_input">Nhập ghi nhớ, cách nhau bởi khoảng trắng</string>
+    <string name="str_mnemion_sure">Xác nhận ví của bạn</string>
+    <string name="str_mnemion_sort">Nhấp vào mnemonic để xác định xem bản sao lưu của bạn có đúng không.</string>
+    <string name="str_exchange_receiver_coin">Tôi muốn thu tiền</string>
+    <string name="str_wallet_balance">Số dư ví</string>
+    <string name="str_account_all">Tổng tài sản</string>
+    <string name="str_transform_coin">Chuyển khoản</string>
+    <string name="str_receiver_coin">Biên lai</string>
+    <string name="str_reset_wallet">Nhập khẩu ví</string>
+    <string name="str_channel_name">Tên kênh</string>
+    <string name="str_channel_describe">Mô tả kênh</string>
+    <string name="str_isopen">Cho dù đó là công khai</string>
+    <string name="str_receiver_channel">Kênh nghe</string>
+    <string name="str_receiver">Kênh nghe</string>
+
+    <string name="str_channel">Kênh</string>
+    <string name="str_chatroom1">Phòng chat 1</string>
+    <string name="str_chatroom2">Phòng chat 2</string>
+    <string name="str_chatroom3">Phòng chat 3</string>
+    <string name="str_request_addfriend">Bên kia yêu cầu thêm bạn làm bạn</string>
+    <string name="str_accept">Chấp nhận</string>
+    <string name="str_album">Album</string>
+    <string name="str_audio">Âm thanh</string>
+    <string name="str_allpeople">Mọi người</string>
+    <string name="str_scan">Mã QR</string>
+    <string name="str_group_manager">Quản lý nhóm</string>
+    <string name="str_chat_history">Tìm lịch sử trò chuyện</string>
+    <string name="str_save2contact">Lưu vào danh bạ</string>
+    <string name="str_retry">Thử lại</string>
+    <string name="str_already_died">Bên kia đã cúp máy</string>
+    <string name="str_contact">Liên hệ</string>
+    <string name="str_create_chat">Tạo một cuộc trò chuyện mới</string>
+    <string name="str_request_chat">Bắt đầu một cuộc trò chuyện nhóm</string>
+    <string name="str_send2">Gửi tới:</string>
+    <string name="str_line_out">Để lại tin nhắn cho bạn bè</string>
+    <string name="str_group_name">Tên nhóm</string>
+    <string name="str_add_groupchat">Tham gia trò chuyện nhóm</string>
+    <string name="str_title">Tiêu đề</string>
+    <string name="str_function">Chức năng</string>
+    <string name="str_fire">Hố sao hỏa</string>
+    <string name="str_fire_star">Sao hỏa</string>
+    <string name="str_account_pwd_login">Đăng nhập mật khẩu tài khoản</string>
+    <string name="str_input_account">Nhập tài khoản</string>
+    <string name="str_login">Đăng nhập</string>
+    <string name="str_verfity_login">Đăng nhập mã xác minh di động</string>
+    <string name="str_please_phone">Nhập số điện thoại</string>
+    <string name="str_input_verfity">Nhập mã xác minh</string>
+    <string name="str_verfity_code">Gửi mã xác minh</string>
+    <string name="str_chatroom">Phòng chat</string>
+    <string name="str_robot">Robot</string>
+    <string name="str_login_pc">Cho phép đăng nhập PC</string>
+    <string name="str_ok">Xác định</string>
+    <string name="str_restart_app_now">Khởi động lại ngay</string>
+    <string name="str_2_history">2 hồ sơ</string>
+    <string name="str_look_more">Nhấn vào đây để xem thêm</string>
+    <string name="str_group_chat">Nhóm trò chuyện</string>
+    <string name="str_group_member_in">Thành viên nhóm chứa</string>
+    <string name="str_search_result">Không có kết quả tìm kiếm</string>
+    <string name="str_nickname_setting">Đặt biệt hiệu hoặc bí danh</string>
+    <string name="str_video_chat">Trò chuyện video</string>
+    <string name="str_language_switch">Ngôn ngữ</string>
+    <string name="str_groupinfo">Thông tin nhóm</string>
+    <string name="str_img_tip">[hình ảnh]</string>
+    <string name="str_audio_tip">[Tiếng nói]</string>
+    <string name="str_video_tip">[Video]</string>
+    <string name="str_reset_msg">Đã rút một tin nhắn</string>
+
+    <string name="str_video_call">Cuộc gọi video</string>
+    <string name="str_audio_call">Cuộc gọi thoại</string>
+    <string name="str_switch2_audio">Cắt để gọi thoại</string>
+    <string name="str_phone_died">Treo lên</string>
+    <string name="str_scroll_camera">Camera xoay</string>
+    <string name="str_receiver_cell">Trả lời</string>
+    <string name="str_create">Tạo</string>
+    <string name="str_detail">Chi tiết</string>
+    <string name="str_delete">Xóa</string>
+    <string name="str_conversation">Trò chuyện</string>
+    <string name="str_finder">Khám phá</string>
+    <string name="str_me">Tôi</string>
+    <string name="str_gallery">Album</string>
+    <string name="str_next">Bước tiếp theo</string>
+
+    <string name="str_7">Chủ nhật</string>
+    <string name="str_1">Thứ hai</string>
+    <string name="str_2">Thứ ba</string>
+    <string name="str_3">Thứ tư</string>
+    <string name="str_4">Thứ năm</string>
+    <string name="str_5">Thứ sáu</string>
+    <string name="str_6">Thứ bảy</string>
+
+    <string name="str_evening">Buổi tối</string>
+    <string name="str_afternoon">Chiều</string>
+    <string name="str_innoon">Trưa</string>
+    <string name="str_morning">Buổi sáng</string>
+    <string name="str_early">Sáng sớm</string>
+    <string name="str_yesterday">Hôm qua</string>
+    <string name="str_remark">Đặt ghi chú người dùng</string>
+    <string name="str_setting_nickname">Sửa đổi tên hiệu</string>
+    <string name="str_modify_groupnickname">Sửa đổi tên nhóm</string>
+    <string name="str_settings">Cài đặt</string>
+    <string name="str_about">Giới thiệu</string>
+    <string name="str_create_conversation">Tạo một phiên</string>
+    <string name="str_add_member">Thêm thành viên mới</string>
+    <string name="str_del_member">Xóa thành viên nhóm</string>
+    <string name="str_select_member">Chọn thành viên nhóm</string>
+    <string name="str_member_list">Danh sách nhóm</string>
+    <string name="str_request_friend">Yêu cầu kết bạn</string>
+    <string name="str_search_user">Tìm kiếm người dùng</string>
+    <string name="str_request_friend1">Mời bạn bè</string>
+    <string name="str_userinfo">Thông tin người dùng</string>
+    <string name="str_conversation_detail">Chi tiết phiên</string>
+    <string name="str_chatroom_list">Danh sách phòng trò chuyện</string>
+    <string name="str_search_center">Trung tâm tìm kiếm</string>
+    <string name="str_transform">Chuyển tiếp</string>
+    <string name="str_select_conversation">Chọn phiên</string>
+    <string name="str_channel_list">Danh sách kênh</string>
+    <string name="str_create_channel">Tạo kênh</string>
+    <string name="str_channel_my">Kênh tôi đã tạo</string>
+    <string name="str_my_subchannel">Kênh tôi đăng ký</string>
+    <string name="str_contact_number">Không liên lạc</string>
+    <string name="str_contact_wei">Liên hệ</string>
+    <string name="str_picture">"ảnh"</string>
+    <string name="str_delFriend_fail">"Xóa một liên lạc không thành công"</string>
+    <string name="str_delFriend_success">"Xóa liên hệ thành công"</string>
+    <string name="str_transform_coforim">Bạn có chắc chắn muốn chuyển?</string>
+    <string name="str_cancel">Hủy bỏ</string>
+    <string name="str_del_contact">Bạn có chắc chắn muốn xóa liên hệ?</string>
+    <string name="str_restart_app">Nhập ví yêu cầu khởi động lại ứng dụng theo cách thủ công. Bạn có chắc chắn muốn khởi động lại không?</string>
+    <string name="str_sky_circle">Hệ sinh thái Skynet</string>
+    <string name="str_sky_game">Trò chơi Skynet</string>
+    <string name="str_sky_install">Chương trình keo</string>
+    <string name="str_developing">Tính năng này yêu cầu đủ người dùng để mở ...</string>
+    <string name="str_not_friend">Vẫn không phải là một mối quan hệ bạn bè?</string>
+    <string name="str_quit_group">Bạn có chắc chắn muốn rời khỏi nhóm?</string>
+
+    <string name="str_backup">Sao lưu ngay</string>
+    <string name="str_del_backup_content">Bạn phải sao lưu tài khoản ghi nhớ của mình để lấy lại tiền trong ví của bạn. Quên mất tiền mất do sao lưu sẽ do bạn chịu.</string>
+    <string name="str_request">Lời mời</string>
+    <string name="str_already_request">Nếu bạn đã gửi yêu cầu kết bạn trong vòng 7 ngày, bạn không thể gửi lại.</string>
+    <string name="str_iknow">Tôi biết</string>
+    <string name="str_pwd">Đặt mật khẩu</string>
+    <string name="str_pwd_input">Nhập mật khẩu</string>
+    <string name="str_setting_pwd">Nhập mật khẩu 6 ~ 15 chữ số</string>
+    <string name="str_input_pwd">Nhập mật khẩu</string>
+    <string name="str_copy">Sao chép</string>
+    <string name="delete_and_dismiss">Giải tán và xóa</string>
+    <string name="str_pwd_error">Mật khẩu không chính xác</string>
+    <string name="str_join_fail">Tham gia nhóm thất bại</string>
+    <string name="str_join_success">Tham gia nhóm thành công</string>
+    <string name="str_request_voip">Mời bạn thực hiện cuộc gọi thoại</string>
+    <string name="str_update_version">Cập nhật phiên bản</string>
+    <string name="str_has_version_new">Đã phát hiện phiên bản mới</string>
+    <string name="str_download_update">Tải xuống bản cập nhật</string>
+
+    <string name="str_file_preview">Xem trước tập tin</string>
+    <string name="str_invalid_address">Địa chỉ CMC không hợp lệ</string>
+    <string name="str_createing">Tạo ...</string>
+    <string name="str_develepoer">Tính năng này yêu cầu đủ người dùng để mở ...</string>
+    <string name="str_remeber_nickname">Sửa đổi biệt danh cá nhân để bạn bè dễ nhớ đến bạn hơn?</string>
+    <string name="str_modify">Sửa đổi</string>
+    <string name="str_adding">Thêm ...</string>
+    <string name="str_tel">Điện thoại:</string>
+    <string name="str_updaeAvatar_success">Cập nhật avatar thành công</string>
+    <string name="str_updaeAvatar_fail">Cập nhật avatar thất bại</string>
+    <string name="str_not_address">Biệt hiệu không thể là một địa chỉ, trước tiên hãy sửa đổi tên hiệu.</string>
+    <string name="str_tiao">Điều]</string>
+    <string name="str_setting_avatar">Đặt hình đại diện</string>
+    <string name="str_channel_creating">Tạo một kênh ...</string>
+    <string name="str_make_avatar_fail">Tạo avatar thất bại</string>
+    <string name="str_channel_nothing">Chủ kênh không viết gì cả.</string>
+    <string name="str_cancel_receiver_channel">Hủy nghe</string>
+    <string name="str_channel_receivering">Bỏ chặn</string>
+    <string name="str_channel_receiver">Lắng nghe</string>
+    <string name="str_receiver_target_channel">Kênh nghe</string>
+    <string name="str_channel_receiver_cancel_success">Hủy nghe thành công</string>
+    <string name="str_receiver_success">Nghe thành công</string>
+    <string name="str_select_out">Vượt quá giới hạn</string>
+    <string name="str_op_fail">Hoạt động thất bại</string>
+    <string name="str_added">Đã thêm</string>
+    <string name="str_refused">Bị từ chối</string>
+    <string name="str_my_is">Tôi là</string>
+    <string name="str_friend_req_sended">Lời mời kết bạn đã được gửi đi</string>
+    <string name="str_req_add_fail">Thêm bạn bè thất bại</string>
+    <string name="str_switch_peer">Chuyển nút</string>
+    <string name="str_switch">Chuyển đổi</string>
+    <string name="str_func_introduce">Giới thiệu chức năng ChatIM</string>
+    <string name="str_xy">Thỏa thuận người dùng trò chuyện IM</string>
+    <string name="str_cancel_fail">Hủy nghe không thành công</string>
+    <string name="str_receiver_fail">Nghe không thành công</string>
+    <string name="str_create_group">Nhóm mới</string>
+    <string name="str_not_free_tip">Chi phí tạo ra một nhóm độc quyền mới hiện miễn phí.</string>
+    <string name="str_ty">Nhóm chia sẻ</string>
+    <string name="str_not_free">Nhóm độc quyền</string>
+    <string name="str_channel_qrcode">Mã QR kênh</string>
+    <string name="str_notify_all">\@Mọi người</string>
+    <string name="str_inputting">Bên kia đang gõ</string>
+    <string name="str_recording">Bên kia đang ghi âm.</string>
+    <string name="str_target_picing">Người kia đang chụp ảnh.</string>
+    <string name="str_target_sending">Bên kia đang gửi một tập tin</string>
+    <string name="str_target_sending_location">Bên kia đang gửi địa điểm</string>
+    <string name="str_zgyd">Trung Quốc di động</string>
+    <string name="str_zjdx">Viễn thông trung quốc</string>
+    <string name="str_zglt">Trung Quốc Unicom</string>
+    <string name="str_file_select_fail">Chọn lỗi tập tin</string>
+    <string name="str_pelease_install">Cần cài đặt: Hệ thống Android WebView</string>
+    <string name="str_location">Địa điểm</string>
+    <string name="str_notinput_specile">Chỉ có thể nhập các ký tự tiếng Trung, tiếng Anh, số</string>
+    <string name="str_creating">Tạo ...</string>
+    <string name="str_not_find">Không được công nhận</string>
+    <string name="str_float_promt">Cần thả nổi quyền cửa sổ</string>
+    <string name="str_transform_success">Chuyển tiếp thành công</string>
+    <string name="str_transform_fail">Chuyển tiếp thất bại</string>
+    <string name="str_restore_wallet">Nhập ví ...</string>
+    <string name="str_import">Nhập khẩu</string>
+    <string name="str_send_limit_40">Kích thước tập tin là hơn 15M.</string>
+
+
+    <array name="array_contact_option">
+
+        <item>Xóa liên lạc</item>
+    </array>
+
+
+    <string name="av_waiting">Chờ đợi bên kia chấp nhận lời mời.</string>
+    <string name="av_audio_invite">Chờ đợi bên kia chấp nhận lời mời.</string>
+    <string name="av_video_invite">Mời bạn thực hiện cuộc gọi video</string>
+
+
+    <string name="str_cancel_group"> Bạn đã giải tán nhóm </string>
+    <string name="str_cancel_group2"> Hòa tan nhóm </string>
+    <string name="str_nin"> bạn </string>
+    <string name="str_update_avatar"> Ảnh đại diện nhóm được cập nhật </string>
+    <string name="str_invite_i"> bạn mời </string>
+    <string name="str_invite"> lời mời </string>
+    <string name="str_join_group"> đã tham gia nhóm </string>
+
+    <string name="all_images"> Tất cả hình ảnh </string>
+    <string name="folder_image_count">%1$d tờ </string>
+    <string name="preview_image_count">%1$d/%2$d </string>
+    <string name="select_limit"> Chọn tối đa%1$d hình ảnh </string>
+    <string name="select_complete"> hoàn thành (%1$d/%2$d) </string>
+    <string name="preview_count"> xem trước (%1$d) </string>
+    <string name="origin"> ảnh gốc </string>
+    <string name="origin_size"> ảnh gốc (%1$s) </string>
+    <string name="str_switch_language"> Chuyển ngôn ngữ </string>
+    <string name="str_switch_language_content"> Sau khi chuyển đổi ngôn ngữ, bạn cần khởi động lại ứng dụng theo cách thủ công! ! </string>
+    <string name="str_copy_origin"> sao chép </string>
+    <string name="str_recell"> Rút tiền </string>
+    <string name="str_selcet_img"> Chọn ảnh </string>
+    <string name="str_not_include_group"> Bạn không ở trong nhóm hoặc xảy ra lỗi, vui lòng thử lại sau </string>
+    <string name="str_notify_tip"> Trên đây là thông điệp chào mừng </string>
+    <string name="str_notify_already_start"> Bạn đã trở thành bạn bè, bây giờ bạn có thể bắt đầu trò chuyện </string>
+    <string name="str_modify_success"> Đã sửa đổi thành công </string>
+    <string name="str_modify_fail"> Sửa đổi không thành công </string>
+    <string name="str_nin_action"> bạn đặt </string>
+    <string name="str_ba"> đặt </string>
+    <string name="str_ba_remove"> đã xóa nhóm </string>
+    <string name="str_tip"> nhắc </string>
+    <string name="str_tip_del_img"> Xóa ảnh này? </string>
+
+    <string name="str_target_noreceiver"> bên kia không trả lời </string>
+    <string name="str_cell_leng"> Thời lượng cuộc gọi% 02d:% 02d </string>
+    <string name="str_celling"> Gọi </string>
+
+    <string name="str_voip_cell"> [điện thoại mạng] </string>
+
+
+    <string name="str_del_conform"> Xác nhận xóa tin nhắn này </string>
+    <string name="str_private_chat"> trò chuyện riêng tư </string>
+    <string name="str_group_nickname"> Vui lòng nhập tên hiệu nhóm của bạn </string>
+    <string name="str_group_nickname_modify_faile"> không thể sửa đổi tên hiệu của nhóm: </string>
+    <string name="str_exiting"> thoát ... </string>
+    <string name="str_exiting_fail"> Không thể thoát khỏi nhóm </string>
+    <string name="str_group_scan"> mã QR nhóm </string>
+
+    <string name="cameralibrary_only_photo"> Chạm vào ảnh </string>
+    <string name="cameralibrary_only_video"> Nhấn và giữ để quay video </string>
+    <string name="cameralibrary_photo_video"> Chạm vào ảnh và nhấn và giữ video đã ghi </string>
+    <string name="cameralibrary_recordShort"> thời gian ghi quá ngắn </string>
+
+
+    <string name="str_no_mute"> tắt tiếng </string>
+    <string name="str_holder"> gác máy </string>
+    <string name="str_handsfree"> rảnh tay </string>
+
+
+    <string name="str_select"> chọn </string>
+
+
+    <string name="str_need_float_prom"> Yêu cầu cửa sổ nổi và các quyền khác để sử dụng đúng </string>
+    <string name="str_net_error"> Ngoại lệ mạng. . . </string>
+    <string name="str_loading_wallet"> Đang tải ví ... </string>
+    <string name="str_loging_fail"> đăng nhập thất bại </string>
+
+
+    <string name="str_start"> bắt đầu </string>
+
+    <string name="str_gui_1">Không đăng ký, phân cấp</string>
+
+    <string name="str_gui_2">Quyền riêng tư, ngang hàng</string>
+    <string name="str_gui_3">Ẩn danh, Không thể theo dõi</string>
+
+    <string name="str_connecting"> Kết nối ... </string>
+    <string name="str_connect_fail"> Kết nối thất bại </string>
+
+
+    <string name="str_reset_error"> Khôi phục ngoại lệ ví, vui lòng thử lại </string>
+    <string name="str_mne_error"> Bản ghi nhớ không chính xác. Vui lòng kiểm tra cẩn thận từng từ! ! </string>
+    <string name="str_backup_success"> thành công sao lưu dự phòng </string>
+    <string name="str_backup_fail"> Sao lưu ghi nhớ không thành công, theo thứ tự sai! ! </string>
+    <string name="str_group"> nhóm </string>
+    <string name="str_unknow"> Thông báo loại không xác định </string>
+    <string name="str_gif_emoj"> biểu tượng cảm xúc động </string>
+    <string name="str_transform_group"> Bạn đã chuyển nhóm sang </string>
+    <string name="str_modify_group_card"> Sửa đổi thẻ nhóm thành </string>
+    <string name="str_sy_show"> Nhấp để mở rộng </string>
+    <string name="str_item"> mục </string>
+    <string name="str_modify_group_to"> Sửa đổi tên nhóm </string>
+    <string name="str_groupname_container"> Tên nhóm chứa: </string>
+    <string name="str_groupmember_container"> Thành viên nhóm bao gồm: </string>
+    <string name="str_creategroup_notification"> bạn đã tạo một nhóm </string>
+    <string name="str_create_group_1"> đã tạo một nhóm </string>
+    <string name="str_open_not_file"> không thể tìm thấy ứng dụng có thể mở tệp này </string>
+    <string name="str_group_quito"> Bạn thoát khỏi nhóm </string>
+    <string name="str_group_exit"> đã thoát khỏi nhóm </string>
+
+
+    <string name="str_auto_invanid"> Thông tin ủy quyền của người dùng không hợp lệ </string>
+    <string name="str_userinfo_data_out"> Thông tin người dùng nhận được đã hết hạn </string>
+    <string name="str_at_me">[Ai đó @Tôi]</string>
+    <string name="str_del_conversation"> xóa phiên </string>
+    <string name="str_confirm_del"> Bạn có chắc chắn xóa phiên không? </string>
+    <string name="str_clear_conversation"> làm trống phiên </string>
+    <string name="str_clear_conversation_ok"> Xác nhận phiên trống? </string>
+    <string name="str_error_code">mã lỗi:</string>
+    <string name="str_top">hàng đầu</string>
+    <string name="str_top_cannel">Bỏ ghim</string>
+    <string name="str_error_info">, thông báo lỗi:</string>
+    <string name="str_cattery_channel_conforim"> OK để hủy kênh? </string>
+    <string name="str_picture_error"> Lỗi ảnh, vui lòng thích phản hồi của chúng tôi </string>
+    <string name="str_file_not_exit"> Nhận kích thước tệp không tồn tại! </string>
+    <string name="str_not_allow">bị vô hiệu hóa, hình ảnh cục bộ không thể được chọn</string>
+    <string name="str_not_open_camera">bị vô hiệu hóa, máy ảnh không thể mở được</string>
+    <string name="str_skychat_onback"> Cho phép SkychatIM chạy trong nền, điều này đảm bảo hiệu suất thời gian thực của tin nhắn </string>
+    <string name="str_avatar_upload_fail"> Không thể tải lên avatar nhóm </string>
+    <string name="str_del_error"> xóa lỗi liên hệ </string>
+
+    <string name="str_clear">Trống rỗng</string>
+    <string name="str_copy_success"> sao chép thành công </string>
+    <string name="str_groupname_member_container"> Tên nhóm và thành viên nhóm đều được bao gồm: </string>
+    <string name="str_modify_ali_fail"> Sửa đổi lỗi bí danh: </string>
+
+    <string name="str_retry_send"> Gửi lại? </string>
+    <string name="str_resend"> phát hành lại </string>
+
+
+    <string name="str_group_nickname_modify_success"> Sửa đổi tên nhóm thành công </string>
+    <string name="str_modifying"> Đã sửa đổi ... </string>
+
+    <string name="str_pwd_auth_fail"> cài đặt mật khẩu ví không thành công </string>
+    <string name="str_auth_fail"> không thành công </string>
+
+    <string name="str_in"> ingresos </string>
+    <string name="str_output"> gasto </string>
+    <string name="str_pc_login"> Đăng nhập PC </string>
+
+    <string name="str_plug"> Danh sách keo </string>
+        
+    <string name="str_doad_all"> Tất cả tác vụ </string>
+        
+    <string name="str_install"> Cài đặt </string>
+        
+    <string name="str_del_task_all"> Xóa tất cả các tác vụ </string>
+        
+    <string name="str_task_all"> Tất cả các tác vụ tải xuống </string>
+        
+    <string name="str_plugin_download_"> Xác nhận để tải xuống plugin? </string>
+
+
+        
+    <string name="str_open_app"> Mở </string>
+        
+    <string name="str_noagree_app"> Từ chối </string>
+        
+    <string name="str_agree_app"> Ủy quyền </string>
+        
+    <string name="str_need_auth"> Yêu cầu ủy quyền Skychat để sử dụng chương trình keo này </string>
+        
+    <string name="str_need_update"> Phiên bản mới tồn tại, vui lòng cập nhật chương trình keo </string>
+        
+    <string name="str_only_update"> Cập nhật </string>
+        
+    <string name="str_doad_wait"> chờ đợi </string>
+        
+    <string name="str_doad_error"> Lỗi </string>
+
+        
+    <string name="str_doad_continue"> Tiếp tục </string>
+
+        
+    <string tên="str_only_d Download"> Tải xuống </string>
+
+     
+    <string name="str_loading">Đang tải ...</string>
+
+
+    <string name="help_jiaoshui_tip">
+             <![CDATA[
+            <p>
+                Giới thiệu về mô tả chương trình keo Tất cả các ứng dụng trong chương trình keo.
+                <b> Được phát triển bởi các bên thứ ba, các ứng dụng chính thức không phải skychat </b>
+            </p>
+            <p>
+                Bất kỳ kỹ sư nào trên thế giới cũng có thể phát triển các ứng dụng của riêng họ trong chương trình keo </b>
+            Người dùng nên chú ý phòng ngừa rủi ro và kiểm soát khi sử dụng ứng dụng trong chương trình keo
+        </p>
+        <p>
+        <b> Vì sợ rằng nó gây ra cho bạn những mất mát không cần thiết. </b>
+        </p>
+
+          ]]>
+	</string>
+
+    <string name="str_pause"> Tạm dừng </string>
+        
+    <string name="str_ziping"> Giải nén </string>
+
+        
+    <string name="str_zip_error"> Lỗi giải nén </string>
+
+        
+    <string name="str_installed"> Đã cài đặt </string>
+    <string name="str_link_switch"> Liên kết dòng .. </string>
+    <string name = "str_cmc_100"> Bạn phải đảm bảo tối thiểu 1 đồng tiền CMC trong ví của mình trước khi bạn có thể tạo nó </string>
+
+</resources>

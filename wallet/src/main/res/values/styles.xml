@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="My.Theme.Dialog" parent="@android:style/Theme.Material.Light.Dialog.Alert" tools:targetApi="lollipop">
+        <item name="android:background">@color/bg_level3</item>
+    </style>
+</resources>

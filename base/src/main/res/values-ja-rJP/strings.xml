@@ -1,0 +1,544 @@
+<resources>
+    <string name="app_name_skychat">Skychat</string>
+    <string name="app_name">Skychat</string>
+    <string name="complete">完了</string>
+
+    <string name="draft">[ドラフト]</string>
+    <string name="video">映像</string>
+    <string name="set_conversation_to_top">トップチャット</string>
+
+    <string name="new_friend">新しい友達</string>
+    <string name="group_cheat">グループチャット</string>
+
+    <string name="my_chat_account">アカウント番号：%1$s</string>
+    <string name="setting">セッティング</string>
+
+    <string name="add_friend">友達を追加</string>
+    <string name="str_add">追加する</string>
+    <string name="no_recommend_friend">まだおすすめしていない友達</string>
+
+    <string name="user_no_found">このユーザーは存在しません</string>
+    <string name="search">検索する</string>
+
+    <string name="nickname_colon">ニックネーム：%1$s</string>
+    <string name="set_alias_and_tag">メモとラベルを設定する</string>
+    <string name="send_message">メッセージを送る</string>
+    <string name="add_to_contact">連絡先に追加</string>
+    <string name="change_my_name_tip">良い名前を付けると、友達があなたを覚えやすくなります。</string>
+
+    <string name="alias">備考名</string>
+    <string name="alias_no_empty">メモ名は空にできません</string>
+
+    <string name="postscript_tip">確認リクエストを送信し、相手がパスするのを待つ必要があります</string>
+    <string name="send">送る</string>
+
+    <string name="please_to_talk">握って話す</string>
+    <string name="shot">射撃</string>
+    <string name="location">場所</string>
+    <string name="file">ファイル</string>
+    <string name="file1">[ドキュメント]</string>
+
+    <string name="voice_rec">指を滑らせて送信をキャンセル</string>
+    <string name="voice_cancel">指を離して送信をキャンセル</string>
+    <string name="voice_short">録音時間が短すぎます</string>
+
+    <string name="create_group_success">グループが正常に作成されました</string>
+    <string name="create_group_fail">グループの作成に失敗しました</string>
+    <string name="no_group_now">グループチャットなし</string>
+
+    <string name="group_name">グループチャット名</string>
+    <string name="untitled">無名</string>
+    <string name="group_announcement">グループ発表</string>
+    <string name="message_free">メッセージ回避</string>
+    <string name="my_nickname_in_this_group">このグループの私のニックネーム</string>
+    <string name="show_group_member_name">グループメンバーのニックネームを表示する</string>
+    <string name="clear_chat_log">チャット履歴を消去する</string>
+    <string name="delete_and_exit">削除して終了</string>
+    <string name="add_member_success">グループメンバーが正常に追加されました</string>
+    <string name="add_member_fail">グループメンバーの追加に失敗しました</string>
+    <string name="del_member_success">グループメンバーを正常に削除します</string>
+    <string name="del_member_fail">グループメンバーの削除に失敗しました</string>
+
+    <string name="new_message_remind">新しいメッセージリマインダー</string>
+    <string name="new_message">新しいメッセージ</string>
+    <string name="new_notify_manager">通知管理</string>
+    <string name="exit">出口</string>
+
+    <string name="app_name_in_about">チャット</string>
+    <string name="function_introduction">機能紹介</string>
+    <string name="complaint">苦情</string>
+    <string name="check_update">更新を確認する</string>
+    <string name="terms_of_use_and_privacy_policy">利用規約とプライバシーポリシー</string>
+
+    <string name="str_select_unvalid_address">無効な住所</string>
+    <string name="str_input_cmc_count_proble">金額入力エラー</string>
+    <string name="str_balance_not_enough">不十分なバランス</string>
+    <string name="str_not_max">入力した金額が間違っており、残高より少ない必要があります</string>
+    <string name="str_send_success">正常な転送</string>
+    <string name="str_wallet">財布</string>
+    <string name="str_zd">ビル</string>
+    <string name="str_asyning">(同步中...)</string>
+    <string name="str_account">請求の詳細</string>
+    <string name="str_account_detail">請求の詳細</string>
+    <string name="str_exchange_history">取引記録</string>
+    <string name="str_save_success">正常に保存されました</string>
+    <string name="str_save_not_support">現在、このタイプはサポートされていません</string>
+    <string name="str_save">保存する</string>
+    <string name="str_scan_qrcode_pay">スイープ、送金</string>
+    <string name="str_scan_qrcode">スイープ</string>
+    <string name="str_save_img">画像を保存</string>
+    <string name="str_receiver_cmc">領収書</string>
+    <string name="str_out">乗り換え</string>
+    <string name="str_comfirm">決定する</string>
+    <string name="str_input_coincount">金額</string>
+    <string name="str_input_cmc_address">住所</string>
+    <string name="str_balance_wallet">ウォレットの残高</string>
+
+    <string name="str_address_empty">アドレスは空にできません</string>
+    <string name="str_send_fail">転送に失敗しました</string>
+    <string name="str_coin_isempter">振替額を空にすることはできません</string>
+    <string name="str_send_comforim">相手にお金を転送してもよろしいですか？</string>
+    <string name="home_zxing_text">QRコードをスキャン</string>
+    <string name="str_scan_fail">コードのスキャンに失敗しました</string>
+    <string name="str_backup_words">バックアップウォレット</string>
+    <string name="str_import_words">ニーモニックのインポート</string>
+    <string name="str_private">プライバシーポリシー</string>
+    <string name="str_exchange_success">正常な転送</string>
+    <string name="str_amount">金額：</string>
+    <string name="str_gas">手数料</string>
+    <string name="str_shou_address">収集住所：</string>
+    <string name="str_more">もっと</string>
+    <string name="str_exchange_number">取引番号：</string>
+    <string name="str_pay_address">支払い先住所：</string>
+    <string name="str_detail_more">詳細</string>
+    <string name="str_mnemicon_tip">ウォレットのニーモニックをコピーして書く</string>
+    <string name="str_mnemicon_tip_safe">ニーモニックは、ウォレットを復元し、紙にコピーし、安全な場所に保管するために使用されます。</string>
+    <string name="str_mnemion_input">ニーモニックをスペースで区切って入力してください</string>
+    <string name="str_mnemion_sure">ウォレットのニーモニックを確認する</string>
+    <string name="str_mnemion_sort">ニーモニックをクリックして、バックアップが正しいかどうかを判断します。</string>
+    <string name="str_exchange_receiver_coin">お金を集めたい</string>
+    <string name="str_wallet_balance">ウォレットの残高</string>
+    <string name="str_account_all">総資産</string>
+    <string name="str_transform_coin">乗り換え</string>
+    <string name="str_receiver_coin">領収書</string>
+    <string name="str_reset_wallet">ウォレットをインポート</string>
+    <string name="str_channel_name">チャンネル名</string>
+    <string name="str_channel_describe">チャンネルの説明</string>
+    <string name="str_isopen">公開されているかどうか</string>
+    <string name="str_receiver_channel">リスニングチャンネル</string>
+    <string name="str_receiver">リスニングチャンネル</string>
+
+    <string name="str_channel">チャンネル</string>
+    <string name="str_chatroom1">チャットルーム1</string>
+    <string name="str_chatroom2">チャットルーム2</string>
+    <string name="str_chatroom3">チャットルーム3</string>
+    <string name="str_request_addfriend">相手があなたを友達として追加することをリクエストします</string>
+    <string name="str_accept">受け入れる</string>
+    <string name="str_album">アルバム</string>
+    <string name="str_audio">音声</string>
+    <string name="str_allpeople">みなさん</string>
+    <string name="str_scan">QRコード</string>
+    <string name="str_group_manager">グループ経営</string>
+    <string name="str_chat_history">チャット履歴を見つける</string>
+    <string name="str_save2contact">連絡先に保存</string>
+    <string name="str_retry">再試行</string>
+    <string name="str_already_died">相手が電話を切った</string>
+    <string name="str_contact">連絡先</string>
+    <string name="str_create_chat">新しいチャットを作成する</string>
+    <string name="str_request_chat">グループチャットを開始する</string>
+    <string name="str_send2">送信先：</string>
+    <string name="str_line_out">友達にメッセージを残す</string>
+    <string name="str_group_name">グループ名</string>
+    <string name="str_add_groupchat">グループチャットに参加する</string>
+    <string name="str_title">役職</string>
+    <string name="str_function">機能</string>
+    <string name="str_fire">火星ピット</string>
+    <string name="str_fire_star">火星</string>
+    <string name="str_account_pwd_login">アカウントパスワードログイン</string>
+    <string name="str_input_account">アカウントを入力してください</string>
+    <string name="str_login">ログイン</string>
+    <string name="str_verfity_login">モバイル検証コードのログイン</string>
+    <string name="str_please_phone">電話番号を入力してください</string>
+    <string name="str_input_verfity">確認コードを入力してください</string>
+    <string name="str_verfity_code">確認コードを送信</string>
+    <string name="str_chatroom">チャットルーム</string>
+    <string name="str_robot">ロボット</string>
+    <string name="str_login_pc">PCログインを許可する</string>
+    <string name="str_ok">決定する</string>
+    <string name="str_restart_app_now">今すぐ再起動</string>
+    <string name="str_2_history">2件</string>
+    <string name="str_look_more">クリックして詳細を表示</string>
+    <string name="str_group_chat">チャットグループ</string>
+    <string name="str_group_member_in">グループメンバーに含まれる</string>
+    <string name="str_search_result">検索結果なし</string>
+    <string name="str_nickname_setting">ニックネームまたはエイリアスを設定する</string>
+    <string name="str_video_chat">ビデオチャット</string>
+    <string name="str_language_switch">言語</string>
+    <string name="str_groupinfo">グループ情報</string>
+    <string name="str_img_tip">[画像]</string>
+    <string name="str_audio_tip">[声]</string>
+    <string name="str_video_tip">[ビデオ]</string>
+    <string name="str_reset_msg">メッセージを撤回した</string>
+
+    <string name="str_video_call">ビデオ通話</string>
+    <string name="str_audio_call">音声通話</string>
+    <string name="str_switch2_audio">音声通話にカット</string>
+    <string name="str_phone_died">ハングアップする</string>
+    <string name="str_scroll_camera">回転カメラ</string>
+    <string name="str_receiver_cell">解答</string>
+    <string name="str_create">作成する</string>
+    <string name="str_detail">詳細</string>
+    <string name="str_delete">削除する</string>
+    <string name="str_conversation">会話</string>
+    <string name="str_finder">発見する</string>
+    <string name="str_me">私</string>
+    <string name="str_gallery">アルバム</string>
+    <string name="str_next">次のステップ</string>
+
+    <string name="str_7">日曜日</string>
+    <string name="str_1">月曜日</string>
+    <string name="str_2">火曜日</string>
+    <string name="str_3">水曜日</string>
+    <string name="str_4">木曜日</string>
+    <string name="str_5">金曜日</string>
+    <string name="str_6">土曜日</string>
+
+    <string name="str_evening">夕方</string>
+    <string name="str_afternoon">午後</string>
+    <string name="str_innoon">正午</string>
+    <string name="str_morning">朝</string>
+    <string name="str_early">早朝</string>
+    <string name="str_yesterday">昨日</string>
+    <string name="str_remark">ユーザーメモを設定する</string>
+    <string name="str_setting_nickname">ニックネームを変更</string>
+    <string name="str_modify_groupnickname">グループ名を変更する</string>
+    <string name="str_settings">セッティング</string>
+    <string name="str_about">について</string>
+    <string name="str_create_conversation">セッションを作成する</string>
+    <string name="str_add_member">新しいメンバーを追加</string>
+    <string name="str_del_member">グループメンバーを削除</string>
+    <string name="str_select_member">グループメンバーを選択</string>
+    <string name="str_member_list">グループリスト</string>
+    <string name="str_request_friend">友達リクエスト</string>
+    <string name="str_search_user">検索ユーザー</string>
+    <string name="str_request_friend1">友達を招待する</string>
+    <string name="str_userinfo">ユーザー情報</string>
+    <string name="str_conversation_detail">セッションの詳細</string>
+    <string name="str_chatroom_list">チャットルームリスト</string>
+    <string name="str_search_center">検索センター</string>
+    <string name="str_transform">進む</string>
+    <string name="str_select_conversation">セッションを選択</string>
+    <string name="str_channel_list">チャンネルリスト</string>
+    <string name="str_create_channel">チャンネルを作成</string>
+    <string name="str_channel_my">作成したチャンネル</string>
+    <string name="str_my_subchannel">私が購読しているチャンネル</string>
+    <string name="str_contact_number">連絡なし</string>
+    <string name="str_contact_wei">連絡先</string>
+    <string name="str_picture">「写真」</string>
+    <string name="str_delFriend_fail">「連絡先の削除に失敗しました」</string>
+    <string name="str_delFriend_success">「連絡先の削除の成功」</string>
+    <string name="str_transform_coforim">転送してもよろしいですか？</string>
+    <string name="str_cancel">キャンセルする</string>
+    <string name="str_del_contact">連絡先を削除してもよろしいですか？</string>
+    <string name="str_restart_app">ウォレットをインポートするには、アプリを手動で再起動する必要があります。再起動してもよろしいですか？</string>
+    <string name="str_sky_circle">スカイネット生態学</string>
+    <string name="str_sky_game">スカイネットゲーム</string>
+    <string name="str_sky_install">接着剤プログラム</string>
+    <string name="str_developing">この機能を開くには十分なユーザーが必要です...</string>
+    <string name="str_not_friend">まだ友達関係ではない？</string>
+    <string name="str_quit_group">グループから退会してもよろしいですか？</string>
+
+    <string name="str_backup">今すぐバックアップ</string>
+    <string name="str_del_backup_content">財布の中のお金を取り戻すには、ニーモニックをバックアップする必要があります。</string>
+    <string name="str_request">招待状</string>
+    <string name="str_already_request">既に7日以内に友達リクエストを送信している場合、再度送信することはできません。</string>
+    <string name="str_iknow">知ってる</string>
+    <string name="str_pwd">パスワードを設定する</string>
+    <string name="str_pwd_input">パスワードを入力してください</string>
+    <string name="str_setting_pwd">6〜15桁のパスワードを入力してください</string>
+    <string name="str_input_pwd">パスワードを入力してください</string>
+    <string name="str_copy">コピー</string>
+    <string name="delete_and_dismiss">解散と削除</string>
+    <string name="str_pwd_error">間違ったパスワード</string>
+    <string name="str_join_fail">グループへの参加に失敗しました</string>
+    <string name="str_join_success">グループに正常に参加する</string>
+    <string name="str_request_voip">音声通話を行うように招待します</string>
+    <string name="str_update_version">バージョンアップ</string>
+    <string name="str_has_version_new">新しいバージョンが検出されました</string>
+    <string name="str_download_update">アップデートをダウンロード</string>
+
+    <string name="str_file_preview">ファイルプレビュー</string>
+    <string name="str_invalid_address">無効なCMCアドレス</string>
+    <string name="str_createing">作成しています....</string>
+    <string name="str_develepoer">この機能を開くには十分なユーザーが必要です...</string>
+    <string name="str_remeber_nickname">友人があなたを覚えやすくするために、個人的なニックネームを変更しますか？</string>
+    <string name="str_modify">変更する</string>
+    <string name="str_adding">追加しています...</string>
+    <string name="str_tel">電話番号：</string>
+    <string name="str_updaeAvatar_success">アバターを正常に更新します</string>
+    <string name="str_updaeAvatar_fail">アバターの更新に失敗しました</string>
+    <string name="str_not_address">ニックネームをアドレスにすることはできません。最初にニックネームを変更してください。</string>
+    <string name="str_tiao">記事]</string>
+    <string name="str_setting_avatar">アバターを設定する</string>
+    <string name="str_channel_creating">チャンネルを作成...</string>
+    <string name="str_make_avatar_fail">アバターの生成に失敗しました</string>
+    <string name="str_channel_nothing">チャンネルの所有者は何も書いていません。</string>
+    <string name="str_cancel_receiver_channel">リスニングをキャンセル</string>
+    <string name="str_channel_receivering">ブロック解除</string>
+    <string name="str_channel_receiver">聞く</string>
+    <string name="str_receiver_target_channel">リスニングチャンネル</string>
+    <string name="str_channel_receiver_cancel_success">リスニングが正常にキャンセルされました</string>
+    <string name="str_receiver_success">正常に聞いています</string>
+    <string name="str_select_out">制限を超えています</string>
+    <string name="str_op_fail">操作に失敗しました</string>
+    <string name="str_added">追加しました</string>
+    <string name="str_refused">拒否されました</string>
+    <string name="str_my_is">私は</string>
+    <string name="str_friend_req_sended">友達の招待状が送信されました</string>
+    <string name="str_req_add_fail">友達を追加できませんでした</string>
+    <string name="str_switch_peer">スイッチノード</string>
+    <string name="str_switch">スイッチ</string>
+    <string name="str_func_introduce">ChatIM機能の紹介</string>
+    <string name="str_xy">チャットIMユーザー契約</string>
+    <string name="str_cancel_fail">リスニングのキャンセルに失敗しました</string>
+    <string name="str_receiver_fail">リスニングに失敗しました</string>
+    <string name="str_create_group">新しいグループ</string>
+    <string name="str_not_free_tip">現在、新しい専有グループを作成する費用は無料です。</string>
+    <string name="str_ty">共有グループ</string>
+    <string name="str_not_free">専有グループ</string>
+    <string name="str_channel_qrcode">チャンネルQRコード</string>
+    <string name="str_notify_all">\@所有者</string>
+    <string name="str_inputting">相手が入力しています</string>
+    <string name="str_recording">相手が録音しています</string>
+    <string name="str_target_picing">他の人が写真を撮っている</string>
+    <string name="str_target_sending">相手がファイルを送信しています</string>
+    <string name="str_target_sending_location">相手が場所を送信しています</string>
+    <string name="str_zgyd">中国モバイル</string>
+    <string name="str_zjdx">中国電信</string>
+    <string name="str_zglt">チャイナユニコム</string>
+    <string name="str_file_select_fail">ファイル選択エラー</string>
+    <string name="str_pelease_install">インストールの必要性：Android System WebView</string>
+    <string name="str_location">場所</string>
+    <string name="str_notinput_specile">漢字、英語、数字のみ入力できます</string>
+    <string name="str_creating">作成しています...</string>
+    <string name="str_not_find">認識されない</string>
+    <string name="str_float_promt">ウィンドウのアクセス許可をフロートする必要がある</string>
+    <string name="str_transform_success">正常に転送されました</string>
+    <string name="str_transform_fail">前方障害</string>
+    <string name="str_restore_wallet">ウォレットをインポートしています...</string>
+    <string name="str_import">インポート</string>
+    <string name="str_send_limit_40">ファイルサイズが15Mを超えています。</string>
+
+
+    <array name="array_contact_option">
+
+        <item>連絡先を削除</item>
+    </array>
+
+    <string name="av_waiting">相手が招待を受け入れるのを待っています。</string>
+    <string name="av_audio_invite">音声通話を行うように招待します</string>
+    <string name="av_video_invite">ビデオ通話をするように招待する</string>
+
+
+    <string name="str_cancel_group">グループを解散した</string>
+    <string name="str_cancel_group2">グループを解決します</string>
+    <string name="str_nin">あなた</string>
+    <string name="str_update_avatar">更新されたグループアバター</string>
+    <string name="str_invite_i">招待します</string>
+    <string name="str_invite">招待</string>
+    <string name="str_join_group">グループに参加しました</string>
+
+    <string name="all_images">すべての写真</string>
+    <string name="folder_image_count">%1$d枚</string>
+    <string name="preview_image_count">%1$d/%2$d </string>
+    <string name="select_limit">最大%1$d個の画像を選択</string>
+    <string name="select_complete">完了(%1$d/%2$d)</string>
+    <string name="preview_count">プレビュー(%1$d)</string>
+    <string name="origin">元の画像</string>
+    <string name="origin_size">元の画像(%1$s)</string>
+
+    <string name="str_switch_language">言語の切り替え</string>
+    <string name="str_switch_language_content">言語を切り替えた後、アプリを手動で再起動する必要があります。 ！ </string>
+    <string name="str_copy_origin">コピー</string>
+    <string name="str_recell">撤回</string>
+    <string name="str_selcet_img">画像を選択</string>
+    <string name="str_not_include_group">あなたはグループに参加していないか、エラーが発生しました。後でもう一度試してください</string>
+    <string name="str_notify_tip">上記は挨拶メッセージです</string>
+    <string name="str_notify_already_start">友達になったので、チャットを開始できます</string>
+    <string name="str_modify_success">正常に変更されました</string>
+    <string name="str_modify_fail">変更に失敗しました</string>
+    <string name="str_nin_action">入れた</string>
+    <string name="str_ba"> put </string>
+    <string name="str_ba_remove">グループを削除しました</string>
+    <string name="str_tip">プロンプト</string>
+    <string name="str_tip_del_img">この写真を削除しますか？ </string>
+
+
+    <string name="str_target_noreceiver">相手が応答しませんでした</string>
+    <string name="str_cell_leng">通話時間%02d:%02d </string>
+    <string name="str_celling">通話</string>
+
+    <string name="str_voip_cell"> [ネットワーク電話] </string>
+
+    <string name="str_del_conform">このメッセージの削除を確認</string>
+    <string name="str_private_chat">プライベートチャット</string>
+    <string name="str_group_nickname">グループのニックネームを入力してください</string>
+    <string name="str_group_nickname_modify_faile">グループのニックネームの変更に失敗しました：</string>
+    <string name="str_exiting">終了しています... </string>
+    <string name="str_exiting_fail">グループを終了できませんでした</string>
+    <string name="str_group_scan">グループQRコード</string>
+
+
+    <string name="cameralibrary_only_photo">写真をタッチします</string>
+    <string name="cameralibrary_only_video">長押ししてビデオを録画</string>
+    <string name="cameralibrary_photo_video">写真をタッチして、録画したビデオを長押しします</string>
+    <string name="cameralibrary_recordShort">記録時間が短すぎる</string>
+
+    <string name="str_no_mute">ミュート</string>
+    <string name="str_holder">電話を切る</string>
+    <string name="str_handsfree">ハンズフリー</string>
+
+    <string name="str_select">選択</string>
+
+    <string name="str_need_float_prom">適切に使用するにはフローティングウィンドウとその他の権限が必要です</string>
+    <string name="str_net_error">ネットワーク例外。 。 。 </string>
+    <string name="str_loading_wallet">ウォレットを読み込んでいます... </string>
+    <string name="str_loging_fail">ログインに失敗しました</string>
+
+
+    <string name="str_start">開始</string>
+
+    <string name="str_gui_1">サインアップなし, 散在プラットフォーム</string>
+
+    <string name="str_gui_2">プライバシー、ピアツーピア</string>
+    <string name="str_gui_3">匿名は追跡できません</string>
+
+    <string name="str_connecting">接続しています... </string>
+    <string name="str_connect_fail">接続に失敗しました</string>
+
+
+    <string name="str_reset_error">ウォレットの例外を回復し、もう一度試してください</string>
+    <string name="str_mne_error">ニーモニックが正しくありません。各単語を注意深く確認してください！ ！</string>
+    <string name="str_backup_success">ニーモニックバックアップの成功</string>
+    <string name="str_backup_fail">ニーモニックバックアップは、間違った順序で失敗しました。 ！ </string>
+    <string name="str_group">グループ</string>
+    <string name="str_unknow">不明なタイプのメッセージ</string>
+    <string name="str_gif_emoj">動的顔文字</string>
+    <string name="str_transform_group">グループを転送しました</string>
+    <string name="str_modify_group_card">グループカードを次のように変更します</string>
+    <string name="str_sy_show">クリックして残りを展開</string>
+    <string name="str_item">アイテム</string>
+    <string name="str_modify_group_to">グループ名を変更します</string>
+    <string name="str_groupname_container">グループ名には次が含まれます：</string>
+    <string name="str_groupmember_container">グループメンバーには次が含まれます。</string>
+    <string name="str_creategroup_notification">グループを作成しました</string>
+    <string name="str_create_group_1">グループを作成</string>
+    <string name="str_open_not_file">このファイルを開くことができるアプリケーションが見つかりませんでした</string>
+    <string name="str_group_quit">グループを終了しました</string>
+    <string name="str_group_exit">グループを終了しました</string>
+
+
+    <string name="str_auto_invanid">ユーザー認証情報が無効です</string>
+    <string name="str_userinfo_data_out">ユーザーが受け取った情報の有効期限が切れています</string>
+    <string name="str_at_me"> [誰か @私] </string>
+    <string name="str_del_conversation">セッションを削除</string>
+    <string name="str_confirm_del">セッションを削除してもよろしいですか？ </string>
+    <string name="str_clear_conversation">セッションを空にします</string>
+    <string name="str_clear_conversation_ok">空のセッションを確認しますか？ </string>
+    <string name="str_error_code">エラーコード：</string>
+    <string name="str_top">トップ</string>
+    <string name="str_top_cannel">固定解除</string>
+    <string name="str_error_info">、エラーメッセージ：</string>
+    <string name="str_cancel_channel_conforim"> OKでチャンネルをキャンセルしますか？</string>
+    <string name="str_picture_error">写真のエラー。フィードバックをお寄せください</string>
+    <string name="str_file_not_exit">ファイルサイズが存在しないことを確認してください！</string>
+    <string name="str_not_permission">許可が無効になっているため、ローカルイメージを選択できません</string>
+    <string name="str_not_open_camera">許可が無効になっているため、カメラを開けません</string>
+    <string name="str_skychat_onback"> SkychatIMをバックグラウンドで実行できるようにします。これにより、メッセージのリアルタイムパフォーマンスが保証されます</string>
+    <string name="str_avatar_upload_fail">グループアバターのアップロードに失敗しました</string>
+    <string name="str_del_error">連絡先の削除エラー</string>
+    <string name="str_clear">空の</string>
+    <string name="str_copy_success">コピー成功</string>
+    <string name="str_groupname_member_container">グループ名とグループメンバーがすべて含まれます。</string>
+    <string name="str_modify_ali_fail">エイリアスの変更エラー：</string>
+
+    <string name="str_retry_send">再送しますか</string>
+    <string name="str_resend">再発行</string>
+
+    <string name="str_group_nickname_modify_success">グループ名を正常に変更します</string>
+    <string name="str_modifying">変更... </string>
+    <string name="str_pwd_auth_fail">ウォレットのパスワード設定に失敗しました</string>
+    <string name="str_auth_fail">認証に失敗しました</string>
+    <string name="str_in">収益</string>
+    <string name="str_output">支出</string>
+    <string name="str_pc_login"> PCログイン</string>
+
+
+    <string name="str_plug">グルーリスト</string>
+        
+    <string name="str_download_all">すべてのタスク</string>
+        
+    <string name="str_install">インストール</string>
+        
+    <string name="str_del_task_all">すべてのタスクを削除</string>
+        
+    <string name="str_task_all">すべてのダウンロードタスク</string>
+        
+    <string name="str_plugin_download_">グループログラムのダウンロードを確認しますか？</string>
+        
+    <string name="str_open_app">開く</string>
+        
+    <string name="str_noagree_app">拒否</string>
+        
+    <string name="str_agree_app">承認</string>
+        
+    <string name="str_need_auth">このグループログラムを使用するには、Skychatの承認が必要</string>
+        
+    <string name="str_need_update">新しいバージョンが存在します。グループログラムを更新してください</string>
+        
+    <string name="str_only_update">更新</string>
+        
+    <string name="str_download_wait">待機中</string>
+        
+    <string name="str_download_error">エラー</string>
+
+        
+    <string name="str_download_continue">続行</string>
+
+        
+    <string name="str_only_download">ダウンロード</string>
+
+        
+    <string name="str_loading">読み込み中...</string>
+
+
+    <string name="help_jiaoshui_tip">
+             <![CDATA[
+        <p>
+            グループログラムの説明についてグループログラムのすべてのアプリケーション。
+            <b>サードパーティによって開発された、スカイチャット以外の公式アプリケーション</b>
+        </p>
+        <p>
+            世界中のエンジニアは、グループログラムで独自のアプリケーションを開発できます</b>
+        ユーザーは、グループログラムでアプリケーションを使用するときは、リスクの防止と制御に注意する必要があります。
+    </p>
+    <p>
+    <b>不要な損失が発生しないようにします。 </b>
+    </p>
+
+        ]]>
+	</string>
+
+    <string name="str_pause">一時停止</string>
+        
+    <string name="str_ziping">解凍</string>
+
+        
+    <string name="str_zip_error">解凍エラー</string>
+
+        
+    <string name="str_installed">インストール済み</string>
+    <string name="str_link_switch">行リンク.. </string>
+
+    <string name = "str_cmc_100">ウォレットを作成する前に、ウォレットで最低1のCMCコインを確保する必要があります</string>
+</resources>

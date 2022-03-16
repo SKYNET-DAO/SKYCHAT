@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="fg_significant">#ff000000</color>
+
+    <color name="fg_insignificant">#ffaaaaaa</color>
+    <color name="fg_error">#ffff0000</color>
+    <color name="fg_less_significant">#ff555555</color>
+    <color name="bg_level3">#ffffffff</color>
+    <color name="bg_dialog_title">@android:color/transparent</color>
+
+
+</resources>

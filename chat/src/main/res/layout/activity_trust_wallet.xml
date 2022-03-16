@@ -1,0 +1,244 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+  >
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <!--<androidx.appcompat.widget.Toolbar-->
+            <!--android:id="@+id/toolbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="?attr/actionBarSize"-->
+            <!--android:background="?attr/colorPrimary"-->
+            <!--android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+            <!--app:layout_scrollFlags="scroll"-->
+            <!--app:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
+            <!--app:title="@string/str_wallet">-->
+
+        <!--</androidx.appcompat.widget.Toolbar>-->
+        <include layout="@layout/toolbar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp25"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray3"
+                    android:text="COIN"
+                    android:layout_marginLeft="@dimen/dp15"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray3"
+                    android:text="@string/str_asyn"
+                    android:layout_toLeftOf="@+id/id_asyn_process"
+                    android:layout_marginRight="@dimen/dp10"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/id_asyn_process"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/dp15"
+
+
+                    />
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:src="@drawable/ic_cmc"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp10"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_account_all"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp25"
+                android:textStyle="bold"
+                android:textSize="@dimen/dp20"
+                />
+
+            <com.android.wallet.widgets.CurrencyTextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-----"
+                android:padding="@dimen/dp10"
+                android:textSize="@dimen/dp25"
+                android:textColor="@android:color/black"
+                android:id="@+id/balance"
+
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp15"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Amount of frozed"
+                    android:visibility="gone"
+                    />
+
+                <com.android.wallet.widgets.CurrencyTextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-----"
+                    android:padding="@dimen/dp10"
+                    android:textSize="@dimen/dp15"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/freeze"
+                    android:visibility="gone"
+
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp120"
+                android:orientation="vertical"
+                >
+                <Button
+                    android:layout_width="@dimen/dp150"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/icon_send"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/colorPrimary"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/send"
+                    android:text="@string/str_out"
+                    android:textColor="@color/white"
+
+
+                    />
+
+
+                <Button
+                    android:layout_width="@dimen/dp150"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/icon_send"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/gray10"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/receiver"
+                    android:text="@string/str_receiver_coin"
+                    android:layout_marginTop="@dimen/dp15"
+                    android:textColor="@color/colorPrimary"
+
+
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    >
+
+                    <ImageButton
+                        android:layout_width="@dimen/dp55"
+                        android:layout_height="@dimen/dp55"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/icon_copy"
+                        android:id="@+id/copy"
+
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/str_copy"
+                        android:textColor="@color/colorPrimary"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/dp15"
+                android:layout_marginRight="@dimen/dp15"
+                android:background="@color/gray5"
+                android:layout_marginTop="@dimen/dp10"
+
+                />
+
+        </LinearLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedscrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:elevation="@dimen/dp10"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_transform"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingMultiplier="2"
+            android:background="@color/white"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+
+            />
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

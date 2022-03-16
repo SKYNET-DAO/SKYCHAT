@@ -1,0 +1,482 @@
+<resources>
+    <string name="app_name_skychat">Skychat</string>
+    <string name="app_name">Skychat</string>
+    <string name="complete">完成</string>
+
+    <string name="draft">[草稿]</string>
+    <string name="video">視頻</string>
+    <string name="set_conversation_to_top">置頂聊天</string>
+
+    <string name="new_friend">新的朋友</string>
+    <string name="group_cheat">群聊</string>
+
+    <string name="my_chat_account">賬號:%1$s</string>
+    <string name="setting">設置</string>
+
+    <string name="add_friend">添加朋友</string>
+    <string name="str_add">添加</string>
+    <string name="no_recommend_friend">還沒有推薦的朋友</string>
+
+    <string name="user_no_found">該用戶不存在</string>
+    <string name="search">搜索</string>
+
+    <string name="nickname_colon">暱稱:%1$s</string>
+    <string name="set_alias_and_tag">設置備註和標籤</string>
+    <string name="send_message">發消息</string>
+    <string name="add_to_contact">添加到通訊錄</string>
+    <string name="change_my_name_tip">好名字可以讓你的朋友 更容易記住你。</string>
+
+    <string name="alias">備註名</string>
+    <string name="alias_no_empty">備註名不能為空</string>
+
+    <string name="postscript_tip">你需要發送驗證申請，等對方通過</string>
+    <string name="send">發送</string>
+
+    <string name="please_to_talk">按住 說話</string>
+    <string name="shot">拍攝</string>
+    <string name="location">位置</string>
+    <string name="file">文件</string>
+    <string name="file1">[文件]</string>
+
+    <string name="voice_rec">手指上滑，取消發送</string>
+    <string name="voice_cancel">鬆開手指，取消發送</string>
+    <string name="voice_short">錄音時間太短</string>
+
+    <string name="create_group_success">群創建成功</string>
+    <string name="create_group_fail">群創建失敗</string>
+    <string name="no_group_now">暫無群聊</string>
+
+    <string name="group_name">群聊名稱</string>
+    <string name="untitled">未命名</string>
+    <string name="group_announcement">群公告</string>
+    <string name="message_free">消息免打擾</string>
+    <string name="my_nickname_in_this_group">我在本群的暱稱</string>
+    <string name="show_group_member_name">顯示群成員暱稱</string>
+    <string name="clear_chat_log">清空聊天記錄</string>
+    <string name="delete_and_exit">刪除並退出</string>
+    <string name="add_member_success">群成員添加成功</string>
+    <string name="add_member_fail">群成員添加失敗</string>
+    <string name="del_member_success">刪除群成員成功</string>
+    <string name="del_member_fail">刪除群成員失敗</string>
+
+    <string name="new_message_remind">新消息提醒</string>
+    <string name="new_message">新消息</string>
+    <string name="new_notify_manager">通知管理</string>
+    <string name="exit">退出</string>
+
+    <string name="app_name_in_about">Chat</string>
+    <string name="function_introduction">功能介紹</string>
+    <string name="complaint">投訴</string>
+    <string name="check_update">檢查更新</string>
+    <string name="terms_of_use_and_privacy_policy">使用條款和隱私政策</string>
+
+    <string name="str_select_unvalid_address">無效地址</string>
+    <string name="str_input_cmc_count_proble">金額輸入錯誤</string>
+    <string name="str_balance_not_enough">餘額不足</string>
+    <string name="str_not_max">金額輸入錯誤，必須小於餘額</string>
+    <string name="str_send_success">轉賬成功</string>
+    <string name="str_wallet">錢包</string>
+    <string name="str_zd">賬單</string>
+    <string name="str_asyning">(同步中...)</string>
+    <string name="str_account">賬單明細</string>
+    <string name="str_account_detail">賬單詳情</string>
+    <string name="str_exchange_history">交易記錄</string>
+    <string name="str_save_success">保存成功</string>
+    <string name="str_save_not_support">暫不支持該類型</string>
+    <string name="str_save">保存</string>
+    <string name="str_scan_qrcode_pay">掃一掃，向我轉賬</string>
+    <string name="str_scan_qrcode">掃一掃</string>
+    <string name="str_save_img">保存圖片</string>
+    <string name="str_receiver_cmc">收款</string>
+    <string name="str_out">轉賬</string>
+    <string name="str_comfirm">確定</string>
+    <string name="str_input_coincount">金額</string>
+    <string name="str_input_cmc_address">地址</string>
+    <string name="str_balance_wallet">錢包餘額</string>
+
+    <string name="str_address_empty">地址不能為空</string>
+    <string name="str_send_fail">轉賬失敗</string>
+    <string name="str_coin_isempter">轉賬金額不能為空</string>
+    <string name="str_send_comforim">確定要轉賬給對方？</string>
+    <string name="home_zxing_text">Scan QR code</string>
+    <string name="str_scan_fail">掃碼失敗</string>
+    <string name="str_backup_words">備份錢包</string>
+    <string name="str_import_words">導入助記詞</string>
+    <string name="str_private">隱私政策</string>
+    <string name="str_exchange_success">轉賬成功</string>
+    <string name="str_amount">金額:</string>
+    <string name="str_gas">手續費:</string>
+    <string name="str_shou_address">收款地址:</string>
+    <string name="str_more">更多</string>
+    <string name="str_exchange_number">交易號：</string>
+    <string name="str_pay_address">付款地址:</string>
+    <string name="str_detail_more">更詳細信息</string>
+    <string name="str_mnemicon_tip">抄寫下你的錢包助記詞</string>
+    <string name="str_mnemicon_tip_safe">助記詞用於恢復錢包， 將它抄寫到紙上、並存放在安全的地方。</string>
+    <string name="str_mnemion_input">輸入助記詞，按空格分隔</string>
+    <string name="str_mnemion_sure">確認你的錢包助記詞</string>
+    <string name="str_mnemion_sort">按順序點擊助記詞，以確定你的備份是否正確。</string>
+    <string name="str_exchange_receiver_coin">我要收款</string>
+    <string name="str_wallet_balance">錢包餘額</string>
+    <string name="str_account_all">總資產</string>
+    <string name="str_transform_coin">轉賬</string>
+    <string name="str_receiver_coin">收款</string>
+    <string name="str_reset_wallet">導入錢包</string>
+    <string name="str_channel_name">頻道名稱</string>
+    <string name="str_channel_describe">頻道描述</string>
+    <string name="str_isopen">是否公開</string>
+    <string name="str_receiver_channel">收聽頻道</string>
+    <string name="str_receiver">收聽頻道</string>
+
+    <string name="str_channel">頻道</string>
+    <string name="str_chatroom1">聊天室1</string>
+    <string name="str_chatroom2">聊天室2</string>
+    <string name="str_chatroom3">聊天室3</string>
+    <string name="str_request_addfriend">對方請求添加你為朋友</string>
+    <string name="str_accept">接受</string>
+    <string name="str_album">相冊</string>
+    <string name="str_audio">音頻</string>
+    <string name="str_allpeople">所有人</string>
+    <string name="str_scan">二維碼</string>
+    <string name="str_group_manager">群管理</string>
+    <string name="str_chat_history">查找聊天記錄</string>
+    <string name="str_save2contact">保存到通訊錄</string>
+    <string name="str_retry">重試</string>
+    <string name="str_already_died">對方已掛斷</string>
+    <string name="str_contact">聯繫人</string>
+    <string name="str_create_chat">創建新聊天</string>
+    <string name="str_request_chat">發起群聊</string>
+    <string name="str_send2">發送給:</string>
+    <string name="str_line_out">給朋友留言</string>
+    <string name="str_group_name">群名稱</string>
+    <string name="str_add_groupchat">加入群聊</string>
+    <string name="str_title">標題</string>
+    <string name="str_function">功能</string>
+    <string name="str_fire">火星坑</string>
+    <string name="str_fire_star">火星</string>
+    <string name="str_account_pwd_login">賬號密碼登錄</string>
+    <string name="str_input_account">輸入賬號</string>
+    <string name="str_login">登錄</string>
+    <string name="str_verfity_login">手機驗證碼登錄</string>
+    <string name="str_please_phone">輸入手機號</string>
+    <string name="str_input_verfity">輸入驗證碼</string>
+    <string name="str_verfity_code">發送驗證碼</string>
+    <string name="str_chatroom">聊天室</string>
+    <string name="str_robot">機器人</string>
+    <string name="str_login_pc">允許PC端登錄</string>
+    <string name="str_ok">確定</string>
+    <string name="str_restart_app_now">立即重啟</string>
+    <string name="str_2_history">2條記錄</string>
+    <string name="str_look_more">點擊查看更多</string>
+    <string name="str_group_chat">聊天群</string>
+    <string name="str_group_member_in">群成員包含</string>
+    <string name="str_search_result">沒有搜索結果</string>
+    <string name="str_nickname_setting">設置暱稱或別名</string>
+    <string name="str_video_chat">視頻聊天</string>
+    <string name="str_language_switch">語言</string>
+    <string name="str_groupinfo">群信息</string>
+    <string name="str_img_tip">[圖片]</string>
+    <string name="str_audio_tip">[語音]</string>
+    <string name="str_video_tip">[視頻]</string>
+    <string name="str_reset_msg">撤回了一條消息</string>
+
+    <string name="str_video_call">視頻通話</string>
+    <string name="str_audio_call">語音通話</string>
+    <string name="str_switch2_audio">切到語音通話</string>
+    <string name="str_phone_died">掛斷</string>
+    <string name="str_scroll_camera">旋轉攝像頭</string>
+    <string name="str_receiver_cell">接聽</string>
+    <string name="str_create">創建</string>
+    <string name="str_detail">詳情</string>
+    <string name="str_delete">刪除</string>
+    <string name="str_conversation">會話</string>
+    <string name="str_finder">發現</string>
+    <string name="str_me">我</string>
+    <string name="str_gallery">相冊</string>
+    <string name="str_next">下一步</string>
+
+    <string name="str_7">週日</string>
+    <string name="str_1">週一</string>
+    <string name="str_2">週二</string>
+    <string name="str_3">週三</string>
+    <string name="str_4">週四</string>
+    <string name="str_5">週五</string>
+    <string name="str_6">週六</string>
+
+    <string name="str_evening">晚上</string>
+    <string name="str_afternoon">下午</string>
+    <string name="str_innoon">中午</string>
+    <string name="str_morning">早上</string>
+    <string name="str_early">凌晨</string>
+    <string name="str_yesterday">昨天</string>
+    <string name="str_remark">設置用戶備註</string>
+    <string name="str_setting_nickname">修改暱稱</string>
+    <string name="str_modify_groupnickname">修改群名稱</string>
+    <string name="str_settings">設置</string>
+    <string name="str_about">關於</string>
+    <string name="str_create_conversation">創建會話</string>
+    <string name="str_add_member">添加新成員</string>
+    <string name="str_del_member">刪除群成員</string>
+    <string name="str_select_member">選擇群成員</string>
+    <string name="str_member_list">群列表</string>
+    <string name="str_request_friend">好友請求</string>
+    <string name="str_search_user">搜索用戶</string>
+    <string name="str_request_friend1">邀請好友</string>
+    <string name="str_userinfo">用戶信息</string>
+    <string name="str_conversation_detail">會話詳情</string>
+    <string name="str_chatroom_list">聊天室列表</string>
+    <string name="str_search_center">搜索中心</string>
+    <string name="str_transform">轉發</string>
+    <string name="str_select_conversation">選取會話</string>
+    <string name="str_channel_list">頻道列表</string>
+    <string name="str_create_channel">創建頻道</string>
+    <string name="str_channel_my">我創建的頻道</string>
+    <string name="str_my_subchannel">我訂閱的頻道</string>
+    <string name="str_contact_number">沒有聯繫人</string>
+    <string name="str_contact_wei">位聯繫人</string>
+    <string name="str_picture">"照片"</string>
+    <string name="str_delFriend_fail">"刪除聯繫人失敗"</string>
+    <string name="str_delFriend_success">"刪除聯繫人成功"</string>
+    <string name="str_transform_coforim">確定要轉賬?</string>
+    <string name="str_cancel">取消</string>
+    <string name="str_del_contact">確定要刪除聯繫人？</string>
+    <string name="str_restart_app">導入錢包需要手動重啟應用，確定要重啟？</string>
+    <string name="str_sky_circle">天網生態</string>
+    <string name="str_sky_game">天網游戲</string>
+    <string name="str_sky_install">胶水程序</string>
+    <string name="str_developing">該功能需要足夠多用戶才開放...</string>
+    <string name="str_not_friend">還不是好友關係？</string>
+    <string name="str_quit_group">確定要退出該群？</string>
+
+    <string name="str_backup">立即备份</string>
+    <string name="str_del_backup_content">必須備份助記詞才能找回錢包裡的錢，忘記備份導致的金錢損失將由你自己承擔。</string>
+    <string name="str_request">邀請</string>
+    <string name="str_already_request">7天之內已經發過好友請求的，不能再發送</string>
+    <string name="str_iknow">知道了</string>
+    <string name="str_pwd">設置密碼</string>
+    <string name="str_pwd_input">輸入密碼</string>
+    <string name="str_setting_pwd">輸入一個6~15位密碼</string>
+    <string name="str_input_pwd">輸入密碼</string>
+    <string name="str_copy">複製</string>
+    <string name="delete_and_dismiss">解散並刪除</string>
+    <string name="str_pwd_error">密碼不正確</string>
+    <string name="str_join_fail">加入群失敗</string>
+    <string name="str_join_success">加入群成功</string>
+    <string name="str_request_voip">邀請你進行語音通話</string>
+    <string name="str_update_version">版本更新</string>
+    <string name="str_has_version_new">檢測到新版本</string>
+    <string name="str_download_update">下載更新</string>
+
+    <string name="str_file_preview">文件預覽</string>
+    <string name="str_invalid_address">無效的CMC地址</string>
+    <string name="str_createing">創建中...</string>
+    <string name="str_develepoer">該功能需要足夠多用戶才開放...</string>
+    <string name="str_remeber_nickname">修改個人暱稱,讓好友更容易記住你？</string>
+    <string name="str_modify">修改</string>
+    <string name="str_adding">添加中...</string>
+    <string name="str_tel">電話:</string>
+    <string name="str_updaeAvatar_success">更新頭像成功</string>
+    <string name="str_updaeAvatar_fail">更新頭像失敗</string>
+    <string name="str_not_address">暱稱不能是地址，請先修改暱稱</string>
+    <string name="str_tiao">條]</string>
+    <string name="str_setting_avatar">設置頭像</string>
+    <string name="str_channel_creating">創建頻道中...</string>
+    <string name="str_make_avatar_fail">生成頭像失敗</string>
+    <string name="str_channel_nothing">頻道主什麼也沒寫</string>
+    <string name="str_cancel_receiver_channel">取消收聽</string>
+    <string name="str_channel_receivering">正在取消收聽</string>
+    <string name="str_channel_receiver">正在收聽</string>
+    <string name="str_receiver_target_channel">收聽頻道</string>
+    <string name="str_channel_receiver_cancel_success">取消收聽成功</string>
+    <string name="str_receiver_success">收聽成功</string>
+    <string name="str_select_out">選人超限</string>
+    <string name="str_op_fail">操作失敗</string>
+    <string name="str_added">已添加</string>
+    <string name="str_refused">已拒絕</string>
+    <string name="str_my_is">我是</string>
+    <string name="str_friend_req_sended">好友邀請已發送</string>
+    <string name="str_req_add_fail">添加好友失敗</string>
+    <string name="str_switch_peer">切換節點</string>
+    <string name="str_switch">切換</string>
+    <string name="str_func_introduce">ChatIM功能介紹</string>
+    <string name="str_xy">Chat IM用戶協議</string>
+    <string name="str_cancel_fail">取消收聽失敗</string>
+    <string name="str_receiver_fail">收聽失敗</string>
+    <string name="str_create_group">新建群</string>
+    <string name="str_not_free_tip">新建專有群需要支付成本，目前暫時免費。</string>
+    <string name="str_ty">共享群</string>
+    <string name="str_not_free">專有群</string>
+    <string name="str_channel_qrcode">頻道二維碼</string>
+    <string name="str_notify_all">\@所有人</string>
+    <string name="str_inputting">對方正在輸入</string>
+    <string name="str_recording">對方正在錄音</string>
+    <string name="str_target_picing">對方正在拍照</string>
+    <string name="str_target_sending">對方正在發送文件</string>
+    <string name="str_target_sending_location">對方正在發送位置</string>
+    <string name="str_zgyd">中國移動</string>
+    <string name="str_zjdx">中國電信</string>
+    <string name="str_zglt">中國聯通</string>
+    <string name="str_file_select_fail">選擇文件錯誤</string>
+    <string name="str_pelease_install">需要安裝: Android System WebView</string>
+    <string name="str_location">位置</string>
+    <string name="str_notinput_specile">只能輸入漢字,英文，數字</string>
+    <string name="str_creating">創建中...</string>
+    <string name="str_not_find">無法識別</string>
+    <string name="str_float_promt">需要懸浮窗權限</string>
+    <string name="str_transform_success">轉發成功</string>
+    <string name="str_transform_fail">轉發失敗</string>
+    <string name="str_restore_wallet">正在導入錢包...</string>
+    <string name="str_import">導入</string>
+    <string name="str_send_limit_40">文件大小超過15M.</string>
+
+
+
+
+    <array name="array_contact_option">
+
+        <item>刪除聯繫人</item>
+    </array>
+
+    <string name="av_waiting">正在等待對方接受邀請.</string>
+    <string name="av_audio_invite">邀請你進行語音通話</string>
+    <string name="av_video_invite">邀請你進行視頻通話</string>
+
+
+    <string name="str_cancel_group">您解散了群組</string>
+    <string name="str_cancel_group2">解散了群組</string>
+    <string name="str_nin">您</string>
+    <string name="str_update_avatar">更新了群頭像</string>
+    <string name="str_invite_i">您邀請</string>
+    <string name="str_invite">邀請</string>
+    <string name="str_join_group">加入了群組</string>
+
+    <string name="all_images">全部圖片</string>
+    <string name="folder_image_count">共%1$d張</string>
+    <string name="preview_image_count">%1$d/%2$d</string>
+    <string name="select_limit">最多選擇%1$d張圖片</string>
+    <string name="select_complete">完成 (%1$d/%2$d)</string>
+    <string name="preview_count">預覽(%1$d)</string>
+    <string name="origin">原圖</string>
+    <string name="origin_size">原圖(%1$s)</string>
+
+    <string name="str_switch_language">切換語言</string>
+    <string name="str_switch_language_content">切換語言後需要手動重啟應用！ ！ </string>
+    <string name="str_copy_origin">複製</string>
+    <string name="str_recell">撤回</string>
+    <string name="str_selcet_img">選擇圖片</string>
+    <string name="str_not_include_group">你不在群組或發生錯誤, 請稍後再試</string>
+    <string name="str_notify_tip">以上是打招呼信息</string>
+    <string name="str_notify_already_start">你們已經成為好友了，現在可以開始聊天了</string>
+    <string name="str_modify_success">修改成功</string>
+    <string name="str_modify_fail">修改失敗</string>
+    <string name="str_nin_action">您把</string>
+    <string name="str_ba">把</string>
+    <string name="str_ba_remove"> 移出了群組</string>
+    <string name="str_tip"> 提示</string>
+    <string name="str_tip_del_img">要刪除這張照片嗎？ </string>
+
+
+    <string name="str_target_noreceiver">對方未接聽</string>
+    <string name="str_cell_leng">通話時長 %02d:%02d</string>
+    <string name="str_celling">通話中</string>
+
+    <string name="str_voip_cell">[網絡電話]</string>
+
+
+    <string name="str_del_conform">確認刪除此消息</string>
+    <string name="str_private_chat">私聊</string>
+    <string name="str_group_nickname"> 請輸入你的群暱稱</string>
+    <string name="str_group_nickname_modify_faile"> 修改群暱稱失敗:</string>
+    <string name="str_exiting"> 正在退出...</string>
+    <string name="str_exiting_fail"> 退出群組失敗</string>
+    <string name="str_group_scan">群二維碼</string>
+
+
+    <string name="cameralibrary_only_photo">輕觸拍照</string>
+    <string name="cameralibrary_only_video">長按錄製視頻</string>
+    <string name="cameralibrary_photo_video">輕觸拍照，長按錄製視頻</string>
+    <string name="cameralibrary_recordShort">錄製時間過短</string>
+
+
+    <string name="str_no_mute">靜音</string>
+    <string name="str_holder">掛斷</string>
+    <string name="str_handsfree">免提</string>
+
+    <string name="str_select">選擇</string>
+    <string name="str_need_float_prom">需要懸浮窗等權限才能正常使用</string>
+    <string name="str_net_error">網絡異常。 。 。 </string>
+    <string name="str_loading_wallet">正在加載錢包...</string>
+    <string name="str_loging_fail">登錄失敗</string>
+    <string name="str_start">開始</string>
+
+    <string name="str_gui_1">無註冊，權力下放</string>
+
+    <string name="str_gui_2">隱私，點對點</string>
+    <string name="str_gui_3">匿名，無追踪</string>
+
+    <string name="str_connecting">正在連接...</string>
+    <string name="str_connect_fail">連接失敗</string>
+
+
+    <string name="str_reset_error">恢復錢包異常，請重新嘗試</string>
+    <string name="str_mne_error">助記詞有誤，請仔細檢查每個詞！ !</string>
+    <string name="str_backup_success">助記詞備份成功</string>
+    <string name="str_backup_fail">助記詞備份失敗，順序有誤！ ！ </string>
+    <string name="str_group">群組</string>
+    <string name="str_unknow">未知類型消息</string>
+    <string name="str_gif_emoj">動態表情</string>
+    <string name="str_transform_group">您把群組轉讓給了</string>
+    <string name="str_modify_group_card">修改群名片為</string>
+    <string name="str_sy_show">點擊展開剩餘</string>
+    <string name="str_item">項</string>
+    <string name="str_modify_group_to">修改群名為</string>
+    <string name="str_groupname_container">群名稱包含:</string>
+    <string name="str_groupmember_container">群成員包含:</string>
+    <string name="str_creategroup_notification">您創建了群組</string>
+    <string name="str_create_group_1">創建了群組</string>
+    <string name="str_open_not_file">找不到能打開此文件的應用</string>
+    <string name="str_group_quit">您退出了群組</string>
+    <string name="str_group_exit">退出了群組</string>
+
+
+    <string name="str_auto_invanid">用戶授權信息無效</string>
+    <string name="str_userinfo_data_out">用戶收取信息已過期</string>
+    <string name="str_at_me">[有人@我]</string>
+    <string name="str_del_conversation">刪除會話</string>
+    <string name="str_confirm_del">確認刪除會話？ </string>
+    <string name="str_clear_conversation">清空會話</string>
+    <string name="str_clear_conversation_ok">確認清空會話？ </string>
+    <string name="str_error_code">錯誤代碼：</string>
+    <string name="str_top">置頂</string>
+    <string name="str_top_cannel">取消置頂</string>
+    <string name="str_error_info">，錯誤信息：</string>
+    <string name="str_cancel_channel_conforim">確定取消頻道?</string>
+    <string name="str_picture_error">拍照錯誤, 請像我們反饋</string>
+    <string name="str_file_not_exit">獲取文件大小不存在!</string>
+    <string name="str_not_permission">權限被禁止，無法選擇本地圖片</string>
+    <string name="str_not_open_camera">權限被禁止，無法打開相機</string>
+    <string name="str_skychat_onback">允許SkychatIM後台運行，更能保證消息的實時性</string>
+    <string name="str_avatar_upload_fail">上傳群頭像失敗</string>
+    <string name="str_del_error">刪除聯繫人錯誤</string>
+    <string name="str_clear">清空</string>
+    <string name ="str_copy_success">複製成功</string>
+    <string name="str_groupname_member_container">群名稱和群成員都包含:</string>
+    <string name="str_modify_ali_fail">修改別名錯誤：</string>
+    <string name="str_retry_send">重新發送?</string>
+    <string name="str_resend">重發</string>
+
+    <string name="str_group_nickname_modify_success">修改群名稱成功</string>
+    <string name="str_modifying">修改中...</string>
+
+    <string name="str_pwd_auth_fail">錢包密碼設置失敗</string>
+    <string name="str_auth_fail">授權失敗</string>
+
+    <string name ="str_in">收入</string>
+    <string name ="str_output">支出</string>
+
+    <string name="str_pc_login">PC登錄</string>
+
+
+
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomIndicator">
+        <attr name="indicatorType" format="enum">
+            <enum name="scale" value="0" />
+            <enum name="gradual" value="1" />
+            <enum name="split" value="2" />
+            <enum name="scaleAndGradual" value="3" />
+        </attr>
+        <attr name="normalPointRadius" format="dimension" />
+        <attr name="selectedPointRadius" format="dimension" />
+        <attr name="normalPointColor" format="color" />
+        <attr name="selectedPointColor" format="color" />
+        <attr name="pointInterval" format="dimension" />
+    </declare-styleable>
+
+    <attr name="progressColor" format="color" />
+    <attr name="progressBackColor" format="color" />
+    <attr name="progress" format="integer" />
+    <attr name="minProgress" format="integer" />
+    <attr name="maxProgress" format="integer" />
+
+    <declare-styleable name="ProgressButton">
+        <attr name="progressColor" />
+        <attr name="progressBackColor" />
+        <attr name="buttonColor" format="color" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="progress" />
+        <attr name="minProgress" />
+        <attr name="maxProgress" />
+        <attr name="progressMargin" format="dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"
+
+        />
+
+<!--<include layout="@layout/include_toolbar" />-->
+
+    <RelativeLayout
+        android:id="@+id/assets"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar"
+
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/cmc_count_rmb"
+            android:padding="@dimen/dp2"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dp40"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_mnemicon_tip"
+                android:textSize="@dimen/dp18"
+                android:textColor="@color/color_4E5D6E"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_mnemicon_tip_safe"
+                android:textSize="@dimen/dp16"
+                android:layout_marginRight="@dimen/dp20"
+                android:layout_marginLeft="@dimen/dp20"
+                android:layout_marginTop="@dimen/dp20"
+                android:textColor="@color/color_b5b5b5"
+                />
+
+            <TextView
+                android:id="@+id/words"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:background="@color/color_ececec"
+                android:layout_marginTop="@dimen/dp25"
+                android:text="fad fafda fdy sky garbage target sting pony scare above sunny "
+                android:layout_marginLeft="@dimen/dp20"
+                android:layout_marginRight="@dimen/dp20"
+                android:textColor="@color/color_6C6C6C"
+                android:padding="@dimen/dp5"
+                android:textSize="@dimen/dp15"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

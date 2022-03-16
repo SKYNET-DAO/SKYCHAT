@@ -1,0 +1,89 @@
+<resources>
+    <string name = "str_asyn"> Sincronización </string>
+        <string name = "str_copy_address"> se ha copiado </string>
+        <string name = "str_receiver_fail_coin"> Recepción fallida </string>
+
+        <string name = "str_sent_fail_coin"> Error de envío </string>
+
+        <string name = "symbol_to"> → </string>
+        <string name = "symbol_from"> ← </string>
+        <string name = "symbol_internal"> ⇄ </string>
+        <string name = "str_coinbase"> ingresos mineros </string>
+        <string name = "wallet_transactions_fragment_internal"> interno </string>
+        <string name = "str_wait_broadcast"> esperando transmisión </string>
+        <string name = "str_wait_confirm"> esperando confirmación </string>
+        <string name = "str_already_sent"> enviado </string>
+        <string name = "str_already_receriver"> ha recibido </string>
+        <string name = "str_unknow"> desconocido </string>
+        <string name = "str_revert"> Deshacer </string>
+
+        <string name = "str_send_coin"> enviar </string>
+        <string name = "str_receiver_coin"> recibir </string>
+        <string name = "str_copy_address_coin"> copia exitosa </string>
+        <string name = "str_copy"> copiar </string>
+        <string name = "button_dismiss"> ignorar </string>
+        <string name = "send_coins_fragment_button_send"> pago </string>
+        <string name = "button_cancel"> Cancelar </string>
+        <string name = "send_coins_fragment_significant_fee_title"> Tarifa de red significativa </string>
+        <string name = "send_coins_fragment_significant_fee_message"> La tarifa de red para este pago (% 1 $ s) es alta en relación con la cantidad (% 2 $ s). ¿Desea enviar de todos modos? </string>
+        <string name = "error_io"> Error de E/S:%s </string>
+        <string name = "error_http"> Error de HTTP %1$s:\n%2$s</string>
+        <string name = "button_retry"> intente nuevamente </string>
+        <string name = "send_coins_fragment_direct_payment_failed_title"> Pago directo fallido </string>
+        <string name = "send_coins_fragment_direct_payment_failed_msg"> Su pago continuará siendo transmitido a través de la red P2P. </string>
+        <string name = "send_coins_fragment_insufficient_money_title"> Saldo de divisas insuficiente </string>
+        <string name = "send_coins_fragment_insufficient_money_msg1"> Todavía te falta% s. </string>
+        <string name = "send_coins_fragment_pending"> (% s está esperando confirmación) </string>
+        <string name = "send_coins_fragment_insufficient_money_msg2"> ¿Quieres pagar con todas las monedas que tienes? </string>
+        <string name = "send_coins_options_empty"> vaciar la billetera </string>
+
+        <string name = "send_coins_fragment_empty_wallet_failed_title"> Error al vaciar la billetera </string>
+        <string name = "send_coins_fragment_hint_empty_wallet_failed"> El pequeño monto de pago en su billetera no puede alcanzar el monto que se puede pagar. </string>
+        <string name = "send_coins_error_msg"> ¡Se produjo un problema al pagar la moneda! </string>
+        <string name = "send_coins_fragment_hint_dusty_send"> La cantidad es demasiado pequeña para pagarla. </string>
+        <string name = "send_coins_fragment_hint_insufficient_money"> El saldo de la moneda de comunicación es insuficiente. Todavía te falta% s. </string>
+
+        <string name = "str_sender"> remitente </string>
+        <string name = "str_exchange_id"> ID de transacción </string>
+        <string name = "str_fee"> tarifa de red </string>
+        <string name = "str_confirm_number"> número de confirmación </string>
+        <string name = "str_exchange_time"> tiempo de transacción </string>
+        <string name = "str_nonce"> Nonce </string>
+
+
+        <string name = "str_share"> compartir </string>
+        <string name = "str_asyning1"> Sincronizando ... </string>
+        <string name = "str_isShowAgain"> si acceder de nuevo </string>
+
+
+
+    <string name="help_safety">
+<![CDATA[
+		<p>
+			Billetera de respaldo para recuperar su cuenta y activos。
+			<b>Si desafortunadamente perdió su teléfono y no tiene una billetera de respaldo, sus contactos y activos se perderán.</b>
+		</p>
+		<p>
+			No tome capturas de pantalla o copias de seguridad en el disco de la nube <b>Asegúrese de copiarlo manualmente</b>。
+			Administre correctamente y tenga en cuenta las mnemotecnias de respaldo。
+		</p>
+		<p>
+			<b>Después de desinstalar el cliente</b> （O borre los datos de la aplicación o restaure la configuración de fábrica）Antes,<b>Por favor verifique si su mnemónica está respaldada</b>。
+			 De lo contrario, sus activos y contactos se perderán.
+		</p>
+		<p>
+			<b>La transacción en sí es irreversible。</b>.
+			Si envía una moneda a una dirección desconocida, no hay forma de recuperarla。
+		</p>
+		<p>
+			<b>Mantenga seguro su dispositivo Android！</b>
+			No rootees tu dispositivo；
+			Instale solo programas que entienda y confíe completamente，
+		</p>
+		<p>
+			Una de las estrategias de reducción de riesgos.：
+			<b>Guarde solo una pequeña cantidad de moneda de comunicación para uso diario en su billetera móvil</b>。
+		</p>
+	]]>
+	</string>
+</resources>

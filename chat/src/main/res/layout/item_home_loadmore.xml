@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="@dimen/dp5"
+    android:background="@color/white"
+  >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/dp55"
+        android:layout_height="@dimen/dp55"
+        android:layout_marginLeft="@dimen/dp5"
+        android:scaleType="centerCrop"
+
+        />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_centerInParent="true"
+        tools:ignore="NotSibling">
+
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp2"
+            android:textSize="@dimen/dp15"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:maxEms="10"
+
+
+
+            />
+
+        <TextView
+            android:id="@+id/subtitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="@dimen/dp5"
+            android:textSize="@dimen/dp12"
+            android:textColor="@color/color_444444"
+            android:visibility="gone"
+
+
+            />
+
+        <TextView
+            android:id="@+id/subtitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10000 download  score 3.7  53.8MB"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_below="@+id/subtitle2"
+            android:textSize="@dimen/dp10"
+            android:visibility="gone"
+        />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+    <cn.wildfire.imshat.discovery.download.ProgressButton
+            android:id="@+id/download"
+            android:layout_width="@dimen/dp60"
+            android:layout_height="@dimen/dp35"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dp13"
+            app:cornerRadius="8dp"
+            android:text="@string/str_install"
+            app:progressBackColor="@color/white"
+            app:progressColor="@color/color_C2DCF1"
+            app:buttonColor="@color/color_ededed"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:stateListAnimator="@null"
+            android:layout_marginRight="@dimen/dp5"
+
+    />
+
+
+    <View
+        style="@style/line"
+       android:layout_below="@+id/icon"
+
+     />
+
+
+</RelativeLayout>

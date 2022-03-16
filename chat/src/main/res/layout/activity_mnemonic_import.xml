@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"
+
+        />
+
+<!--<include layout="@layout/include_toolbar" />-->
+
+    <EditText
+        android:id="@+id/wordsstr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/str_mnemion_input"
+        android:textColorHint="@color/color_4E5D6E"
+        android:textSize="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp20"
+        android:layout_marginLeft="@dimen/dp20"
+        android:textColor="@color/color_4E5D6E"
+        android:background="@null"
+        android:minHeight="@dimen/dp100"
+        android:layout_below="@+id/appbar"
+        android:layout_marginTop="@dimen/dp20"
+        android:gravity="top|left"
+        android:digits=" abcdefghijklmnopqrstuvwxyz"
+        />
+
+
+
+
+</RelativeLayout>

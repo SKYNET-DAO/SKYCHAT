@@ -1,0 +1,58 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+apply plugin: 'com.google.protobuf'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "29.0.2"
+
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    api files('libs/bitcoinj-core-0.16-SNAPSHOT.jar')
+    api files('libs/integration-android.jar')
+    compile 'com.google.guava:guava:28.1-android'
+    implementation 'org.bouncycastle:bcprov-jdk15on:1.60'
+    def lifecycle_version = '2.0.0-beta01'
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    api 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+    api project(':base')
+    implementation files('libs/commons-codec-1.12.jar')
+    api files('libs/log4j-1.2.17.jar')
+    api files('libs/slf4j-log4j12-1.7.1.jar')
+    implementation 'com.google.protobuf:protobuf-java:3.6.1'
+    api files('libs/android-logging-log4j-1.0.3.jar')
+    compile 'androidx.core:core-ktx:1.5.0'
+    compile 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0-beta01'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.12.3'
+    api 'org.bouncycastle:bcprov-jdk15on:1.60'
+}
+repositories {
+    mavenCentral()
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/chatRoomTextView_0"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:background="@drawable/selector_option_item"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp20"
+        android:text="@string/str_chatroom1" />
+
+    <View style="@style/Line" />
+
+    <TextView
+        android:id="@+id/chatRoomTextView_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:background="@drawable/selector_option_item"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp20"
+        android:text="@string/str_chatroom2" />
+
+    <View style="@style/Line" />
+
+    <TextView
+        android:id="@+id/chatRoomTextView_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:background="@drawable/selector_option_item"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp20"
+        android:text="@string/str_chatroom3" />
+
+    <View style="@style/Line" />
+</LinearLayout>

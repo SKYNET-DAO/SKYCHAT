@@ -1,0 +1,89 @@
+<resources>
+    <string name = "str_asyn"> 동기화 </string>
+        <string name = "str_copy_address"> 주소가 복사되었습니다 </string>
+        <string name = "str_receiver_fail_coin"> 수신 실패 </string>
+
+        <string name = "str_sent_fail_coin"> 전송 실패 </string>
+
+        <string name = "symbol_to"> → </string>
+        <string name = "symbol_from"> ← </string>
+        <string name = "symbol_internal"> ⇄ </string>
+        <string name = "str_coinbase"> 광업 수입 </string>
+        <string name = "wallet_transactions_fragment_internal"> 내부 </string>
+        <string name = "str_wait_broadcast"> 방송 대기 중 </string>
+        <string name = "str_wait_confirm"> 확인 대기 중 </string>
+        <string name = "str_already_sent"> 보낸 </string>
+        <string name = "str_already_receriver"> 수신 </string>
+        <string name = "str_unknow"> 알 수 없음 </string>
+        <string name = "str_revert"> 실행 취소 </string>
+
+        <string name = "str_send_coin"> 보내기 </string>
+        <string name = "str_receiver_coin"> 수신 </string>
+        <string name = "str_copy_address_coin"> 복사 성공 </string>
+        <string name = "str_copy"> 복사 </string>
+        <string name = "button_dismiss"> 무시 </string>
+        <string name = "send_coins_fragment_button_send"> 지급 </string>
+        <string name = "button_cancel"> 취소 </string>
+        <string name = "send_coins_fragment_significant_fee_title"> 상당한 네트워크 요금 </string>
+        <string name = "send_coins_fragment_significant_fee_message">이 지불에 대한 네트워크 수수료 (% 1 $ s)는 금액 (% 2 $ s)과 관련하여 높습니다. 어쨌든 보내시겠습니까? </string>
+        <string name = "error_io"> I / O 오류: %s </string>
+        <string name = "error_http"> HTTP 오류 %1$s:\n%2$s</string>
+        <string name = "button_retry"> 다시 시도 </string>
+        <string name = "send_coins_fragment_direct_payment_failed_title"> 직접 결제 실패 </string>
+        <string name = "send_coins_fragment_direct_payment_failed_msg"> P2P 네트워크를 통해 지불이 계속 브로드 캐스트됩니다. </string>
+        <string name = "send_coins_fragment_insufficient_money_title"> 통화 잔액 부족 </string>
+        <string name = "send_coins_fragment_insufficient_money_msg1"> 여전히 % s가 부족합니다. </string>
+        <string name = "send_coins_fragment_pending"> (% s 님이 확인을 기다리고 있습니다) </string>
+        <string name = "send_coins_fragment_insufficient_money_msg2"> 당신이 가진 모든 동전으로 지불 하시겠습니까? </string>
+        <string name = "send_coins_options_empty"> 지갑 비우기 </string>
+
+        <string name = "send_coins_fragment_empty_wallet_failed_title"> 지갑을 비우지 못했습니다 </string>
+        <string name = "send_coins_fragment_hint_empty_wallet_failed"> 지갑의 소액은 지불 할 수있는 금액에 도달 할 수 없습니다. </string>
+        <string name = "send_coins_error_msg"> 동전을 지불하는 동안 문제가 발생했습니다! </string>
+        <string name = "send_coins_fragment_hint_dusty_send"> 금액이 너무 적어서 지불 할 수 없습니다. </string>
+        <string name = "send_coins_fragment_hint_insufficient_money"> 통신 통화 잔액이 부족합니다. 여전히 % s이 (가) 없습니다. </string>
+
+        <string name = "str_sender"> 발신자 </string>
+        <string name = "str_exchange_id"> 거래 ID </string>
+        <string name = "str_fee"> 네트워크 요금 </string>
+        <string name = "str_confirm_number"> 확인 번호 </string>
+        <string name = "str_exchange_time"> 거래 시간 </string>
+        <string name = "str_nonce"> Nonce </string>
+
+
+    <string name = "str_share"> 공유 </string>
+        <string name = "str_asyning1"> 동기화 중 ... </string>
+        <string name = "str_isShowAgain"> 다시 액세스 여부 </string>
+
+    <string name = "help_safety">
+  <![CDATA[
+    <p>
+        バックアップウォレットはアカウントと資産を復元します。
+        <b>残念ながら携帯電話を紛失し、バックアップウォレットがない場合、連絡先とアセットは失われます。</b>
+    </p>
+    <p>
+        スクリーンショットを撮ったり、クラウドディスクにバックアップしたりしないでください<b>必ず手動でコピーしてください</b>。
+        適切に管理し、バックアップのニーモニックに留意してください。
+    </p>
+    <p>
+        <b>クライアントをアンインストールする前</b>（またはアプリケーションデータをクリアするか、工場出荷時の設定を復元する）、<b>ニーモニックがバックアップされているかどうかを再確認</b>します。
+        そうでない場合、資産と連絡先は失われます。
+    </p>
+    <p>
+        <b>トランザクション自体は元に戻せません。 </b>。
+        不明な住所にコインを送った場合、それらを取り戻す方法はありません。
+    </p>
+    <p>
+        <b> Androidデバイスを安全に保管してください！ </b>
+        デバイスをルート化しないでください。
+        完全に理解して信頼できるプログラムのみをインストールしてください。
+    </p>
+    <p>
+        リスク削減戦略の1つ：
+        <b>モバイルウォレットで毎日使用するために、少量の通信通貨を保管してください</b>。
+    </p>
+    
+    ]]>
+   </string>
+    
+</resources>

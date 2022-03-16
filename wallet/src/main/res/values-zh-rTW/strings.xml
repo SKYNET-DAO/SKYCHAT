@@ -1,0 +1,91 @@
+<resources>
+
+    <string name="str_asyn">同步</string>
+        <string name="str_copy_address">地址已復制</string>
+        <string name="str_receiver_fail_coin">接收失敗</string>
+
+        <string name="str_sent_fail_coin">發送失敗</string>
+
+        <string name="symbol_to">→</string>
+        <string name="symbol_from">←</string>
+        <string name="symbol_internal">⇄</string>
+        <string name="str_coinbase">挖礦所得</string>
+        <string name="wallet_transactions_fragment_internal">內部</string>
+        <string name="str_wait_broadcast">等待廣播</string>
+        <string name="str_wait_confirm">等待確認</string>
+        <string name="str_already_sent">已發送</string>
+        <string name="str_already_receriver">已收到</string>
+        <string name="str_unknow">未知</string>
+        <string name="str_revert">撤銷</string>
+
+        <string name="str_send_coin">發送</string>
+        <string name="str_receiver_coin">接收</string>
+        <string name="str_copy_address_coin">複製成功</string>
+        <string name="str_copy">複製</string>
+        <string name="button_dismiss">忽略</string>
+        <string name="send_coins_fragment_button_send">付款</string>
+        <string name="button_cancel">取消</string>
+        <string name="send_coins_fragment_significant_fee_title">Significant network fee</string>
+        <string name="send_coins_fragment_significant_fee_message">The network fee for this payment (%1$s) is high in relation to the amount (%2$s). Do you want to send anyway?</string>
+        <string name="error_io">I/O 錯誤: %s</string>
+        <string name="error_http">HTTP 錯誤 %1$s:\n%2$s</string>
+        <string name="button_retry">重試</string>
+        <string name="send_coins_fragment_direct_payment_failed_title">直接付款失敗</string>
+        <string name="send_coins_fragment_direct_payment_failed_msg">您的付款將將會繼續通過 P2P 網絡進行廣播。 </string>
+        <string name="send_coins_fragment_insufficient_money_title">通訊幣餘額不足</string>
+        <string name="send_coins_fragment_insufficient_money_msg1">你還缺少 %s.</string>
+        <string name="send_coins_fragment_pending">(%s 正在等待確認)</string>
+        <string name="send_coins_fragment_insufficient_money_msg2">您想要用您擁有的所有通訊幣進行支付嗎？ </string>
+        <string name="send_coins_options_empty">清空錢包</string>
+
+        <string name="send_coins_fragment_empty_wallet_failed_title">清空錢包失敗</string>
+        <string name="send_coins_fragment_hint_empty_wallet_failed">您錢包中的微小付款金額無法達到可支付的金額。 </string>
+        <string name="send_coins_error_msg">支付通訊幣時出現了問題！ </string>
+        <string name="send_coins_fragment_hint_dusty_send">該金額太小了，無法支付。 </string>
+        <string name="send_coins_fragment_hint_insufficient_money">通訊幣餘額不足。您還缺少 %s.</string>
+
+        <string name="str_sender">發送者</string>
+        <string name="str_exchange_id">交易 ID</string>
+        <string name="str_fee">網絡費用</string>
+        <string name="str_confirm_number">確認數</string>
+        <string name="str_exchange_time">交易時間</string>
+        <string name="str_nonce">Nonce</string>
+
+
+        <string name="str_share">分享</string>
+        <string name="str_asyning1">同步中...</string>
+        <string name="str_isShowAgain">是否再次訪問</string>
+
+    <string name="help_safety">
+     <![CDATA[
+	 <p>
+        備份錢包可恢復您的賬號和資產。
+        <b>如果您不幸遺失了手機,並且沒有備份錢包，那麼聯繫人和資產也就隨之丟失了.</b>
+    </p>
+    <p>
+        請勿截屏或者備份到雲盤 <b>一定要手動抄寫下來</b>。
+        妥善管理，並牢記備份的助記詞。
+    </p>
+    <p>
+        <b>在您卸載客戶端</b> （或清除應用程序數據，或恢復出廠設置）之前,<b>請再次確認您的助記詞是否備份</b>。
+        如果沒有，那麼您的資產和聯繫人都將丟失。
+    </p>
+    <p>
+        <b>交易本身是不可逆的。 </b>.
+        如果您給一個未知的地址發送了通訊幣，那麼沒有任何辦法可以將它們收回。
+    </p>
+    <p>
+        <b>請保管好您的Android設備！ </b>
+        不要root您的設備；
+        只安裝您完全了解且信任的程序，
+    </p>
+    <p>
+        降低風險策略之一：
+        <b>只在手機錢包中保留少量的可供日常使用的通訊幣</b>。
+    </p>
+
+	]]>
+	</string>
+
+
+</resources>

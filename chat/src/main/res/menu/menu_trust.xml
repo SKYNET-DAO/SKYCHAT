@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/backupwallet"
+        android:enabled="true"
+        android:title="@string/str_backup_words"
+       />
+
+    <item
+        android:id="@+id/importmnemonic"
+        android:enabled="true"
+        android:title="@string/str_import_words"
+        />
+    <item
+        android:id="@+id/net"
+        android:enabled="true"
+        android:title="@string/str_net"
+        android:visible="false"
+        />
+
+</menu>

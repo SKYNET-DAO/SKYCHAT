@@ -1,0 +1,536 @@
+<resources>
+    <string name="app_name_skychat">Skychat</string>
+    <string name="app_name">Skychat</string>
+    <string name="complete">완료</string>
+
+    <string name="draft">[초안]</string>
+    <string name="video">비디오</string>
+    <string name="set_conversation_to_top">인기 채팅</string>
+
+    <string name="new_friend">새로운 친구</string>
+    <string name="group_cheat">그룹 채팅</string>
+
+    <string name="my_chat_account">계좌 번호 : % 1 $ s</string>
+    <string name="setting">설정</string>
+
+    <string name="add_friend">친구 추가</string>
+    <string name="str_add">추가</string>
+    <string name="no_recommend_friend">아직 추천하지 않은 친구</string>
+
+    <string name="user_no_found">이 사용자는 존재하지 않습니다</string>
+    <string name="search">검색</string>
+
+    <string name="nickname_colon">닉네임 : % 1 $ s</string>
+    <string name="set_alias_and_tag">메모 및 라벨 설정</string>
+    <string name="send_message">메시지 보내기</string>
+    <string name="add_to_contact">연락처에 추가</string>
+    <string name="change_my_name_tip">좋은 이름은 친구들이 당신을 기억하기 쉽게 해줄 수 있습니다.</string>
+
+    <string name="alias">비고 이름</string>
+    <string name="alias_no_empty">메모 이름은 비워 둘 수 없습니다</string>
+
+    <string name="postscript_tip">확인 요청을 보내고 상대방이 통과 할 때까지 기다려야합니다.</string>
+    <string name="send">보내기</string>
+
+    <string name="please_to_talk">잡고 이야기</string>
+    <string name="shot">촬영</string>
+    <string name="location">위치</string>
+    <string name="file">파일</string>
+    <string name="file1">[문서]</string>
+
+    <string name="voice_rec">손가락을 대고 전송을 취소</string>
+    <string name="voice_cancel">손가락을 떼고 전송을 취소</string>
+    <string name="voice_short">녹화 시간이 너무 짧습니다</string>
+
+    <string name="create_group_success">그룹이 성공적으로 생성되었습니다</string>
+    <string name="create_group_fail">그룹 생성 실패</string>
+    <string name="no_group_now">그룹 채팅 금지</string>
+
+    <string name="group_name">그룹 채팅 이름</string>
+    <string name="untitled">이름이없는</string>
+    <string name="group_announcement">그룹 발표</string>
+    <string name="message_free">메시지 회피</string>
+    <string name="my_nickname_in_this_group">이 그룹의 내 닉네임</string>
+    <string name="show_group_member_name">표시 그룹 멤버 닉네임</string>
+    <string name="clear_chat_log">채팅 기록 지우기</string>
+    <string name="delete_and_exit">삭제 후 종료</string>
+    <string name="add_member_success">그룹 회원이 성공적으로 추가되었습니다</string>
+    <string name="add_member_fail">그룹 회원 추가 실패</string>
+    <string name="del_member_success">그룹 회원을 성공적으로 삭제</string>
+    <string name="del_member_fail">그룹 회원 삭제 실패</string>
+
+    <string name="new_message_remind">새 메시지 알림</string>
+    <string name="new_message">새로운 메시지</string>
+    <string name="new_notify_manager">알림 관리</string>
+    <string name="exit">출구</string>
+
+    <string name="app_name_in_about">채팅</string>
+    <string name="function_introduction">기능 소개</string>
+    <string name="complaint">불만</string>
+    <string name="check_update">업데이트 확인</string>
+    <string name="terms_of_use_and_privacy_policy">이용 약관 및 개인 정보 보호 정책</string>
+
+    <string name="str_select_unvalid_address">잘못된 주소</string>
+    <string name="str_input_cmc_count_proble">금액 입력 오류</string>
+    <string name="str_balance_not_enough">잔액 부족</string>
+    <string name="str_not_max">금액이 잘못 입력되어 잔액보다 작아야합니다.</string>
+    <string name="str_send_success">성공적인 이체</string>
+    <string name="str_wallet">월렛</string>
+    <string name="str_zd">빌</string>
+    <string name="str_asyning">(동기화 중 ...)</string>
+    <string name="str_account">결제 세부 정보</string>
+    <string name="str_account_detail">결제 세부 정보</string>
+    <string name="str_exchange_history">거래 기록</string>
+    <string name="str_save_success">성공적으로 저장되었습니다</string>
+    <string name="str_save_not_support">현재이 유형은 지원되지 않습니다</string>
+    <string name="str_save">저장</string>
+    <string name="str_scan_qrcode_pay">청소, 나에게 돈을 송금</string>
+    <string name="str_scan_qrcode">스윕</string>
+    <string name="str_save_img">이미지 저장</string>
+    <string name="str_receiver_cmc">영수증</string>
+    <string name="str_out">양도</string>
+    <string name="str_comfirm">결정</string>
+    <string name="str_input_coincount">금액</string>
+    <string name="str_input_cmc_address">주소</string>
+    <string name="str_balance_wallet">월렛 잔액</string>
+
+    <string name="str_address_empty">주소는 비워 둘 수 없습니다</string>
+    <string name="str_send_fail">전송 실패</string>
+    <string name="str_coin_isempter">송금액은 비워 둘 수 없습니다</string>
+    <string name="str_send_comforim">상대방에게 송금 하시겠습니까?</string>
+    <string name="home_zxing_text">QR 코드 스캔</string>
+    <string name="str_scan_fail">스캔 코드 실패 </string>
+    <string name="str_backup_words">백업 지갑</string>
+    <string name="str_import_words">니모닉 가져 오기</string>
+    <string name="str_private">개인 정보 보호 정책</string>
+    <string name="str_exchange_success">성공적인 이체</string>
+    <string name="str_amount">금액 :</string>
+    <string name="str_gas">취급 수수료 :</string>
+    <string name="str_shou_address">수집 주소 :</string>
+    <string name="str_more">더</string>
+    <string name="str_exchange_number">거래 번호 :</string>
+    <string name="str_pay_address">지불 주소 :</string>
+    <string name="str_detail_more">자세한 내용</string>
+    <string name="str_mnemicon_tip">니모닉 지갑 복사 및 쓰기</string>
+    <string name="str_mnemicon_tip_safe">니모닉은 지갑을 복원하고 종이에 복사하여 안전한 장소에 보관하는 데 사용됩니다.</string>
+    <string name="str_mnemion_input">공백으로 구분 된 니모닉 입력</string>
+    <string name="str_mnemion_sure">지갑 니모닉 확인</string>
+    <string name="str_mnemion_sort">백업이 올바른지 확인하려면 니모닉을 클릭하십시오.</string>
+    <string name="str_exchange_receiver_coin">돈을 모으고 싶어</string>
+    <string name="str_wallet_balance">월렛 잔액</string>
+    <string name="str_account_all">총 자산</string>
+    <string name="str_transform_coin">양도</string>
+    <string name="str_receiver_coin">영수증</string>
+    <string name="str_reset_wallet">수입 지갑</string>
+    <string name="str_channel_name">채널 이름</string>
+    <string name="str_channel_describe">채널 설명</string>
+    <string name="str_isopen">공개 여부</string>
+    <string name="str_receiver_channel">청취 채널</string>
+    <string name="str_receiver">청취 채널</string>
+
+    <string name="str_channel">채널</string>
+    <string name="str_chatroom1">대화방 1</string>
+    <string name="str_chatroom2">대화방 2</string>
+    <string name="str_chatroom3">대화방 3</string>
+    <string name="str_request_addfriend">상대방이 친구로 나를 추가하도록 요청</string>
+    <string name="str_accept">수락</string>
+    <string name="str_album">앨범</string>
+    <string name="str_audio">오디오</string>
+    <string name="str_allpeople">모두</string>
+    <string name="str_scan">QR 코드</string>
+    <string name="str_group_manager">그룹 관리</string>
+    <string name="str_chat_history">채팅 기록 찾기</string>
+    <string name="str_save2contact">연락처에 저장</string>
+    <string name="str_retry">재시도</string>
+    <string name="str_already_died">상대방이 전화를 끊었습니다</string>
+    <string name="str_contact">연락</string>
+    <string name="str_create_chat">새로운 채팅 만들기</string>
+    <string name="str_request_chat">그룹 채팅 시작</string>
+    <string name="str_send2">보내기 :</string>
+    <string name="str_line_out">친구에게 메시지를 남겨주세요</string>
+    <string name="str_group_name">그룹 이름</string>
+    <string name="str_add_groupchat">그룹 채팅에 참여</string>
+    <string name="str_title">직함</string>
+    <string name="str_function">기능</string>
+    <string name="str_fire">화성 구덩이</string>
+    <string name="str_fire_star">화성</string>
+    <string name="str_account_pwd_login">계정 비밀번호 로그인</string>
+    <string name="str_input_account">계정을 입력하십시오</string>
+    <string name="str_login">로그인</string>
+    <string name="str_verfity_login">모바일 인증 코드 로그인</string>
+    <string name="str_please_phone">전화 번호를 입력하십시오</string>
+    <string name="str_input_verfity">인증 코드를 입력하십시오</string>
+    <string name="str_verfity_code">인증 코드 보내기</string>
+    <string name="str_chatroom">대화방</string>
+    <string name="str_robot">로봇</string>
+    <string name="str_login_pc">PC 로그인 허용</string>
+    <string name="str_ok">결정</string>
+    <string name="str_restart_app_now">지금 다시 시작</string>
+    <string name="str_2_history">2 기록</string>
+    <string name="str_look_more">더 보려면 클릭</string>
+    <string name="str_group_chat">채팅 그룹</string>
+    <string name="str_group_member_in">그룹 구성원</string>
+    <string name="str_search_result">검색 결과가 없습니다</string>
+    <string name="str_nickname_setting">닉네임 또는 별칭 설정</string>
+    <string name="str_video_chat">화상 채팅</string>
+    <string name="str_language_switch">언어</string>
+    <string name="str_groupinfo">그룹 정보</string>
+    <string name="str_img_tip">[이미지]</string>
+    <string name="str_audio_tip">[음성]</string>
+    <string name="str_video_tip">[비디오]</string>
+    <string name="str_reset_msg">메시지를 철회</string>
+
+    <string name="str_video_call">화상 통화</string>
+    <string name="str_audio_call">음성 통화</string>
+    <string name="str_switch2_audio">음성 통화로 잘라 내기</string>
+    <string name="str_phone_died">끊다</string>
+    <string name="str_scroll_camera">회전 카메라</string>
+    <string name="str_receiver_cell">답변</string>
+    <string name="str_create">작성</string>
+    <string name="str_detail">세부 사항</string>
+    <string name="str_delete">삭제</string>
+    <string name="str_conversation">대화</string>
+    <string name="str_finder">발견</string>
+    <string name="str_me">나</string>
+    <string name="str_gallery">앨범</string>
+    <string name="str_next">다음 단계</string>
+
+    <string name="str_7">일요일</string>
+    <string name="str_1">월요일</string>
+    <string name="str_2">화요일</string>
+    <string name="str_3">수요일</string>
+    <string name="str_4">목요일</string>
+    <string name="str_5">금요일</string>
+    <string name="str_6">토요일</string>
+
+    <string name="str_evening">저녁</string>
+    <string name="str_afternoon">오후</string>
+    <string name="str_innoon">정오</string>
+    <string name="str_morning">아침</string>
+    <string name="str_early">이른 아침</string>
+    <string name="str_yesterday">어제</string>
+    <string name="str_remark">사용자 메모 설정</string>
+    <string name="str_setting_nickname">닉네임 수정</string>
+    <string name="str_modify_groupnickname">그룹 이름 수정</string>
+    <string name="str_settings">설정</string>
+    <string name="str_about">소개</string>
+    <string name="str_create_conversation">세션 만들기</string>
+    <string name="str_add_member">새 회원 추가</string>
+    <string name="str_del_member">그룹 회원 삭제</string>
+    <string name="str_select_member">그룹 멤버 선택</string>
+    <string name="str_member_list">그룹리스트</string>
+    <string name="str_request_friend">친구 요청</string>
+    <string name="str_search_user">사용자 검색</string>
+    <string name="str_request_friend1">친구 초대</string>
+    <string name="str_userinfo">사용자 정보</string>
+    <string name="str_conversation_detail">세션 세부 사항</string>
+    <string name="str_chatroom_list">대화방 목록</string>
+    <string name="str_search_center">검색 센터</string>
+    <string name="str_transform">앞으로</string>
+    <string name="str_select_conversation">세션 선택</string>
+    <string name="str_channel_list">채널 목록</string>
+    <string name="str_create_channel">채널 만들기</string>
+    <string name="str_channel_my">내가 만든 채널</string>
+    <string name="str_my_subchannel">내가 구독 한 채널</string>
+    <string name="str_contact_number">연락 없음</string>
+    <string name="str_contact_wei">연락</string>
+    <string name="str_picture">"사진"</string>
+    <string name="str_delFriend_fail">"연락처 삭제 실패"</string>
+    <string name="str_delFriend_success">"연락처 삭제 성공"</string>
+    <string name="str_transform_coforim">전송 하시겠습니까?</string>
+    <string name="str_cancel">취소</string>
+    <string name="str_del_contact">연락처를 삭제 하시겠습니까?</string>
+    <string name="str_restart_app">월렛을 가져 오려면 앱을 수동으로 다시 시작해야합니다. 재부팅 하시겠습니까?</string>
+    <string name="str_sky_circle">스카이 넷 생태</string>
+    <string name="str_sky_game">스카이 넷 게임</string>
+    <string name="str_sky_install">접착제 프로그램</string>
+    <string name="str_developing">이 기능을 사용하려면 충분한 사용자가 필요합니다 ...</string>
+    <string name="str_not_friend">아직 친구 관계가 아니십니까?</string>
+    <string name="str_quit_group">그룹을 탈퇴 하시겠습니까?</string>
+
+    <string name="str_backup">지금 백업</string>
+    <string name="str_del_backup_content">니모닉을 백업하여 지갑에 돈을 돌려 주어야합니다. 백업으로 인한 돈 손실을 잊어 버리는 것은 귀하가 부담합니다.</string>
+    <string name="str_request">초대</string>
+    <string name="str_already_request">7 일 이내에 이미 친구 요청을 보낸 경우 다시 보낼 수 없습니다.</string>
+    <string name="str_iknow">알아</string>
+    <string name="str_pwd">비밀번호 설정</string>
+    <string name="str_pwd_input">비밀번호 입력</string>
+    <string name="str_setting_pwd">6 ~ 15 자리 비밀번호를 입력하십시오</string>
+    <string name="str_input_pwd">비밀번호 입력</string>
+    <string name="str_copy">복사</string>
+    <string name="delete_and_dismiss">해체 및 삭제</string>
+    <string name="str_pwd_error">잘못된 비밀번호</string>
+    <string name="str_join_fail">그룹 가입 실패</string>
+    <string name="str_join_success">그룹에 성공적으로 가입</string>
+    <string name="str_request_voip">음성 통화를하도록 초대</string>
+    <string name="str_update_version">버전 업데이트</string>
+    <string name="str_has_version_new">새로운 버전 감지</string>
+    <string name="str_download_update">업데이트 다운로드</string>
+
+    <string name="str_file_preview">파일 미리보기</string>
+    <string name="str_invalid_address">잘못된 CMC 주소</string>
+    <string name="str_createing">만드는 중 ...</string>
+    <string name="str_develepoer">이 기능을 사용하려면 충분한 사용자가 필요합니다 ...</string>
+    <string name="str_remeber_nickname">친구가 나를 쉽게 기억할 수 있도록 개인 닉네임을 수정 하시겠습니까?</string>
+    <string name="str_modify">수정</string>
+    <string name="str_adding">추가 중 ...</string>
+    <string name="str_tel">전화 번호 :</string>
+    <string name="str_updaeAvatar_success">아바타 업데이트</string>
+    <string name="str_updaeAvatar_fail">아바타 업데이트 실패</string>
+    <string name="str_not_address">닉네임은 주소가 될 수 없습니다. 닉네임을 먼저 수정하십시오.</string>
+    <string name="str_tiao">기사]</string>
+    <string name="str_setting_avatar">아바타 설정</string>
+    <string name="str_channel_creating">채널 만들기 ...</string>
+    <string name="str_make_avatar_fail">아바타 생성 실패</string>
+    <string name="str_channel_nothing">채널 소유자가 아무 것도 쓰지 않았습니다.</string>
+    <string name="str_cancel_receiver_channel">듣기 취소</string>
+    <string name="str_channel_receivering">차단 해제</string>
+    <string name="str_channel_receiver">듣기</string>
+    <string name="str_receiver_target_channel">청취 채널</string>
+    <string name="str_channel_receiver_cancel_success">듣기를 성공적으로 취소</string>
+    <string name="str_receiver_success">성공적으로 듣기</string>
+    <string name="str_select_out">한도 초과</string>
+    <string name="str_op_fail">작업 실패</string>
+    <string name="str_added">추가</string>
+    <string name="str_refused">거부</string>
+    <string name="str_my_is">나는</string>
+    <string name="str_friend_req_sended">친구 초대가 발송되었습니다</string>
+    <string name="str_req_add_fail">친구 추가 실패</string>
+    <string name="str_switch_peer">스위치 노드</string>
+    <string name="str_switch">스위치</string>
+    <string name="str_func_introduce">ChatIM 기능 소개</string>
+    <string name="str_xy">채팅 IM 사용자 계약</string>
+    <string name="str_cancel_fail">청취 취소 실패</string>
+    <string name="str_receiver_fail">청취 실패</string>
+    <string name="str_create_group">새로운 그룹</string>
+    <string name="str_not_free_tip">새로운 독점 그룹을 만드는 비용은 현재 무료입니다.</string>
+    <string name="str_ty">공유 그룹</string>
+    <string name="str_not_free">독점 그룹</string>
+    <string name="str_channel_qrcode">채널 QR 코드</string>
+    <string name="str_notify_all">\@모두</string>
+    <string name="str_inputting">상대방이 입력 중입니다</string>
+    <string name="str_recording">상대방이 녹음 중입니다</string>
+    <string name="str_target_picing">다른 사람이 사진을 찍고 있습니다</string>
+    <string name="str_target_sending">상대방이 파일을 보내고 있습니다</string>
+    <string name="str_target_sending_location">상대방이 위치를 보내고 있습니다</string>
+    <string name="str_zgyd">차이나 모바일</string>
+    <string name="str_zjdx">차이나 텔레콤</string>
+    <string name="str_zglt">차이나 유니콤</string>
+    <string name="str_file_select_fail">파일 선택 오류</string>
+    <string name="str_pelease_install">설치 필요 : Android 시스템 WebView</string>
+    <string name="str_location">위치</string>
+    <string name="str_notinput_specile">한자, 영어, 숫자 만 입력 가능</string>
+    <string name="str_creating">만드는 중 ...</string>
+    <string name="str_not_find">인식되지 않음</string>
+    <string name="str_float_promt">창 권한을 플로팅해야 함</string>
+    <string name="str_transform_success">성공적으로 전달</string>
+    <string name="str_transform_fail">앞으로 실패</string>
+    <string name="str_restore_wallet">지갑을 가져 오는 중 ...</string>
+    <string name="str_import">수입</string>
+    <string name="str_send_limit_40">파일 크기가 15M 이상입니다.</string>
+
+
+    <array name="array_contact_option">
+
+        <item>연락처 삭제</item>
+    </array>
+
+    <string name="av_waiting">상대방이 초대를 수락하기를 기다리는 중입니다.</string>
+    <string name="av_audio_invite">음성 통화를하도록 초대</string>
+    <string name="av_video_invite">화상 통화를하도록 초대</string>
+
+
+    <string name = "str_cancel_group"> 그룹을 해산했습니다 </string>
+    <string name = "str_cancel_group2"> 그룹 해산 </string>
+    <string name = "str_nin"> 귀하 </string>
+    <string name = "str_update_avatar"> 업데이트 된 그룹 아바타 </string>
+    <string name = "str_invite_i"> 당신을 초대합니다 </string>
+    <string name = "str_invite"> 초대 </string>
+    <string name = "str_join_group"> 그룹에 합류 </string>
+
+    <string name = "all_images"> 모든 사진 </string>
+    <string name = "folder_image_count"> %1$d 시트 </string>
+    <string name = "preview_image_count"> %1$d/%2$d </string>
+    <string name = "select_limit"> 최대 %1$d 개의 이미지 선택 </string>
+    <string name = "select_complete"> 완료 (%1$d/%2$d) </string>
+    <string name = "preview_count"> 미리보기 (%1$d) </string>
+    <string name = "origin"> 원본 이미지 </string>
+    <string name = "origin_size"> 원본 이미지 (%1$s) </string>
+
+    <string name = "str_switch_language"> 스위치 언어 </string>
+    <string name = "str_switch_language_content"> 언어를 전환 한 후 앱을 수동으로 다시 시작해야합니다! ! </string>
+    <string name = "str_copy_origin"> 복사 </string>
+    <string name = "str_recell"> 철회 </string>
+    <string name = "str_selcet_img"> 사진 선택 </string>
+    <string name = "str_not_include_group"> 그룹에 속하지 않거나 오류가 발생했습니다. 나중에 다시 시도하십시오 </string>
+    <string name = "str_notify_tip"> 위의 인사 메시지 </string>
+    <string name = "str_notify_already_start"> 친구가되었습니다. 이제 채팅을 시작할 수 있습니다 </string>
+    <string name = "str_modify_success"> 성공적으로 수정되었습니다 </string>
+    <string name = "str_modify_fail"> 수정 실패 </string>
+    <string name = "str_nin_action"> 넣어 </string>
+    <string name = "str_ba"> 입력 </string>
+    <string name = "str_ba_remove"> 그룹을 제거했습니다 </string>
+    <string name = "str_tip"> 프롬프트 </string>
+    <string name = "str_tip_del_img"> 사진을 삭제 하시겠습니까? </string>
+
+    <string name = "str_target_noreceiver"> 타자가 응답하지 않았습니다 </string>
+    <string name = "str_cell_leng"> 통화 지속 시간 %02d:%02d </string>
+    <string name = "str_celling"> 전화 </string>
+
+    <string name = "str_voip_cell"> [네트워크 전화] </string>
+
+
+    <string name = "str_del_conform">이 메시지 삭제 확인 </string>
+    <string name = "str_private_chat"> 비공개 채팅 </string>
+    <string name = "str_group_nickname"> 그룹 닉네임을 입력하십시오 </string>
+    <string name = "str_group_nickname_modify_faile"> 그룹 닉네임을 수정하지 못했습니다 : </string>
+    <string name = "str_exiting"> 종료 중 ... </string>
+    <string name = "str_exiting_fail"> 그룹을 종료하지 못했습니다 </string>
+    <string name = "str_group_scan"> 그룹 QR 코드 </string>
+
+    <string name = "cameralibrary_only_photo"> 사진을 터치하십시오 </string>
+    <string name = "cameralibrary_only_video"> 길게 누르면 비디오를 녹화합니다 </string>
+    <string name = "cameralibrary_photo_video"> 사진을 터치하고 녹화 된 비디오를 길게 누릅니다 </string>
+    <string name = "cameralibrary_recordShort"> 녹화 시간이 너무 짧습니다 </string>
+
+    <string name = "str_no_mute"> 음소거 </string>
+    <string name = "str_holder"> 일어남 </string>
+    <string name = "str_handsfree"> 핸즈프리 </string>
+
+    <string name = "str_select"> 선택 </string>
+    <string name = "str_need_float_prom"> 올바로 사용하려면 플로팅 창 및 기타 권한이 필요합니다 </string>
+    <string name = "str_net_error"> 네트워크 예외. . . </string>
+    <string name = "str_loading_wallet"> 지갑로드 중 ... </string>
+    <string name = "str_loging_fail"> 로그인 실패 </string>
+
+
+
+    <string name = "str_start"> 시작 </string>
+
+    <string name="str_gui_1">없음 가입, 탈 중앙화</string>
+
+    <string name="str_gui_2">개인 정보 보호, 피어 투 피어</string>
+    <string name="str_gui_3">익명, 추적 불가</string>
+
+    <string name = "str_connecting"> 연결 중 ... </string>
+    <string name = "str_connect_fail"> 연결 실패 </string>
+
+
+
+    <string name = "str_reset_error"> 월렛 예외 복구, 다시 시도하십시오 </string>
+    <string name = "str_mne_error"> 니모닉이 잘못되었습니다. 각 단어를주의 깊게 확인하십시오! ! </string>
+    <string name = "str_backup_success"> 니모닉 백업 성공 </string>
+    <string name = "str_backup_fail"> 니모닉 백업이 잘못된 순서로 실패했습니다! ! </string>
+    <string name = "str_group"> 그룹 </string>
+    <string name = "str_unknow"> 알 수없는 유형의 메시지 </string>
+    <string name = "str_gif_emoj"> 동적 이모티콘 </string>
+    <string name = "str_transform_group"> 그룹을 다음으로 전송 </string>
+    <string name = "str_modify_group_card"> 그룹 카드를 다음과 같이 수정하십시오 </string>
+    <string name = "str_sy_show"> 클릭하여 나머지를 확장 </string>
+    <string name = "str_item"> 항목 </string>
+    <string name = "str_modify_group_to"> 그룹 이름 수정 </string>
+    <string name = "str_groupname_container"> 그룹 이름 : </string>
+    <string name = "str_groupmember_container"> 그룹 구성원 : </string>
+    <string name = "str_creategroup_notification"> 그룹을 만들었습니다 </string>
+    <string name = "str_create_group_1"> 그룹을 만들었습니다 </string>
+    <string name = "str_open_not_file">이 파일을 열 수있는 응용 프로그램을 찾을 수 없습니다 </string>
+    <string name = "str_group_quit"> 그룹을 종료합니다 </string>
+    <string name = "str_group_exit"> 그룹을 종료했습니다 </string>
+
+    <string name = "str_auto_invanid"> 사용자 인증 정보가 유효하지 않습니다 </string>
+    <string name = "str_userinfo_data_out"> 사용자가 수신 한 정보가 만료되었습니다 </string>
+    <string name = "str_at_me"> [누군가 @나] </string>
+    <string name = "str_del_conversation"> 세션 삭제 </string>
+    <string name = "str_confirm_del"> 세션을 삭제 하시겠습니까? </string>
+    <string name = "str_clear_conversation"> 세션 비우기 </string>
+    <string name = "str_clear_conversation_ok"> 빈 세션을 확인 하시겠습니까? </string>
+    <string name = "str_error_code"> 오류 코드 : </string>
+    <string name = "str_top"> 상위 </string>
+    <string name = "str_top_cannel"> 고정 해제 </string>
+    <string name = "str_error_info">, 오류 메시지 : </string>
+    <string name = "str_cancel_channel_conforim"> 채널을 취소 하시겠습니까? </string>
+    <string name = "str_picture_error"> 사진 오류, 의견을 보내주세요 </string>
+    <string name = "str_file_not_exit"> 파일 크기가 존재하지 않습니다! </string>
+    <string name = "str_not_permission"> 권한이 비활성화되어 로컬 이미지를 선택할 수 없습니다 </string>
+    <string name = "str_not_open_camera"> 권한이 비활성화되어 카메라를 열 수 없습니다 </string>
+    <string name = "str_skychat_onback"> SkychatIM을 백그라운드에서 실행하여 메시지의 실시간 성능을 보장합니다 </string>
+    <string name = "str_avatar_upload_fail"> 그룹 아바타 업로드 실패 </string>
+    <string name = "str_del_error"> 연락처 삭제 오류 </string>
+    <string name="str_clear">비우기</string>
+
+    <string name = "str_copy_success"> 복사 성공 </string>
+    <string name = "str_groupname_member_container"> 그룹 이름 및 그룹 구성원이 모두 포함됩니다. </string>
+    <string name = "str_modify_ali_fail"> 별명 수정 오류 : </string>
+
+    <string name = "str_retry_send"> 재전송? </string>
+    <string name = "str_resend"> 재발행 </string>
+
+
+    <string name = "str_group_nickname_modify_success"> 그룹 이름을 성공적으로 수정 </string>
+    <string name = "str_modifying"> 수정 ... </string>
+
+    <string name = "str_pwd_auth_fail"> 지갑 비밀번호 설정 실패 </string>
+    <string name = "str_auth_fail"> 인증 실패 </string>
+
+    <string name = "str_in"> 수익 </string>
+    <string name = "str_output"> 지출 </string>
+    <string name = "str_pc_login"> PC 로그인 </string>
+
+
+
+      
+       <string name = "str_plug"> 플러그인 목록 </string>
+        <string name = "str_download_all"> 모든 작업 </string>
+        <string name = "str_install"> 설치 </string>
+        <string name = "str_del_task_all"> 모든 작업 삭제 </string>
+        <string name = "str_task_all"> 모든 다운로드 작업 </string>
+        <string name = "str_plugin_download_"> 글루 프로그램 다운로드를 확인 하시겠습니까? </string>
+        <string name = "str_open_app"> 열기 </string>
+        <string name = "str_noagree_app"> 거부 </string>
+        <string name = "str_agree_app"> 인증 </string>
+        <string name = "str_need_auth">이 접착제 프로그램을 사용하려면 Skychat 인증이 필요합니다 </string>
+        <string name = "str_need_update"> 새 버전이 있습니다. 접착제 프로그램을 업데이트하십시오 </string>
+        <string name = "str_only_update"> 업데이트 </string>
+        <string name = "str_download_wait"> 대기 </string>
+        <string name = "str_download_error"> 오류 </string>
+
+        <string name = "str_download_continue"> 계속 </string>
+
+        <string name = "str_only_download"> 다운로드 </string>
+
+        <string name = "str_loading"> 로딩 중 ... </string>
+
+
+
+    <string name="help_jiaoshui_tip">
+                     <![CDATA[
+            <p>
+                글루 프로그램 설명 정보 글루 프로그램의 모든 응용 프로그램.
+                <b> 타사 채팅, 비 스카이 챗 공식 응용 프로그램으로 개발 </b>
+            </p>
+            <p>
+                전 세계의 모든 엔지니어는 접착제 프로그램에서 자체 응용 프로그램을 개발할 수 있습니다 </b>
+            사용자는 접착제 프로그램에서 응용 프로그램을 사용할 때 위험 예방 및 제어에주의해야합니다
+        </p>
+        <p>
+        <b> 불필요한 손실이 발생하지 않도록하십시오. </b>
+        </p>
+
+
+                ]]>
+    </string>
+
+    <string name = "str_pause"> 일시 중지 </string>
+        <string name = "str_ziping"> 압축 해제 </string>
+
+        <string name = "str_zip_error"> 압축 해제 오류 </string>
+
+        <string name = "str_installed"> 설치 </string>
+
+
+    <string name = "str_link_switch"> 회선 링크 .. </string>
+    <string name = "str_cmc_100"> 동전을 만들려면 지갑에 최소 1 개의 CMC 동전이 있어야합니다 </string>
+
+
+
+</resources>

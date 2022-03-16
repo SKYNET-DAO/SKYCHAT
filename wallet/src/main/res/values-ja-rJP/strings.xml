@@ -1,0 +1,88 @@
+<resources>
+    <string name = "str_asyn">同期</string>
+        <string name = "str_copy_address">アドレスがコピーされました</string>
+        <string name = "str_receiver_fail_coin">受信に失敗しました</string>
+
+        <string name = "str_sent_fail_coin">送信に失敗しました</string>
+
+        <string name = "symbol_to">→</string>
+        <string name = "symbol_from">←</string>
+        <string name = "symbol_internal">⇄</string>
+        <string name = "str_coinbase">マイニング収入</string>
+        <string name = "wallet_transactions_fragment_internal">内部</string>
+        <string name = "str_wait_broadcast">ブロードキャストを待機しています</string>
+        <string name = "str_wait_confirm">確認待ち</string>
+        <string name = "str_already_sent">送信済み</string>
+        <string name = "str_already_receriver">受信済み</string>
+        <string name = "str_unknow">不明</string>
+        <string name = "str_revert">元に戻す</string>
+
+        <string name = "str_send_coin">送信</string>
+        <string name = "str_receiver_coin">受信</string>
+        <string name = "str_copy_address_coin">コピー成功</string>
+        <string name = "str_copy">コピー</string>
+        <string name = "button_dismiss">無視</string>
+        <string name = "send_coins_fragment_button_send">支払い</string>
+        <string name = "button_cancel">キャンセル</string>
+        <string name = "send_coins_fragment_significant_fee_title">重要なネットワーク料金</string>
+        <string name = "send_coins_fragment_significant_fee_message">この支払いのネット​​ワーク料金（％1 $ s）は、金額（％2 $ s）に比べて高くなっています。送信しますか？</string>
+        <string name = "error_io"> I / Oエラー：％s </string>
+        <string name = "error_http"> HTTPエラー％1 $ s：\ n％2 $ s </string>
+        <string name = "button_retry">再試行</string>
+        <string name = "send_coins_fragment_direct_payment_failed_title">直接支払いに失敗しました</string>
+        <string name = "send_coins_fragment_direct_payment_failed_msg">支払いは引き続きP2Pネットワーク経由でブロードキャストされます。 </string>
+        <string name = "send_coins_fragment_insufficient_money_title">通貨残高が不足しています</string>
+        <string name = "send_coins_fragment_insufficient_money_msg1">まだ％sが不足しています。</string>
+        <string name = "send_coins_fragment_pending">（％sは確認を待っています）</string>
+        <string name = "send_coins_fragment_insufficient_money_msg2">お持ちのすべてのコインで支払いますか？ </string>
+        <string name = "send_coins_options_empty">ウォレットを空にします</string>
+
+        <string name = "send_coins_fragment_empty_wallet_failed_title">ウォレットを空にできませんでした</string>
+        <string name = "send_coins_fragment_hint_empty_wallet_failed">ウォレットの少額の支払い額は、支払い可能な額に達しません。 </string>
+        <string name = "send_coins_error_msg">コインの支払い中に問題が発生しました！ </string>
+        <string name = "send_coins_fragment_hint_dusty_send">金額が少なすぎて支払いができません。 </string>
+        <string name = "send_coins_fragment_hint_insufficient_money">通信通貨の残高が不足しています。まだ％sがありません。</string>
+
+        <string name = "str_sender">送信者</string>
+        <string name = "str_exchange_id">トランザクションID </string>
+        <string name = "str_fee">ネットワーク料金</string>
+        <string name = "str_confirm_number">確認番号</string>
+        <string name = "str_exchange_time">トランザクション時間</string>
+        <string name = "str_nonce">ノンス</string>
+
+
+      <string name = "str_share">共有</string>
+        <string name = "str_asyning1">同期しています... </string>
+        <string name = "str_isShowAgain">再度アクセスするかどうか</string>
+
+    <string name = "help_safety">
+  <![CDATA[
+<p>
+バックアップウォレットはアカウントと資産を復元します。
+<b>残念ながら携帯電話を紛失し、バックアップウォレットがない場合、連絡先とアセットは失われます。</b>
+</ p>
+<p>
+スクリーンショットを撮ったり、クラウドディスクにバックアップしたりしないでください<b>必ず手動でコピーしてください</b>。
+適切に管理し、バックアップのニーモニックに留意してください。
+</ p>
+<p>
+<b>クライアントをアンインストールする前</b>（またはアプリケーションデータをクリアするか、工場出荷時の設定を復元する）、<b>ニーモニックがバックアップされているかどうかを再確認</b>します。
+そうでない場合、資産と連絡先は失われます。
+</ p>
+<p>
+<b>トランザクション自体は元に戻せません。 </b>。
+不明な住所にコインを送った場合、それらを取り戻す方法はありません。
+</ p>
+<p>
+<b> Androidデバイスを安全に保管してください！ </b>
+デバイスをルート化しないでください。
+完全に理解して信頼できるプログラムのみをインストールしてください。
+</ p>
+<p>
+リスク削減戦略の1つ：
+<b>モバイルウォレットで毎日使用するために、少量の通信通貨を保管してください</b>。
+</ p>
+]]>
+</string>
+    
+</resources>

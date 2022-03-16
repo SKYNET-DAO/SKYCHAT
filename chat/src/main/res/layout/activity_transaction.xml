@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:id="@+id/root_address"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp80"
+        android:layout_below="@+id/appbar"
+        android:layout_marginTop="@dimen/dp12"
+        android:layout_marginLeft="@dimen/dp15"
+        android:layout_marginRight="@dimen/dp15"
+        >
+
+        <EditText
+            android:id="@+id/adress_coin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp60"
+            android:hint="@string/str_input_cmc_address"
+            android:inputType="text"
+            android:digits="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+            android:textSize="@dimen/dp16"
+            android:paddingLeft="@dimen/dp12"
+            android:paddingRight="@dimen/dp42"
+
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+
+
+
+            />
+
+        <ImageView
+            android:id="@+id/qrcode"
+            android:layout_width="@dimen/dp25"
+            android:layout_height="@dimen/dp25"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/icon_scan"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/dp10"
+            android:visibility="gone"
+
+
+            />
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/root_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/root_address"
+        android:layout_marginTop="@dimen/dp5"
+        >
+
+
+        <com.android.wallet.send.CurrencyAmountView
+            android:id="@+id/send_coins_amount_cmc"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dp15"
+            android:layout_marginRight="@dimen/dp15"
+            android:layout_height="@dimen/dp50">
+
+            <EditText
+                android:id="@+id/send_coins_amount_btc_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:imeOptions="flagNoExtractUi"
+                android:textSize="@dimen/dp24"
+                tools:ignore="TextFields" />
+        </com.android.wallet.send.CurrencyAmountView>
+
+        <TextView
+            android:id="@+id/tip_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/send_coins_amount_cmc"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp15"
+            android:text="Insufficient balance"
+            android:textColor="@color/red6"
+            android:visibility="gone"
+            />
+
+
+        <com.android.wallet.send.CurrencyAmountView
+            android:id="@+id/send_coins_amount_local"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:layout_below="@+id/send_coins_amount_cmc"
+            android:layout_marginTop="@dimen/dp15"
+            android:visibility="gone"
+            >
+
+            <EditText
+                android:id="@+id/send_coins_amount_local_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="flagNoExtractUi"
+                android:textSize="@dimen/dp24"
+                tools:ignore="TextFields" />
+        </com.android.wallet.send.CurrencyAmountView>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/wallet_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_wallet_balance"
+        android:layout_below="@+id/root_amount"
+        android:layout_marginLeft="@dimen/dp20"
+        android:textColor="@color/color_F4D298"
+        android:textSize="@dimen/dp12"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp20"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/send_coin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp45"
+        android:layout_marginRight="@dimen/dp12"
+        android:layout_marginLeft="@dimen/dp12"
+        android:layout_marginBottom="@dimen/dp4"
+        android:text="@string/str_comfirm"
+        android:textSize="@dimen/dp18"
+        android:textColor="@color/color_ffffff"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shap_round_solid_textview_gray"
+        android:enabled="false"
+        />
+
+</RelativeLayout>

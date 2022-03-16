@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:padding="5dp"
+
+  >
+
+    <TextView
+        android:id="@+id/left_icon"
+        android:layout_width="@dimen/dp5"
+        android:layout_height="@dimen/dp40"
+        android:background="@color/color_e88272"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/left_icon"
+       >
+
+
+
+        <TextView
+            android:id="@+id/direction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="----"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp3"
+            android:textSize="@dimen/dp15"
+            android:textColor="@color/color_444444"
+            android:ellipsize="end"
+            android:singleLine="true"
+
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/exchanexchange_timege_time"
+            android:layout_width="@dimen/dp190"
+            android:layout_height="wrap_content"
+            android:text="2019-3-15"
+            android:layout_marginLeft="@dimen/dp11"
+            android:layout_marginTop="@dimen/dp5"
+            android:textSize="@dimen/dp13"
+            android:textColor="@color/color_444444"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_below="@+id/direction"
+
+
+
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="----"
+            android:textSize="@dimen/dp15"
+            android:textColor="@color/color_444444"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp12"
+            android:layout_marginTop="@dimen/dp30"
+
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp1"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_ededed"
+
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

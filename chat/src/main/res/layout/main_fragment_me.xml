@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f9f9f9"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/meLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp60"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@drawable/selector_common_item"
+        android:gravity="center_vertical"
+        android:paddingRight="@dimen/dp3">
+
+        <com.itheima.roundedimageview.RoundedImageView
+            android:id="@+id/portraitImageView"
+            android:layout_width="@dimen/dp50"
+            android:layout_height="@dimen/dp50"
+            android:layout_marginLeft="@dimen/dp15"
+            android:layout_marginRight="@dimen/option_item_margin_right"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/default_header"
+            app:riv_corner_radius="@dimen/dp5"
+            app:riv_border_width="0dip"
+            app:riv_border_color="#333333"
+            app:riv_oval="false"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp70"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp3"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/gray0"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/accountTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp3"
+                android:singleLine="true"
+                android:text="@string/my_chat_account"
+                android:textColor="@color/gray2"
+                android:textSize="13sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <com.lqr.optionitemview.OptionItemView
+        android:id="@+id/notificationOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@drawable/selector_common_item"
+        app:left_image_margin_left="@dimen/option_item_margin_left"
+        app:left_image_margin_right="@dimen/option_item_margin_right"
+        app:left_src="@mipmap/ic_notify"
+        app:left_text="Messages"
+        app:left_text_color="@color/black0"
+        app:left_text_size="16sp"
+        android:visibility="gone"
+        />
+
+    <com.lqr.optionitemview.OptionItemView
+        android:id="@+id/passwordOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@drawable/selector_common_item"
+        android:visibility="gone"
+        app:left_image_margin_left="@dimen/option_item_margin_left"
+        app:left_image_margin_right="@dimen/option_item_margin_right"
+        app:left_src="@mipmap/ic_account_setting"
+        app:left_text="Account security"
+        app:left_text_color="@color/black0"
+        app:left_text_size="16sp" />
+
+
+
+
+    <com.lqr.optionitemview.OptionItemView
+        android:id="@+id/walletOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@drawable/selector_common_item"
+        android:clickable="true"
+        app:left_image_margin_left="@dimen/option_item_margin_left"
+        app:left_image_margin_right="@dimen/option_item_margin_right"
+        app:left_src="@mipmap/ic_wallet1"
+        app:left_text="@string/str_wallet"
+        app:left_text_color="@color/black0"
+        app:left_text_size="16sp" />
+
+
+    <com.lqr.optionitemview.OptionItemView
+        android:id="@+id/languageOptionItemView1"
+        style="@style/OptionItem"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@drawable/selector_common_item"
+        android:clickable="true"
+        app:left_image_margin_left="@dimen/option_item_margin_left"
+        app:left_image_margin_right="@dimen/option_item_margin_right"
+        app:left_src="@drawable/ic_language_switch"
+        app:left_text="@string/str_language_switch"
+        app:left_text_color="@color/black0"
+        app:left_text_size="16sp"
+        android:visibility="gone"
+        />
+
+    <com.lqr.optionitemview.OptionItemView
+        android:id="@+id/settintOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@drawable/selector_common_item"
+        android:clickable="true"
+        app:left_image_margin_left="@dimen/option_item_margin_left"
+        app:left_image_margin_right="@dimen/option_item_margin_right"
+        app:left_src="@mipmap/ic_setting"
+        app:left_text="@string/setting"
+        app:left_text_color="@color/black0"
+        app:left_text_size="16sp"
+
+        />
+
+
+
+</LinearLayout>

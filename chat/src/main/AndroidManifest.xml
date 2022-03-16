@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.wildfirechat.imshat">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+
+
+   
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES"
+        tools:ignore="ProtectedPermissions"></uses-permission>
+
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"
+        tools:ignore="ProtectedPermissions" />
+
+
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+
+
+
+
+    <application
+        android:name="cn.wildfire.imshat.app.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher3"
+        android:label="@string/app_name_skychat"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:label,android:theme,android:icon"
+        android:hardwareAccelerated="true"
+
+        >
+
+        <!--<meta-data-->
+            <!--android:name="android.max_aspect"-->
+            <!--android:value="2.1" />-->
+
+        <!--<meta-data-->
+            <!--android:name="design_width"-->
+            <!--android:value="720" />-->
+        <!--<meta-data-->
+            <!--android:name="design_height"-->
+            <!--android:value="1280" />-->
+        <!--<meta-data-->
+            <!--android:name="android.max_aspect"-->
+            <!--android:value="2.1" />-->
+
+        <meta-data
+            android:name="android.webkit.WebView.EnableSafeBrowsing"
+            android:value="true" />
+
+        
+        <meta-data
+            android:name="TencentMapSDK"
+            android:value="TOEBZ-67IR4-ZDHUV-DSDXX-TJZU7-UYFE7" />
+
+        <activity
+            android:name="cn.wildfire.imshat.app.main.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="cn.wildfire.imshat.app.main.GuiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen"
+            />
+
+        <activity
+            android:name="cn.wildfire.imshat.kit.conversation.ConversationActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wildfire.imshat.app.login.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.user.SetAliasActivity"
+            android:label="@string/str_remark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.user.ChangeMyNameActivity"
+            android:label="@string/str_setting_nickname"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="cn.wildfire.imshat.kit.preview.TakePhotoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name="cn.wildfire.imshat.app.third.location.ui.activity.MyLocationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.group.SetGroupNameActivity"
+            android:label="@string/str_modify_groupnickname"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.setting.SettingActivity"
+            android:label="@string/str_settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.setting.AboutActivity"
+            android:label="@string/str_about"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wildfire.imshat.app.third.location.ui.activity.ShowLocationActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="cn.wildfire.imshat.kit.preview.MMPreviewActivity"
+            android:theme="@style/Translation"
+            android:screenOrientation="portrait"
+            android:label="@string/str_file_preview"
+
+            />
+        <activity android:name="cn.wildfire.imshat.kit.voip.SingleVoipCallActivity"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="cn.wildfirechat.kit.chat.voip.single" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="cn.wildfire.imshat.kit.conversation.CreateConversationActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_create_conversation" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.group.AddGroupMemberActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_add_member" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.group.RemoveGroupMemberActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_del_member" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.conversation.mention.MentionGroupMemberActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_select_member" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.group.GroupListActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_member_list" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.contact.newfriend.FriendRequestListActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_request_friend" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.contact.newfriend.SearchUserActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_search_user" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.contact.newfriend.InviteFriendActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_request_friend1" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.user.UserInfoActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_userinfo" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.conversation.ConversationInfoActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_conversation_detail" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.chatroom.ChatRoomListActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_chatroom_list" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.search.SearchPortalActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_search_center" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.conversation.forward.ForwardActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_transform" />
+        <activity
+            android:name="cn.wildfire.imshat.kit.conversation.forward.PickConversationTargetToForwardActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_select_conversation" />
+        <activity
+            android:name="cn.wildfire.imshat.app.login.SMSLoginActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="cn.wildfire.imshat.kit.channel.ChannelListActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_channel_list" />
+
+        <activity
+            android:name="cn.wildfire.imshat.kit.channel.CreateChannelActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_create_channel"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden|adjustResize" />
+
+        <activity android:name="cn.wildfire.imshat.kit.channel.ChannelInfoActivity" />
+        <activity
+            android:name="cn.wildfire.imshat.app.main.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+
+       >
+            <intent-filter>
+                <action android:name="cn.wildfirechat.imshat.main" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.wildfire.imshat.kit.WfcWebViewActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="cn.wildfire.imshat.kit.search.SearchMessageActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="cn.wildfire.imshat.kit.channel.SearchChannelActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="cn.wildfire.imshat.kit.group.PickGroupMemberActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="cn.wildfire.imshat.wallet.activity.WalletActivity"
+            android:label="@string/str_wallet"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name="cn.wildfire.imshat.wallet.activity.ExchangeHistoryActivity"
+            android:label="@string/str_account"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name="cn.wildfire.imshat.wallet.activity.CMCExchangeDetailActivity"
+            android:label="@string/str_account_detail"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name="cn.wildfire.imshat.wallet.activity.ReceiverCmcActivity"
+            android:label="@string/str_receiver_cmc"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name="cn.wildfire.imshat.wallet.activity.SendCmcActivity"
+            android:label="@string/str_out"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name="cn.wildfire.imshat.wallet.activity.BackupMnemonicActivity"
+            android:label="@string/str_backup_words"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name="cn.wildfire.imshat.wallet.activity.BackupMnemonicVertifyActivity"
+            android:label="@string/str_backup_words"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="cn.wildfire.imshat.wallet.activity.ImportMnemonicActivity"
+            android:label="@string/str_import_words"
+            android:screenOrientation="portrait"
+            />
+
+
+
+        <activity
+            android:name="cn.wildfire.imshat.app.main.PCLoginActivity"
+            android:label="PC Login" />
+        <activity android:name="cn.wildfire.imshat.kit.qrcode.QRCodeActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="cn.wildfire.imshat.kit.group.GroupInfoActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_groupinfo" />
+        <activity
+            android:name="cn.wildfire.imshat.language.LanguageActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/str_language_switch" />
+
+        <activity
+            android:name="cn.wildfire.imshat.kit.qrcode.ScanQRCodeActivity"
+            android:label="@string/str_scan_qrcode" />
+
+        <activity
+            android:name="cn.wildfire.imshat.wallet.activity.TrustWalletActivity"
+            android:label="@string/str_wallet" />
+
+        <activity
+            android:name="cn.wildfire.imshat.wallet.activity.TestNetActivity"
+            android:label="@string/str_net" />
+
+        <activity
+            android:name="cn.wildfire.imshat.wallet.activity.JTestNetActivity"
+            android:label="@string/str_net" />
+
+
+
+
+        <activity
+            android:name="cn.wildfire.imshat.discovery.download.PlugActivity"
+            android:label="@string/str_sky_install" />
+
+        <activity
+            android:name="cn.wildfire.imshat.discovery.download.PlugTaskListActivity"
+            android:label="@string/str_installed"
+            />
+        <activity
+            android:name="cn.wildfire.imshat.discovery.download.WebActivity"
+            android:hardwareAccelerated="false"
+            />
+
+
+
+        <activity
+            android:name="cn.wildfire.imshat.discovery.download.WfcPluginWebActivity"
+            android:label="@string/str_download_all"
+            />
+
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities"
+            >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"
+                tools:replace="android:resource"
+                />
+        </provider>
+        <service android:name="cn.wildfire.imshat.kit.voip.FloatingVoipService" />
+
+        <service android:name="cn.wildfire.imshat.wallet.services.WalletService" />
+
+        <receiver
+            android:name="cn.wildfire.imshat.kit.receiver.LanguageReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+
+
+
+
+    </application>
+</manifest>

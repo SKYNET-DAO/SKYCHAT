@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="@dimen/dp5"
+    android:background="@color/white"
+  >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/dp55"
+        android:layout_height="@dimen/dp55"
+        android:layout_marginLeft="@dimen/dp5"
+        android:scaleType="centerCrop"
+
+        />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_centerInParent="true"
+        tools:ignore="NotSibling">
+
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp2"
+            android:textSize="@dimen/dp15"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:maxEms="10"
+
+
+
+            />
+
+        <TextView
+            android:id="@+id/subtitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大逃杀策略哦是"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="@dimen/dp5"
+            android:textSize="@dimen/dp12"
+            android:textColor="@color/color_444444"
+            android:visibility="gone"
+
+
+            />
+
+        <TextView
+            android:id="@+id/subtitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1万人下载  3.7分  53.8MB"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_below="@+id/subtitle2"
+            android:textSize="@dimen/dp10"
+            android:visibility="gone"
+        />
+
+    </RelativeLayout>
+
+
+    <Button
+            android:id="@+id/del"
+            android:layout_width="@dimen/dp65"
+            android:layout_height="@dimen/dp35"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp12"
+            android:text="@string/str_delete"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/dp5"
+            android:background="@drawable/shape_solid_red"
+
+    />
+
+
+    <View
+        style="@style/line"
+       android:layout_below="@+id/icon"
+
+     />
+
+
+</RelativeLayout>

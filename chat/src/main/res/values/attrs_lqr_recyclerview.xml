@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LQRRecyclerView">
+        
+        <attr name="rv_type" format="integer">
+            <enum name="grid" value="0"/>
+            <enum name="stagger" value="1"/>
+        </attr>
+
+        
+        <attr name="rv_orientation">
+            <enum name="vertical" value="0"/>
+            <enum name="horizontal" value="1"/>
+        </attr>
+
+        
+        <attr name="rv_column" format="integer"/>
+
+        
+        <attr name="rv_divider_size" format="dimension"/>
+        
+        <attr name="rv_divider_color" format="color"/>
+        
+        <attr name="rv_divider_drawable" format="reference"/>
+
+        
+        <attr name="rv_default_animator_open" format="boolean"/>
+    </declare-styleable>
+
+</resources>

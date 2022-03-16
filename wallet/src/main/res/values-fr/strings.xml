@@ -1,0 +1,90 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name = "str_asyn"> Sync </string>
+        <string name = "str_copy_address"> "l'adresse a été copiée" </string>
+        <string name = "str_receiver_fail_coin"> La réception a échoué </string>
+
+        <string name = "str_sent_fail_coin"> "Echec de l'envoi" </string>
+
+        <string name = "symbol_to"> → </string>
+        <string name = "symbol_from"> ← </string>
+        <string name = "symbol_internal"> </string>
+        <string name = "str_coinbase"> revenu minier </string>
+        <string name = "wallet_transactions_fragment_internal"> interne </string>
+        <string name = "str_wait_broadcast"> en attente de diffusion </string>
+        <string name = "str_wait_confirm"> en attente de confirmation </string>
+        <string name = "str_already_sent"> envoyé </string>
+        <string name = "str_already_receriver"> a reçu </string>
+        <string name = "str_unknow"> inconnu </string>
+        <string name = "str_revert"> Annuler </string>
+
+        <string name = "str_send_coin"> send </string>
+        <string name = "str_receiver_coin"> receive </string>
+        <string name = "str_copy_address_coin"> copie réussie </string>
+        <string name = "str_copy"> copier </string>
+        <string name = "button_dismiss"> ignorer </string>
+        <string name = "send_coins_fragment_button_send"> paiement </string>
+        <string name = "button_cancel"> Annuler </string>
+        <string name = "send_coins_fragment_significant_fee_title"> Frais de réseau significatifs </string>
+        <string name = "send_coins_fragment_significant_fee_message"> Les frais de réseau pour ce paiement (% 1 $ s) sont élevés par rapport au montant (% 2 $ s). Souhaitez-vous quand même envoyer? </string>
+        <string name = "error_io"> "Erreur d'E/S:%s" </string>
+        <string name = "error_http"> Erreur HTTP %1$s:\n%2$s </string>
+        <string name = "button_retry"> réessayez </string>
+        <string name = "send_coins_fragment_direct_payment_failed_title"> Le paiement direct a échoué </string>
+        <string name = "send_coins_fragment_direct_payment_failed_msg"> Votre paiement continuera à être diffusé sur le réseau P2P. </string>
+        <string name = "send_coins_fragment_insufficient_money_title"> Solde des devises insuffisant </string>
+        <string name = "send_coins_fragment_insufficient_money_msg1"> Il vous manque toujours% s. </string>
+        <string name = "send_coins_fragment_pending"> (% s est en attente de confirmation) </string>
+        <string name = "send_coins_fragment_insufficient_money_msg2"> Voulez-vous payer avec toutes les pièces que vous avez? </string>
+        <string name = "send_coins_options_empty"> vider le portefeuille </string>
+
+        <string name = "send_coins_fragment_empty_wallet_failed_title"> Impossible de vider le portefeuille. </string>
+        <string name = "send_coins_fragment_hint_empty_wallet_failed"> Le petit montant du paiement dans votre portefeuille ne peut pas atteindre le montant qui peut être payé. </string>
+        <string name = "send_coins_error_msg"> Un problème est survenu lors du paiement de la pièce! </string>
+        <string name = "send_coins_fragment_hint_dusty_send"> Le montant est trop petit pour être payé. </string>
+        <string name = "send_coins_fragment_hint_insufficient_money"> Le solde de la devise de communication est insuffisant. Il vous manque toujours% s. </string>
+
+         <string name = "str_sender"> expéditeur </string>
+        <string name = "str_exchange_id"> ID de transaction </string>
+        <string name = "str_fee"> taxe de réseau </string>
+        <string name = "str_confirm_number"> numéro de confirmation </string>
+        <string name = "str_exchange_time"> heure de la transaction </string>
+        <string name = "str_nonce"> Nonce </string>
+
+
+    <string name = "str_share"> partage </string>
+        <string name = "str_asyning1"> Synchronisation ... </string>
+        <string name = "str_isShowAgain"> "s'il faut accéder à nouveau" </string>
+
+
+
+    <string name = "help_safety" tools:ignore="StringEscaping">
+       <![CDATA[
+        <p>
+        Le portefeuille de sauvegarde restaure votre compte et vos actifs.
+        <b> Si, malheureusement, vous perdez votre téléphone et ne possédez pas de portefeuille de sauvegarde, vos contacts et vos actifs seront perdus. </b>
+        </p>
+        <p>
+        Ne faites pas de captures d'écran ni sauvegardez sur le disque de nuage <b> Assurez-vous de le copier manuellement </b>.
+        Gérez-le correctement et gardez à l'esprit les mnémoniques de sauvegarde.
+        </p>
+        <p>
+        <b> Avant de désinstaller le client </b> (ou d'effacer les données de l'application ou de restaurer les paramètres d'usine), <b> reconfirme si votre mnémonique est sauvegardée </b>.
+        Sinon, vos actifs et vos contacts seront perdus.
+        </p>
+        <p>
+        <b> La transaction elle-même est irréversible. </b>.
+        Si vous envoyez une pièce de monnaie à une adresse inconnue, il n’ya aucun moyen de la récupérer.
+        </p>
+        <p>
+        <b> Gardez votre appareil Android en sécurité! </b>
+        Ne rootez pas votre appareil;
+        Installez uniquement des programmes que vous comprenez parfaitement et auxquels vous faites confiance.
+        </p>
+        <p>
+        Une des stratégies de réduction des risques:
+        <b> Conservez une petite quantité de monnaie de communication pour une utilisation quotidienne dans votre portefeuille mobile </b>.
+        </p>
+          ]]>
+</string>
+    
+</resources>

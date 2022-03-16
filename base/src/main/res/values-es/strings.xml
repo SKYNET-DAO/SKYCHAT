@@ -1,0 +1,542 @@
+<resources>
+    <string name="app_name_skychat">Skychat</string>
+    <string name="app_name">Skychat</string>
+    <string name="complete">Completa</string>
+
+    <string name="draft">[borrador]</string>
+    <string name="video">Video</string>
+    <string name="set_conversation_to_top">Top chat</string>
+
+    <string name="new_friend">Nuevo amigo</string>
+    <string name="group_cheat">Chat grupal</string>
+
+    <string name="my_chat_account">Número de cuenta:% 1 $ s</string>
+    <string name="setting">Ambientación</string>
+
+    <string name="add_friend">Agregar amigos</string>
+    <string name="str_add">Agregar</string>
+    <string name="no_recommend_friend">Aún no amigos recomendados</string>
+
+    <string name="user_no_found">Este usuario no existe.</string>
+    <string name="search">Buscar</string>
+
+    <string name="nickname_colon">Apodo:% 1 $ s</string>
+    <string name="set_alias_and_tag">Configurar notas y etiquetas</string>
+    <string name="send_message">Enviar un mensaje</string>
+    <string name="add_to_contact">Agregar a contactos</string>
+    <string name="change_my_name_tip">Un buen nombre puede facilitar que tus amigos te recuerden.</string>
+
+    <string name="alias">Nombre de comentario</string>
+    <string name="alias_no_empty">El nombre de la nota no puede estar vacío</string>
+
+    <string name="postscript_tip">Debe enviar una solicitud de verificación y esperar a que pase la otra parte</string>
+    <string name="send">Enviar</string>
+
+    <string name="please_to_talk">Espera y habla</string>
+    <string name="shot">Disparando</string>
+    <string name="location">Ubicación</string>
+    <string name="file">Archivo</string>
+    <string name="file1">[documento]</string>
+
+    <string name="voice_rec"> Desliza tu dedo, cancela el envío </string>
+    <string name="voice_cancel"> Suelta tu dedo y cancela el envío </string>
+    <string name="voice_short"> El tiempo de grabación es muy corto. </string>
+
+    <string name="create_group_success"> Grupo creado con éxito </string>
+    <string name="create_group_fail"> La creación del grupo falló</string>
+    <string name="no_group_now"> No hay chat grupal </string>
+
+    <string name="group_name"> Nombre de chat grupal </string>
+    <string name="untitled"> Innominado </string>
+    <string name="group_announcement"> Anuncio grupal </string>
+    <string name="message_free"> Evitar mensajes </string>
+    <string name="my_nickname_in_this_group"> Mi apodo en este grupo </string>
+    <string name="show_group_member_name"> Mostrar apodo de miembro del grupo </string>
+    <string name="clear_chat_log"> Borrar historial de chat </string>
+    <string name="delete_and_exit"> Eliminar y salir </string>
+    <string name="add_member_success"> Miembro del grupo agregado con éxito </string>
+    <string name="add_member_fail"> Miembro del grupo agregado fallido </string>
+    <string name="del_member_success"> Eliminar miembro del grupo con éxito </string>
+    <string name="del_member_fail"> Error al eliminar un miembro del grupo </string>
+
+    <string name="new_message_remind"> Nuevo recordatorio de mensaje </string>
+    <string name="new_message"> Nuevo mensaje </string>
+    <string name="new_notify_manager"> Gestión de notificaciones </string>
+    <string name="exit"> Salir </string>
+
+    <string name="app_name_in_about"> Chatear</string>
+    <string name="function_introduction"> Introducción a la función </string>
+    <string name="complaint"> Queja </string>
+    <string name="check_update"> Buscar actualizaciones </string>
+    <string name="terms_of_use_and_privacy_policy"> Términos de uso y política de privacidad </string>
+
+    <string name="str_select_unvalid_address"> Dirección inválida </string>
+    <string name="str_input_cmc_count_proble"> Cantidad de error de entrada </string>
+    <string name="str_balance_not_enough"> Saldo insuficiente </string>
+    <string name="str_not_max"> La cantidad ingresada incorrectamente y debe ser menor que el saldo </string>
+    <string name="str_send_success"> Transferencia exitosa </string>
+    <string name="str_wallet"> Billetera </string>
+    <string name="str_zd"> Bill </string>
+    <string name="str_asyning"> (sincronizado ...) </string>
+    <string name="str_account"> Detalles de facturación </string>
+    <string name="str_account_detail"> Detalles de facturación </string>
+    <string name="str_exchange_history"> Registro de la transacción </string>
+    <string name="str_save_success"> Guardado exitosamente </string>
+    <string name="str_save_not_support"> Este tipo no es compatible en este momento </string>
+    <string name="str_save"> Guardar </string>
+    <string name="str_scan_qrcode_pay"> Barrer, transferirme dinero </string>
+    <string name="str_scan_qrcode"> Barrer </string>
+    <string name="str_save_img"> Guardar imagen </string>
+    <string name="str_receiver_cmc"> Recibo </string>
+    <string name="str_out"> Transferencia </string>
+    <string name="str_comfirm"> Determinar </string>
+    <string name="str_input_coincount"> Cantidad </string>
+    <string name="str_input_cmc_address"> Dirección </string>
+    <string name="str_balance_wallet"> Saldo de la billetera </string>
+
+    <string name="str_address_empty"> La dirección no puede estar vacía </string>
+    <string name="str_send_fail"> Transferencia fallida </string>
+    <string name="str_coin_isempter"> El monto de la transferencia no puede estar vacío </string>
+    <string name="str_send_comforim"> ¿Estás seguro de que quieres transferir dinero a la otra parte? </string>
+    <string name="home_zxing_text"> Escanea el código QR </string>
+    <string name="str_scan_fail"> Código de escaneo fallido  </string>
+    <string name="str_backup_words"> Billetera de respaldo </string>
+    <string name="str_import_words"> Importar mnemotécnico </string>
+    <string name="str_private"> Política de privacidad </string>
+    <string name="str_exchange_success"> Transferencia exitosa </string>
+    <string name="str_amount"> Cantidad: </string>
+    <string name="str_gas"> Tarifa de manejo: </string>
+    <string name="str_shou_address"> Dirección de recogida: </string>
+    <string name="str_more"> Más </string>
+    <string name="str_exchange_number"> Número de transacción: </string>
+    <string name="str_pay_address"> Dirección de pago: </string>
+    <string name="str_detail_more"> Más detalles </string>
+    <string name="str_mnemicon_tip"> Copia y escribe tu billetera mnemónica </string>
+    <string name="str_mnemicon_tip_safe"> El mnemotécnico se utiliza para restaurar la billetera, copiarla en papel y guardarla en un lugar seguro. </string>
+    <string name="str_mnemion_input"> Entra en la mnemotecnia, separados por espacios </string>
+    <string name="str_mnemion_sure"> Confirme su billetera mnemónica </string>
+    <string name="str_mnemion_sort"> Haga clic en el mnemónico para determinar si su copia de seguridad es correcta. </string>
+    <string name="str_exchange_receiver_coin"> Quiero recoger dinero </string>
+    <string name="str_wallet_balance"> Saldo de la billetera </string>
+    <string name="str_account_all"> Activos totales </string>
+    <string name="str_transform_coin"> Transferencia </string>
+    <string name="str_receiver_coin"> Recibo</string>
+    <string name="str_reset_wallet"> Billetera de importación </string>
+    <string name="str_channel_name"> Nombre del canal </string>
+    <string name="str_channel_describe"> Descripción del canal </string>
+    <string name="str_isopen"> Si es público </string>
+    <string name="str_receiver_channel"> Canal de escucha </string>
+    <string name="str_receiver"> Canal de escucha </string>
+
+    <string name="str_channel"> Canal </string>
+    <string name="str_chatroom1"> Sala de chat 1 </string>
+    <string name="str_chatroom2"> Sala de chat 2 </string>
+    <string name="str_chatroom3"> Sala de chat 3 </string>
+    <string name="str_request_addfriend"> La otra parte solicita agregarlo como amigo </string>
+    <string name="str_accept"> Aceptar </string>
+    <string name="str_album">Álbum </string>
+    <string name="str_audio"> Audio </string>
+    <string name="str_allpeople"> Todos </string>
+    <string name="str_scan"> Código QR </string>
+    <string name="str_group_manager"> Gestión de grupo </string>
+    <string name="str_chat_history"> Encuentra el historial de chat </string>
+    <string name="str_save2contact"> Guardar en contactos </string>
+    <string name="str_retry"> Reintentar </string>
+    <string name="str_already_died"> La otra parte ha colgado </string>
+    <string name="str_contact"> Contacto </string>
+    <string name="str_create_chat"> Crea un nuevo chat </string>
+    <string name="str_request_chat"> Iniciar un chat grupal </string>
+    <string name="str_send2"> Enviar a: </string>
+    <string name="str_line_out"> Deja un mensaje a un amigo </string>
+    <string name="str_group_name"> Nombre del grupo </string>
+    <string name="str_add_groupchat">Únete a un chat grupal </string>
+    <string name="str_title"> Titulo </string>
+    <string name="str_function"> Función </string>
+    <string name="str_fire"> Foso de Mart </string>
+    <string name="str_fire_star"> Marte </string>
+    <string name="str_account_pwd_login"> Inicio de sesión con contraseña de cuenta </string>
+    <string name="str_input_account"> Ingresar cuenta </string>
+    <string name="str_login"> Iniciar sesión </string>
+    <string name="str_verfity_login"> Inicio de sesión de código de verificación móvil </string>
+    <string name="str_please_phone"> Ingrese el número de teléfono </string>
+    <string name="str_input_verfity"> Ingrese el código de verificación </string>
+    <string name="str_verfity_code"> Enviar código de verificación </string>
+    <string name="str_chatroom"> Sala de chat </string>
+    <string name="str_robot"> Robot </string>
+    <string name="str_login_pc"> Permitir inicio de sesión en PC </string>
+    <string name="str_ok"> Determinar </string>
+    <string name="str_restart_app_now"> Reiniciar ahora </string>
+    <string name="str_2_history"> 2 registros </string>
+    <string name="str_look_more"> Haga clic para ver más </string>
+    <string name="str_group_chat"> Grupo de chat </string>
+    <string name="str_group_member_in"> El miembro del grupo contiene </string>
+    <string name="str_search_result"> No hay resultados de búsqueda </string>
+    <string name="str_nickname_setting"> Establecer un apodo o alias </string>
+    <string name="str_video_chat"> Video chat </string>
+    <string name="str_language_switch"> Idioma </string>
+    <string name="str_groupinfo"> Información del grupo </string>
+    <string name="str_img_tip"> [imagen] </string>
+    <string name="str_audio_tip"> [Voz] </string>
+    <string name="str_video_tip"> [Video] </string>
+    <string name="str_reset_msg"> Retiró un mensaje </string>
+
+    <string name="str_video_call"> Videollamada </string>
+    <string name="str_audio_call"> Llamada de voz </string>
+    <string name="str_switch2_audio"> Corte a la llamada de voz </string>
+    <string name="str_phone_died"> Colgar </string>
+    <string name="str_scroll_camera"> Cámara giratoria </string>
+    <string name="str_receiver_cell"> Respuesta </string>
+    <string name="str_create"> Crear </string>
+    <string name="str_detail"> Detalles </string>
+    <string name="str_delete"> Eliminar </string>
+    <string name="str_conversation"> Chats </string>
+    <string name="str_finder"> Descubrir </string>
+    <string name="str_me"> Yo </string>
+    <string name="str_gallery">Álbum </string>
+    <string name="str_next"> Paso siguiente </string>
+
+    <string name="str_7"> Domingo </string>
+    <string name="str_1"> Lunes </string>
+    <string name="str_2"> Martes </string>
+    <string name="str_3"> Miercoles </string>
+    <string name="str_4"> Jueves </string>
+    <string name="str_5"> Viernes </string>
+    <string name="str_6"> Sabado </string>
+
+    <string name="str_evening"> Tarde </string>
+    <string name="str_afternoon"> Por la tarde </string>
+    <string name="str_innoon"> Mediodia </string>
+    <string name="str_morning"> Mañana </string>
+    <string name="str_early"> Temprano en la mañana </string>
+    <string name="str_yesterday"> Ayer </string>
+    <string name="str_remark"> Establecer notas de usuario </string>
+    <string name="str_setting_nickname"> Modificar apodo </string>
+    <string name="str_modify_groupnickname"> Modificar nombre del grupo </string>
+    <string name="str_settings"> Ambientación </string>
+    <string name="str_about"> Acerca de </string>
+    <string name="str_create_conversation"> Crea una sesión </string>
+    <string name="str_add_member"> Agregar nuevo miembro </string>
+    <string name="str_del_member"> Eliminar miembro del grupo </string>
+    <string name="str_select_member"> Seleccionar miembro del grupo </string>
+    <string name="str_member_list"> Lista de grupo </string>
+    <string name="str_request_friend"> Solicitud de amistad </string>
+    <string name="str_search_user"> Buscar usuario </string>
+    <string name="str_request_friend1"> Invitar amigos </string>
+    <string name="str_userinfo"> Información del usuario </string>
+    <string name="str_conversation_detail"> Detalles de la sesión </string>
+    <string name="str_chatroom_list"> Lista de sala de chat </string>
+    <string name="str_search_center"> Centro de búsqueda </string>
+    <string name="str_transform"> Adelante </string>
+    <string name="str_select_conversation"> Seleccionar sesión </string>
+    <string name="str_channel_list"> Lista de canales </string>
+    <string name="str_create_channel"> Crear canal </string>
+    <string name="str_channel_my"> El canal que creé</string>
+    <string name="str_my_subchannel"> El canal al que me suscribo </string>
+    <string name="str_contact_number"> Sin contacto </string>
+    <string name="str_contact_wei"> Contacto </string>
+    <string name="str_picture"> "foto" </string>
+    <string name="str_delFriend_fail"> "Error al eliminar un contacto" </string>
+    <string name="str_delFriend_success"> "Eliminar contacto exitoso" </string>
+    <string name="str_transform_coforim"> ¿Estás seguro de que quieres transferir? </string>
+    <string name="str_cancel"> Cancelar </string>
+    <string name="str_del_contact">Asegúrate de que deseas eliminar el contacto？</string>
+    <string name="str_restart_app"> Importar la billetera requiere reiniciar manualmente la aplicación. ¿Estás seguro de que deseas reiniciar? </string>
+    <string name="str_sky_circle"> Ecología Skynet </string>
+    <string name="str_sky_game"> Juego Skynet </string>
+    <string name="str_sky_install"> Programa de pegamento </string>
+    <string name="str_developing"> Esta característica requiere suficientes usuarios para abrir ... </string>
+    <string name="str_not_friend"> ¿Todavía no es una relación de amistad? </string>
+    <string name="str_quit_group"> ¿Estás seguro de que quieres abandonar el grupo? </string>
+
+    <string name="str_backup"> Copia de seguridad ahora </string>
+    <string name="str_del_backup_content"> Debe hacer una copia de seguridad de su mnemotécnica para recuperar el dinero en su billetera. </string>
+    <string name="str_request"> Invitación </string>
+    <string name="str_already_request"> Si ya ha enviado una solicitud de amistad dentro de los 7 días, no puede volver a enviarla. </string>
+    <string name="str_iknow"> Yo se </string>
+    <string name="str_pwd"> Establecer contraseña </string>
+    <string name="str_pwd_input"> Ingrese contraseña </string>
+    <string name="str_setting_pwd"> Ingrese una contraseña de 6 ~ 15 dígitos </string>
+    <string name="str_input_pwd"> Ingrese contraseña </string>
+    <string name="str_copy"> Copia </string>
+    <string name="delete_and_dismiss"> Disolver y eliminar </string>
+    <string name="str_pwd_error"> Contraseña incorrecta </string>
+    <string name="str_join_fail"> Unirse al grupo falló</string>
+    <string name="str_join_success">Únete al grupo con éxito </string>
+    <string name="str_request_voip"> Te invito a hacer una llamada de voz </string>
+    <string name="str_update_version"> Actualización de la versión </string>
+    <string name="str_has_version_new"> Nueva versión detectada </string>
+    <string name="str_download_update"> Descargar actualización </string>
+
+    <string name="str_file_preview"> Vista previa de archivo </string>
+    <string name="str_invalid_address"> Dirección de CMC no válida </string>
+    <string name="str_createing"> Creando ... </string>
+    <string name="str_develepoer"> Esta característica requiere suficientes usuarios para abrir ... </string>
+    <string name="str_remeber_nickname"> ¿Modificar apodos personales para que los amigos puedan recordarte más fácilmente? </string>
+    <string name="str_modify"> Modificar </string>
+    <string name="str_adding"> Agregando ... </string>
+    <string name="str_tel"> Teléfono: </string>
+    <string name="str_updaeAvatar_success"> Actualizar avatar con éxito </string>
+    <string name="str_updaeAvatar_fail"> Actualizar avatar falló</string>
+    <string name="str_not_address"> El apodo no puede ser una dirección, modifíquelo primero. </string>
+    <string name="str_tiao"> Artículo] </string>
+    <string name="str_setting_avatar"> Establecer avatar </string>
+    <string name="str_channel_creating"> Crea un canal ... </string>
+    <string name="str_make_avatar_fail"> Generar avatar fallido </string>
+    <string name="str_channel_nothing"> El propietario del canal no escribió nada. </string>
+    <string name="str_cancel_receiver_channel"> Cancelar escucha </string>
+    <string name="str_channel_receivering"> Desbloqueo </string>
+    <string name="str_channel_receiver"> Escuchando </string>
+    <string name="str_receiver_target_channel"> Canal de escucha </string>
+    <string name="str_channel_receiver_cancel_success"> Cancelar escucha exitosamente </string>
+    <string name="str_receiver_success"> Escuchando con éxito </string>
+    <string name="str_select_out"> Exceder el límite </string>
+    <string name="str_op_fail"> Operación fallida </string>
+    <string name="str_added"> Agregado </string>
+    <string name="str_refused"> Rechazado </string>
+    <string name="str_my_is"> Yo soy </string>
+    <string name="str_friend_req_sended"> Se ha enviado una invitación a un amigo. </string>
+    <string name="str_req_add_fail"> Añadir amigo fallido </string>
+    <string name="str_switch_peer"> Cambiar nodo </string>
+    <string name="str_switch"> Interruptor </string>
+    <string name="str_func_introduce"> Introducción a la función ChatIM </string>
+    <string name="str_xy"> Acuerdo de usuario de Chat IM </string>
+    <string name="str_cancel_fail"> Cancelar la escucha fallida </string>
+    <string name="str_receiver_fail"> Escucha fallida </string>
+    <string name="str_create_group"> Nuevo grupo </string>
+    <string name="str_not_free_tip"> El costo de crear un nuevo grupo propietario es actualmente gratuito. </string>
+    <string name="str_ty"> Grupo compartido </string>
+    <string name="str_not_free"> Grupo propietario </string>
+    <string name="str_channel_qrcode"> Código QR del canal </string>
+    <string name="str_notify_all"> \@Todos</string>
+    <string name="str_inputting"> La otra parte está escribiendo </string>
+    <string name="str_recording"> La otra parte está grabando </string>
+    <string name="str_target_picing"> La otra persona está tomando fotos. </string>
+    <string name="str_target_sending"> La otra parte está enviando un archivo </string>
+    <string name="str_target_sending_location"> La otra parte está enviando la ubicación. </string>
+    <string name="str_zgyd"> China Mobile </string>
+    <string name="str_zjdx"> China Telecom </string>
+    <string name="str_zglt"> China Unicom </string>
+    <string name="str_file_select_fail"> Seleccionar error de archivo </string>
+    <string name="str_pelease_install"> Necesita instalar: Android System WebView </string>
+    <string name="str_location"> Ubicación </string>
+    <string name="str_notinput_specile"> Solo puede ingresar caracteres chinos, inglés, números </string>
+    <string name="str_creating"> Creando ... </string>
+    <string name="str_not_find"> No reconocido </string>
+    <string name="str_float_promt"> Necesidad de permisos de ventana flotante </string>
+    <string name="str_transform_success"> Remitido con éxito </string>
+    <string name="str_transform_fail"> Falla hacia adelante </string>
+    <string name="str_restore_wallet"> mportando billetera ... </string>
+    <string name="str_import"> Importar </string>
+    <string name="str_send_limit_40"> El tamaño del archivo es superior a 15M. </string>
+
+
+    <array name="array_contact_option">
+
+        <item> Eliminar contacto </item>
+    </array>
+
+
+    <string name="av_waiting">Esperando a que la otra parte acepte la invitación.</string>
+    <string name="av_audio_invite">Esperando a que la otra parte acepte la invitación.</string>
+    <string name="av_video_invite">Te invitamos a hacer una videollamada</string>
+
+
+
+    <string name = "str_cancel_group"> Has disuelto el grupo </string>
+    <string name = "str_cancel_group2"> Disolver el grupo </string>
+    <string name = "str_nin"> usted </string>
+    <string name = "str_update_avatar"> Avatar de grupo actualizado </string>
+    <string name = "str_invite_i"> invitas </string>
+    <string name = "str_invite"> invitación </string>
+    <string name = "str_join_group"> se unió al grupo </string>
+
+    <string name = "all_images"> Todas las imágenes </string>
+    <string name = "folder_image_count">%1$d hojas </string>
+    <string name = "preview_image_count">%1$d/%2$d </string>
+    <string name = "select_limit"> Seleccione hasta%1$d imágenes </string>
+    <string name = "select_complete"> completo (%1$d/%2$d) </string>
+    <string name = "preview_count"> vista previa (%1$d) </string>
+    <string name = "origin"> imagen original </string>
+    <string name = "origin_size"> imagen original (%1$s) </string>
+
+    <string name = "str_switch_language"> Cambiar idioma </string>
+    <string name = "str_switch_language_content"> ¡Después de cambiar de idioma, debe reiniciar manualmente la aplicación! ! </string>
+    <string name = "str_copy_origin"> copiar </string>
+    <string name = "str_recell"> Retirar </string>
+    <string name = "str_selcet_img"> Seleccionar imagen </string>
+    <string name = "str_not_include_group"> No está en el grupo o se produce un error, vuelva a intentarlo más tarde </string>
+    <string name = "str_notify_tip"> Lo anterior es un mensaje de saludo </string>
+    <string name = "str_notify_already_start"> Te has hecho amigo, ahora puedes comenzar a chatear </string>
+    <string name = "str_modify_success"> Modificado correctamente </string>
+    <string name = "str_modify_fail"> Error en la modificación </string>
+    <string name = "str_nin_action"> pones </string>
+    <string name = "str_ba"> put </string>
+    <string name = "str_ba_remove"> eliminó el grupo </string>
+    <string name = "str_tip"> prompt </string>
+    <string name = "str_tip_del_img"> ¿Eliminar esta foto? </string>
+
+
+    <string name = "str_target_noreceiver"> la otra parte no respondió </string>
+    <string name = "str_cell_leng"> Duración de la llamada% 02d:% 02d </string>
+    <string name = "str_celling"> Llamar </string>
+
+    <string name = "str_voip_cell"> [teléfono de red] </string>
+
+
+    <string name = "str_del_conform"> Confirme eliminar este mensaje </string>
+    <string name = "str_private_chat"> chat privado </string>
+    <string name = "str_group_nickname"> Ingrese el apodo de su grupo </string>
+    <string name = "str_group_nickname_modify_faile"> no pudo modificar el apodo del grupo: </string>
+    <string name = "str_exiting"> saliendo ... </string>
+    <string name = "str_exiting_fail"> Error al salir del grupo </string>
+    <string name = "str_group_scan"> grupo de código QR </string>
+
+    <string name = "cameralibrary_only_photo"> Toca la foto </string>
+    <string name = "cameralibrary_only_video"> Mantenga presionada para grabar video </string>
+    <string name = "cameralibrary_photo_video"> Toque la foto y mantenga presionado el video grabado </string>
+    <string name = "cameralibrary_recordShort"> el tiempo de grabación es demasiado corto </string>
+
+    <string name = "str_no_mute"> silenciar </string>
+    <string name = "str_holder"> cuelgue </string>
+    <string name = "str_handsfree"> manos libres </string>
+    <string name = "str_select"> seleccione </string>
+
+
+    <string name = "str_need_float_prom"> Requiere una ventana flotante y otros permisos para usar correctamente </string>
+    <string name = "str_net_error"> Excepción de red. . . </string>
+    <string name = "str_loading_wallet"> Cargando billetera ... </string>
+
+    <string name = "str_loading"> Cargando billetera ... </string>
+
+    <string name = "str_loging_fail"> error de inicio de sesión </string>
+
+
+    <string name = "str_start">Iniciar</string>
+
+    <string name="str_gui_1">Ninguno Registrarse, Descentralización</string>
+
+    <string name="str_gui_2">Privacidad, de igual a igual</string>
+    <string name="str_gui_3">Anónimo, ninguno rastreable</string>
+
+
+
+    <string name = "str_connecting"> Conectando ... </string>
+    <string name = "str_connect_fail"> Error de conexión </string>
+
+
+    <string name = "str_reset_error"> Recuperar excepción de billetera, por favor intente nuevamente </string>
+    <string name = "str_mne_error"> El mnemotécnico es incorrecto. ¡Compruebe cada palabra cuidadosamente! ! </string>
+    <string name = "str_backup_success"> éxito de la copia de seguridad mnemónica </string>
+    <string name = "str_backup_fail"> La copia de seguridad mnemónica falló, ¡en el orden incorrecto! ! </string>
+    <string name = "str_group"> grupo </string>
+    <string name = "str_unknow"> Mensaje de tipo desconocido </string>
+    <string name = "str_gif_emoj"> emoticones dinámicos </string>
+    <string name = "str_transform_group"> Transferiste el grupo a </string>
+    <string name = "str_modify_group_card"> Modificar la tarjeta de grupo como </string>
+    <string name = "str_sy_show"> Haga clic para expandir el resto </string>
+    <string name = "str_item"> elemento </string>
+    <string name = "str_modify_group_to"> Modificar el nombre del grupo </string>
+    <string name = "str_groupname_container"> El nombre del grupo contiene: </string>
+    <string name = "str_groupmember_container"> Los miembros del grupo incluyen: </string>
+    <string name = "str_creategroup_notification"> creó un grupo </string>
+    <string name = "str_create_group_1"> creó un grupo </string>
+    <string name = "str_open_not_file"> no pudo encontrar la aplicación que puede abrir este archivo </string>
+    <string name = "str_group_quit"> Saliste del grupo </string>
+    <string name = "str_group_exit"> salió del grupo </string>
+
+
+    <string name = "str_auto_invanid"> La información de autorización del usuario no es válida </string>
+    <string name = "str_userinfo_data_out"> La información recibida por el usuario ha expirado </string>
+    <string name = "str_at_me"> [alguien @Yo] </string>
+    <string name = "str_del_conversation"> eliminar sesión </string>
+    <string name = "str_confirm_del"> ¿Está seguro de eliminar la sesión? </string>
+    <string name = "str_clear_conversation"> vaciar la sesión </string>
+    <string name = "str_clear_conversation_ok"> ¿Confirmar sesión vacía? </string>
+    <string name = "str_error_code"> código de error: </string>
+    <string name = "str_top"> top </string>
+    <string name = "str_top_cannel"> Desanclar </string>
+    <string name = "str_error_info">, mensaje de error: </string>
+    <string name = "str_cancel_channel_conforim"> ¿Aceptar para cancelar el canal? </string>
+    <string name = "str_picture_error"> Error de foto, por favor envíenos sus comentarios </string>
+    <string name = "str_file_not_exit"> ¡Obtener el tamaño del archivo no existe! </string>
+    <string name = "str_not_permission"> está deshabilitado, la imagen local no se puede seleccionar </string>
+    <string name = "str_not_open_camera"> está desactivado, la cámara no se puede abrir </string>
+    <string name = "str_skychat_onback"> Permitir que SkychatIM se ejecute en segundo plano, lo que garantiza el rendimiento en tiempo real de los mensajes </string>
+    <string name = "str_avatar_upload_fail"> Error al cargar el avatar del grupo </string>
+    <string name = "str_del_error"> eliminar error de contacto </string>
+
+    <string name="str_clear">Vacio</string>
+    <string name = "str_copy_success"> copia exitosa </string>
+
+    <string name = "str_groupname_member_container"> El nombre del grupo y los miembros del grupo están incluidos: </string>
+
+
+    <string name = "str_modify_ali_fail"> Modificar error de alias: </string>
+
+
+    <string name = "str_retry_send"> ¿Reenviar? </string>
+    <string name = "str_resend"> reemitir </string>
+
+
+    <string name = "str_group_nickname_modify_success"> Modifique el nombre del grupo con éxito </string>
+    <string name = "str_modifying"> Modificado ... </string>
+
+    <string name = "str_pwd_auth_fail"> la configuración de la contraseña de la billetera falló </string>
+    <string name = "str_auth_fail"> error en la autorización </string>
+
+    <string name = "str_in"> ingresos </string>
+    <string name = "str_output"> gasto </string>
+    <string name = "str_pc_login"> Inicio de sesión en PC </string>
+
+
+
+       
+
+
+        <string name = "str_plug"> Lista de pegamento </string>
+        <string name = "str_download_all"> Todas las tareas </string>
+        <string name = "str_install"> Instalación </string>
+        <string name = "str_del_task_all"> Eliminar todas las tareas </string>
+        <string name = "str_task_all"> Todas las tareas de descarga </string>
+        <string name = "str_plugin_download_"> ¿Confirmar para descargar el programa de pegamento? </string>
+        <string name = "str_open_app"> Abrir </string>
+        <string name = "str_noagree_app"> Rechazar </string>
+        <string name = "str_agree_app"> Autorización </string>
+        <string name = "str_need_auth"> Requiere autorización de Skychat para usar este programa de pegamento </string>
+        <string name = "str_need_update"> Existe una nueva versión, actualice el programa de pegamento </string>
+        <string name = "str_only_update"> Actualizar </string>
+        <string name = "str_download_wait"> esperando </string>
+        <string name = "str_download_error"> Error </string>
+
+        <string name = "str_download_continue"> Continuar </string>
+
+        <string name = "str_only_download"> Descargar </string>
+
+
+
+    <string name="help_jiaoshui_tip">
+         <![CDATA[
+        <p>
+            Acerca de la descripción del programa de cola Todas las aplicaciones en el programa de cola.
+            <b> Desarrollado por terceros, aplicaciones oficiales que no son de Skychat </b>
+        </p>
+        <p>
+            Cualquier ingeniero en el mundo puede desarrollar sus propias aplicaciones en el programa de pegamento </b>
+        Los usuarios deben prestar atención a la prevención y el control de riesgos al usar la aplicación en el programa de pegamento
+    </p>
+    <p>
+    <b> Para que no te cause pérdidas innecesarias. </b>
+    </p>
+
+    ]]>
+	</string>
+
+    <string name = "str_pause"> Pausa </string>
+        <string name = "str_ziping"> Descomprimiendo </string>
+
+        <string name = "str_zip_error"> Error de descompresión </string>
+
+        <string name = "str_installed"> Instalado </string>
+    <string name = "str_link_switch"> Enlace de línea .. </string>
+    <string name = "str_cmc_100"> Debe asegurarse un mínimo de 1 monedas CMC en su billetera antes de poder crearlo </string>
+</resources>

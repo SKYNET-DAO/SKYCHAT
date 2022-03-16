@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootFrameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/contactRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/dp70" />
+
+        <cn.wildfire.imshat.kit.widget.QuickIndexBar
+            android:id="@+id/quickIndexBar"
+            android:layout_width="@dimen/dp20"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/dp60"
+            android:layout_marginBottom="@dimen/dp10" />
+
+        
+        <TextView
+            android:id="@+id/indexLetterTextView"
+            android:layout_width="@dimen/dp75"
+            android:layout_height="@dimen/dp75"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_contact_letter_bg"
+            android:gravity="center"
+            android:text="A"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp10"
+        android:visibility="visible">
+
+
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#80ffffff"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/dp5"
+            android:paddingBottom="@dimen/dp5"
+            android:visibility="visible">
+
+            
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/pickedContactRecyclerView"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp40"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/searchEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#80ffffff"
+                android:drawableLeft="@mipmap/ic_search1"
+                android:drawablePadding="@dimen/dp10"
+                android:hint="@string/search"
+                android:paddingLeft="@dimen/dp10"
+                android:textColorHint="@color/gray2"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/Line"
+            android:layout_marginLeft="0px"
+            android:layout_marginRight="0px" />
+
+        <FrameLayout
+            android:id="@+id/searchContactFrameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp0"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp64"
+            android:background="@drawable/selector_common_item"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dp5"
+            android:paddingRight="@dimen/dp5">
+
+            <com.itheima.roundedimageview.RoundedImageView
+                android:id="@+id/plugImageView"
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/dp10"
+                android:layout_marginBottom="@dimen/dp10"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/icon_plug"
+                app:riv_corner_radius="@dimen/dp5"
+                app:riv_border_width="@dimen/dp0"
+                app:riv_border_color="#333333"
+                app:riv_oval="false"
+                />
+
+
+            <LinearLayout
+                android:layout_width="@dimen/dp0"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp15"
+                    android:singleLine="true"
+                    android:text="Name"
+                    android:textColor="@color/gray0"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/introTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp15"
+                    android:layout_marginTop="@dimen/dp3"
+                    android:singleLine="true"
+                    android:text="@string/str_request_addfriend"
+                    android:textColor="@color/gray3"
+                    android:textSize="12sp"
+                    android:visibility="gone"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/acceptStatusTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="Already Add"
+                android:textColor="@color/gray3"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/acceptButton"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="@dimen/dp55"
+                android:layout_height="@dimen/dp30"
+                android:layout_marginLeft="@dimen/dp10"
+                android:background="@drawable/shape_new_friend_agree"
+                android:text="@string/str_install"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                tools:visibility="visible" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp0.5"
+            android:background="@color/gray10"
+            android:layout_marginLeft="@dimen/dp70"
+            android:layout_marginStart="@dimen/dp70" />
+    </LinearLayout>
+
+
+
+</FrameLayout>

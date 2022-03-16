@@ -1,0 +1,7 @@
+include ':client', ':base', ':wallet',
+        ':push',
+        ':chat',
+        ':mars-core-release',
+        ':emojilibrary',
+        ':imagepicker',
+        ':avenginekit', ':cjtcamera', ':ipfsclient'

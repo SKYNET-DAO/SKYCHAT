@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <com.android.wallet.widgets.CurrencyTextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dp18"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp25"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/dp25"
+        android:gravity="center"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp0.5"
+            android:layout_marginLeft="@dimen/dp15"
+            android:layout_marginRight="@dimen/dp15"
+            android:background="@color/gray10"
+
+
+            />
+
+        <TextView
+            android:id="@+id/sender_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp15"
+            android:text="@string/str_sender"
+            android:textColor="@color/color_444444"
+            android:layout_marginTop="@dimen/dp15"
+            />
+
+        <TextView
+            android:id="@+id/sender_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-----"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/dp12"
+            android:layout_marginLeft="@dimen/dp15"
+            android:layout_below="@+id/sender_tip"
+
+
+            />
+
+        <ImageView
+            android:id="@+id/address_copy"
+            android:layout_width="@dimen/dp15"
+            android:layout_height="@dimen/dp15"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_copy_small"
+            android:layout_toRightOf="@+id/sender_address"
+            android:layout_below="@+id/sender_tip"
+            android:layout_marginLeft="@dimen/dp15"
+
+
+
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp0.5"
+        android:layout_marginLeft="@dimen/dp15"
+        android:layout_marginRight="@dimen/dp15"
+        android:background="@color/gray10"
+        android:layout_marginTop="@dimen/dp15"
+
+        />
+
+    <TextView
+        android:id="@+id/exchangeid_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp15"
+        android:text="@string/str_exchange_id"
+        android:textColor="@color/color_444444"
+        android:layout_marginTop="@dimen/dp15"
+        />
+
+    <TextView
+        android:id="@+id/exchange_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----"
+        android:textColor="@color/color_999999"
+        android:textSize="@dimen/dp12"
+        android:layout_marginLeft="@dimen/dp15"
+        android:layout_marginRight="@dimen/dp30"
+        android:layout_below="@+id/exchangeid_tip"
+
+
+        />
+
+        <ImageView
+            android:id="@+id/exid_copy"
+            android:layout_width="@dimen/dp15"
+            android:layout_height="@dimen/dp15"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_copy_small"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/exchangeid_tip"
+            />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp0.5"
+        android:layout_marginLeft="@dimen/dp15"
+        android:layout_marginRight="@dimen/dp15"
+        android:background="@color/gray10"
+        android:layout_marginTop="@dimen/dp15"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp15"
+        android:text="@string/str_fee"
+        android:textColor="@color/color_444444"
+        android:layout_marginTop="@dimen/dp15"
+        />
+
+    <com.android.wallet.widgets.CurrencyTextView
+        android:id="@+id/net_fee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-----"
+        android:textColor="@color/color_999999"
+        android:textSize="@dimen/dp12"
+        android:layout_marginLeft="@dimen/dp15"
+
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp0.5"
+        android:layout_marginLeft="@dimen/dp15"
+        android:layout_marginRight="@dimen/dp15"
+        android:background="@color/gray10"
+        android:layout_marginTop="@dimen/dp15"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp15"
+        android:text="@string/str_confirm_number"
+        android:textColor="@color/color_444444"
+        android:layout_marginTop="@dimen/dp15"
+        />
+
+    <TextView
+        android:id="@+id/confirm_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-----"
+        android:textColor="@color/color_999999"
+        android:textSize="@dimen/dp12"
+        android:layout_marginLeft="@dimen/dp15"
+
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp0.5"
+        android:layout_marginLeft="@dimen/dp15"
+        android:layout_marginRight="@dimen/dp15"
+        android:background="@color/gray10"
+        android:layout_marginTop="@dimen/dp15"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp15"
+        android:text="@string/str_exchange_time"
+        android:textColor="@color/color_444444"
+        android:layout_marginTop="@dimen/dp15"
+        />
+
+    <TextView
+        android:id="@+id/exchange_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-----"
+        android:textColor="@color/color_999999"
+        android:textSize="@dimen/dp12"
+        android:layout_marginLeft="@dimen/dp15"
+
+        />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

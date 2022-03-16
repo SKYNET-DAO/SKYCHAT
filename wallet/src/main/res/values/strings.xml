@@ -1,0 +1,96 @@
+<resources>
+    <!--<string name="app_name">wallet</string>-->
+    <string name="str_asyn">同步</string>
+    <string name="str_copy_address">地址已复制</string>
+    <string name="str_receiver_fail_coin">接收失败</string>
+
+    <string name="str_sent_fail_coin">发送失败</string>
+
+    <string name="symbol_to">→</string>
+    <string name="symbol_from">←</string>
+    <string name="symbol_internal">⇄</string>
+    <string name="str_coinbase">挖矿所得</string>
+    <string name="wallet_transactions_fragment_internal">内部</string>
+    <string name="str_wait_broadcast">等待广播</string>
+    <string name="str_wait_confirm">等待确认</string>
+    <string name="str_already_sent">已发送</string>
+    <string name="str_already_receriver">已收到</string>
+    <string name="str_unknow">未知</string>
+    <string name="str_revert">撤销</string>
+
+    <string name="str_send_coin">发送</string>
+    <string name="str_receiver_coin">收款</string>
+    <string name="str_copy_address_coin">复制成功</string>
+    <string name="str_copy">复制</string>
+    <string name="button_dismiss">忽略</string>
+    <string name="send_coins_fragment_button_send">付款</string>
+    <string name="button_cancel">取消</string>
+    <string name="send_coins_fragment_significant_fee_title">Significant network fee</string>
+    <string name="send_coins_fragment_significant_fee_message">The network fee for this payment (%1$s) is high in relation to the amount (%2$s). Do you want to send anyway?</string>
+    <string name="error_io">I/O 错误: %s</string>
+    <string name="error_http">HTTP 错误 %1$s:\n%2$s</string>
+    <string name="button_retry">重试</string>
+    <string name="send_coins_fragment_direct_payment_failed_title">直接付款失败</string>
+    <string name="send_coins_fragment_direct_payment_failed_msg">您的付款将将会继续通过 P2P 网络进行广播。</string>
+    <string name="send_coins_fragment_insufficient_money_title">CMC余额不足</string>
+    <string name="send_coins_fragment_insufficient_money_msg1">你还缺少 %s.</string>
+    <string name="send_coins_fragment_pending">(%s 正在等待确认)</string>
+    <string name="send_coins_fragment_insufficient_money_msg2">您想要用您拥有的所有CMC进行支付吗？</string>
+    <string name="send_coins_options_empty">清空钱包</string>
+
+    <string name="send_coins_fragment_empty_wallet_failed_title">清空钱包失败</string>
+    <string name="send_coins_fragment_hint_empty_wallet_failed">您钱包中的微小付款金额无法达到可支付的金额。</string>
+    <string name="send_coins_error_msg">支付CMC时出现了问题！</string>
+    <string name="send_coins_fragment_hint_dusty_send">该金额太小了，无法支付。</string>
+    <string name="send_coins_fragment_hint_insufficient_money">CMC余额不足。您还缺少 %s.</string>
+
+    <string name="str_sender">发送者</string>
+    <string name="str_exchange_id">交易 ID</string>
+    <string name="str_fee">网络费用</string>
+    <string name="str_confirm_number">确认数</string>
+    <string name="str_exchange_time">交易时间</string>
+    <string name="str_nonce">Nonce</string>
+
+    <string name="str_share">分享</string>
+    <string name="str_asyning1">同步中...</string>
+    <string name="str_isShowAgain">是否再次访问</string>
+
+    <string name="help_safety">
+     <![CDATA[
+		<p>
+			备份钱包可恢复您的账号和资产。
+			<b>如果您不幸遗失了手机,并且没有备份钱包，那么联系人和资产也就随之丢失了.</b>
+		</p>
+		<p>
+			请勿截屏或者备份到云盘 <b>一定要手动抄写下来</b>。
+			妥善管理，并牢记备份的助记词。
+		</p>
+		<p>
+			<b>在您卸载客户端</b> （或清除应用程序数据，或恢复出厂设置）之前,<b>请再次确认您的助记词是否备份</b>。
+			 如果没有，那么您的资产和联系人都将丢失。
+		</p>
+		<p>
+			<b>交易本身是不可逆的。</b>.
+			如果您给一个未知的地址发送了CMC，那么没有任何办法可以将它们收回。
+		</p>
+		<p>
+			<b>请保管好您的Android设备！</b>
+			不要root您的设备；
+			只安装您完全了解且信任的程序，
+		</p>
+		<p>
+			降低风险策略之一：
+			<b>只在手机钱包中保留少量的可供日常使用的CMC</b>。
+		</p>
+	]]>
+	</string>
+
+
+
+
+
+
+
+
+
+</resources>

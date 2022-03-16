@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+
+    <com.lqr.optionitemview.OptionItemView
+        android:id="@+id/chatRoomOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@drawable/selector_common_item"
+        app:left_image_margin_left="@dimen/option_item_margin_left"
+        app:left_image_margin_right="@dimen/option_item_margin_right"
+        app:left_src="@mipmap/ic_chatroom"
+        app:left_text="@string/str_chatroom"
+        app:left_text_color="@color/black0"
+        app:left_text_size="16sp"
+        android:visibility="gone"
+
+        />
+
+    <com.lqr.optionitemview.OptionItemView
+        android:id="@+id/robotOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@drawable/selector_common_item"
+        app:left_image_margin_left="@dimen/option_item_margin_left"
+        app:left_image_margin_right="@dimen/option_item_margin_right"
+        app:left_src="@mipmap/ic_robot"
+        app:left_text="@string/str_robot"
+        app:left_text_color="@color/black0"
+        app:left_text_size="16sp"
+        android:visibility="gone"
+
+
+        />
+
+    <com.lqr.optionitemview.OptionItemView
+        android:id="@+id/channelOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@drawable/selector_common_item"
+        app:left_image_margin_left="@dimen/option_item_margin_left"
+        app:left_image_margin_right="@dimen/option_item_margin_right"
+        app:left_src="@mipmap/ic_channel"
+        app:left_text="@string/str_channel"
+        app:left_text_color="@color/black0"
+        app:left_text_size="16sp"
+        android:visibility="gone"
+        />
+
+    <com.lqr.optionitemview.OptionItemView
+        android:id="@+id/sky_cicrle"
+        style="@style/OptionItem"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@drawable/selector_common_item"
+        app:left_image_margin_left="@dimen/option_item_margin_left"
+        app:left_image_margin_right="@dimen/option_item_margin_right"
+        app:left_src="@mipmap/ic_sky_cicrle"
+        app:left_text="@string/str_sky_circle"
+        app:left_text_color="@color/black0"
+        app:left_text_size="16sp"
+        android:clickable="true"
+        />
+
+
+    <com.lqr.optionitemview.OptionItemView
+        android:id="@+id/sky_game"
+        style="@style/OptionItem"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@drawable/selector_common_item"
+        app:left_image_margin_left="@dimen/option_item_margin_left"
+        app:left_image_margin_right="@dimen/option_item_margin_right"
+        app:left_src="@mipmap/ic_sky_game"
+        app:left_text_color="@color/black0"
+        app:left_text_size="16sp"
+        app:left_text="@string/str_sky_game"
+        android:clickable="true"
+        />
+
+    <com.lqr.optionitemview.OptionItemView
+        android:id="@+id/sky_install"
+        style="@style/OptionItem"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@drawable/selector_common_item"
+        app:left_image_margin_left="@dimen/option_item_margin_left"
+        app:left_image_margin_right="@dimen/option_item_margin_right"
+        app:left_src="@mipmap/ic_sky_install"
+        app:left_text_color="@color/black0"
+        app:left_text_size="16sp"
+        app:left_text="@string/str_sky_install"
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <string name="toast_wallet_reset" tools:ignore="ExtraTranslation">钱包已重置，\n 需要一些时间才能恢复</string>
+
+
+</resources>

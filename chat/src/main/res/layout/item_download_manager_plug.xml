@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/selector_common_item"
+              android:paddingBottom="10dp"
+              android:paddingTop="10dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:src="@mipmap/icon_plug"
+        />
+
+    <TextView
+        android:id="@+id/plug_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="Name"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/dp15"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:ems="15"
+
+        />
+
+
+
+
+    <cn.wildfire.imshat.discovery.download.ProgressButton
+        android:id="@+id/start"
+        android:layout_width="@dimen/dp60"
+        android:layout_height="@dimen/dp35"
+        android:textColor="#000"
+        android:textSize="@dimen/dp12"
+        app:cornerRadius="5dp"
+        android:text="安装"
+        app:progressBackColor="@color/color_Gray"
+        app:progressColor="@color/colorPrimary"
+        app:buttonColor="@color/white"
+        android:layout_marginRight="@dimen/dp10"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp0.5"
+        android:background="@color/gray10"
+        android:layout_marginLeft="@dimen/dp70"
+        android:layout_marginStart="@dimen/dp70"
+        android:layout_below="@+id/icon"
+        />
+
+</RelativeLayout>
